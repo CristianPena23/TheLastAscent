@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(PlayerController))]
+[RequireComponent(typeof(Rigidbody2D), typeof(PlayerController), typeof(Collider2D))]
 public class PlayerDash : MonoBehaviour
 {
     [Header("Dash")]
@@ -10,6 +10,9 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private float dashDuration = 0.15f;
     [SerializeField] private float dashCooldown = 0.4f;
     [SerializeField] private bool oneAirDash = true;
+
+    [Header("Atravesar enemigos")]
+    [SerializeField] private string enemyLayerName = "Enemy";
 
     [Header("Input y animación (opcional)")]
     [SerializeField] private InputActionReference dashAction;
@@ -19,15 +22,30 @@ public class PlayerDash : MonoBehaviour
 
     private Rigidbody2D rb;
     private PlayerController player;
+    private Collider2D col;
     private bool isDashing;
     private bool airDashUsed;
     private float cooldownTimer;
     private float originalGravity;
+    private int enemyLayer;
+    private LayerMask enemyMask;
+    private Coroutine restoreRoutine;
+
+    public bool IsDashing => isDashing;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         player = GetComponent<PlayerController>();
+        col = GetComponent<Collider2D>();
+
+        enemyLayer = LayerMask.NameToLayer(enemyLayerName);
+        enemyMask = 1 << enemyLayer;
+
+        if (enemyLayer < 0)
+            Debug.LogWarning($"La capa '{enemyLayerName}' no existe.");
+        if (gameObject.layer == 0)
+            Debug.LogWarning("El Player está en la capa Default. Asígnale la capa 'Player' para que el dash atraviese enemigos sin afectar otros objetos.");
     }
 
     private void OnEnable()
@@ -39,7 +57,13 @@ public class PlayerDash : MonoBehaviour
     private void OnDisable()
     {
         dashAction.action.performed -= OnDashPressed;
-        if (isDashing) EndDash();
+        if (isDashing)
+        {
+            rb.gravityScale = originalGravity;
+            player.InputLocked = false;
+            isDashing = false;
+        }
+        SetEnemyCollision(true);
     }
 
     private void Update()
@@ -50,7 +74,7 @@ public class PlayerDash : MonoBehaviour
 
     private void OnDashPressed(InputAction.CallbackContext ctx)
     {
-        if (isDashing || cooldownTimer > 0f) return;
+        if (isDashing || cooldownTimer > 0f || player.InputLocked) return;
         if (oneAirDash && !player.IsGrounded && airDashUsed) return;
         StartCoroutine(DashRoutine());
     }
@@ -59,6 +83,13 @@ public class PlayerDash : MonoBehaviour
     {
         isDashing = true;
         if (!player.IsGrounded) airDashUsed = true;
+
+        if (restoreRoutine != null)
+        {
+            StopCoroutine(restoreRoutine);
+            restoreRoutine = null;
+        }
+        SetEnemyCollision(false);
 
         player.InputLocked = true;
         originalGravity = rb.gravityScale;
@@ -79,5 +110,23 @@ public class PlayerDash : MonoBehaviour
         player.InputLocked = false;
         isDashing = false;
         cooldownTimer = dashCooldown;
+
+        // Si el dash terminó dentro de un enemigo, no se restaura la colisión hasta salir de él
+        restoreRoutine = StartCoroutine(RestoreEnemyCollision());
+    }
+
+    private IEnumerator RestoreEnemyCollision()
+    {
+        while (Physics2D.OverlapBox(col.bounds.center, col.bounds.size * 0.95f, 0f, enemyMask) != null)
+            yield return null;
+
+        SetEnemyCollision(true);
+        restoreRoutine = null;
+    }
+
+    private void SetEnemyCollision(bool enabled)
+    {
+        if (enemyLayer < 0) return;
+        Physics2D.IgnoreLayerCollision(gameObject.layer, enemyLayer, !enabled);
     }
 }
