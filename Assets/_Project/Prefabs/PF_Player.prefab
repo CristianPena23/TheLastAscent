@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 2518545147751359971}
   - component: {fileID: 3518457548449287371}
   - component: {fileID: 63993098414365524}
-  m_Layer: 0
+  - component: {fileID: 5651795570444997999}
+  m_Layer: 8
   m_Name: PF_Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,6 +148,7 @@ MonoBehaviour:
   dashDuration: 0.15
   dashCooldown: 0.4
   oneAirDash: 1
+  enemyLayerName: Enemy
   dashAction: {fileID: 6542085211272851348, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   animator: {fileID: 0}
 --- !u!114 &63993098414365524
@@ -179,6 +181,27 @@ MonoBehaviour:
   attackVfx: {fileID: 1186772630254755851}
   vfxDuration: 0.08
   animator: {fileID: 0}
+--- !u!114 &5651795570444997999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18384098123710923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2558ee30c96a9f441a70baac0ec80458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 5
+  invulnerabilityTime: 1
+  knockbackForce: 12
+  knockbackUpForce: 6
+  knockbackDuration: 0.2
+  respawnDelay: 1.5
+  blinkSprite: {fileID: 4983259321880854661}
+  blinkInterval: 0.08
+  animator: {fileID: 0}
 --- !u!1 &1755394193027448517
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,7 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7726100140913770589}
   - component: {fileID: 4983259321880854661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7694635264825522997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,7 +334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1186772630254755851}
   - component: {fileID: 6697483613228441520}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackVfx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
