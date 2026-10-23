@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 4052605893589324035}
   - component: {fileID: 8905340516726958850}
   - component: {fileID: 2518545147751359971}
+  - component: {fileID: 3518457548449287371}
   m_Layer: 0
-  m_Name: Player
+  m_Name: PF_Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,6 +129,24 @@ MonoBehaviour:
   animator: {fileID: 0}
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+--- !u!114 &3518457548449287371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18384098123710923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa226792b2344744498d3e70cc1f2c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
+  dashSpeed: 22
+  dashDuration: 0.15
+  dashCooldown: 0.4
+  oneAirDash: 1
+  dashAction: {fileID: 6542085211272851348, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  animator: {fileID: 0}
 --- !u!1 &1755394193027448517
 GameObject:
   m_ObjectHideFlags: 0

@@ -38,6 +38,11 @@ public class PlayerController : MonoBehaviour
     private float jumpBufferCounter;
     private bool isGrounded;
 
+    // Nuevo: lo usan el dash y futuras mecánicas
+    public bool InputLocked { get; set; }
+    public float FacingDirection { get; private set; } = 1f;
+    public bool IsGrounded => isGrounded;
+
     private void Awake() => rb = GetComponent<Rigidbody2D>();
 
     private void OnEnable()
@@ -71,7 +76,8 @@ public class PlayerController : MonoBehaviour
         coyoteCounter = isGrounded ? coyoteTime : coyoteCounter - Time.deltaTime;
         jumpBufferCounter -= Time.deltaTime;
 
-        if (jumpBufferCounter > 0f && coyoteCounter > 0f)
+        // Cambio: no saltar mientras los controles estén bloqueados
+        if (!InputLocked && jumpBufferCounter > 0f && coyoteCounter > 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             jumpBufferCounter = 0f;
@@ -84,6 +90,9 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Cambio: no tocar la velocidad durante el dash
+        if (InputLocked) return;
+
         float target = moveInput * moveSpeed;
         float rate = Mathf.Abs(target) > 0.01f ? acceleration : deceleration;
         float newX = Mathf.MoveTowards(rb.linearVelocity.x, target, rate * Time.fixedDeltaTime);
@@ -92,9 +101,13 @@ public class PlayerController : MonoBehaviour
 
     private void FlipVisual()
     {
-        if (visual == null || Mathf.Abs(moveInput) < 0.01f) return;
+        if (InputLocked || Mathf.Abs(moveInput) < 0.01f) return;
+
+        FacingDirection = Mathf.Sign(moveInput);
+        if (visual == null) return;
+
         Vector3 scale = visual.localScale;
-        scale.x = Mathf.Abs(scale.x) * Mathf.Sign(moveInput);
+        scale.x = Mathf.Abs(scale.x) * FacingDirection;
         visual.localScale = scale;
     }
 
