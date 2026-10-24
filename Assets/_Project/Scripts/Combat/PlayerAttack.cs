@@ -38,6 +38,7 @@ public class PlayerAttack : MonoBehaviour
 
     private Rigidbody2D rb;
     private PlayerController player;
+    private PlayerEnergy energy;
     private float cooldownTimer;
     private Coroutine vfxRoutine;
 
@@ -46,6 +47,7 @@ public class PlayerAttack : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         player = GetComponent<PlayerController>();
         if (attackVfx != null) attackVfx.gameObject.SetActive(false);
+        energy = GetComponent<PlayerEnergy>();
     }
 
     private void OnEnable()
@@ -94,6 +96,7 @@ public class PlayerAttack : MonoBehaviour
         // Rebote: golpear algo hacia abajo impulsa al jugador hacia arriba
         if (hitSomething && dir == AttackDir.Down)
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, pogoForce);
+        if (hitSomething && energy != null) energy.GainFromAttack();
 
         if (attackVfx != null)
         {
