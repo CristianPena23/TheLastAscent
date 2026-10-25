@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float coyoteTime = 0.1f;
     [SerializeField] private float jumpBufferTime = 0.1f;
     [SerializeField] private float jumpCutMultiplier = 0.5f;
+    [SerializeField] private float fallGravityMultiplier = 1.6f;
+    [SerializeField] private float maxFallSpeed = 22f;
 
     [Header("Suelo")]
     [SerializeField] private Transform groundCheck;
@@ -90,6 +92,9 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        ApplyFallGravity();
+
+
         // Cambio: no tocar la velocidad durante el dash
         if (InputLocked) return;
 
@@ -98,6 +103,19 @@ public class PlayerController : MonoBehaviour
         float newX = Mathf.MoveTowards(rb.linearVelocity.x, target, rate * Time.fixedDeltaTime);
         rb.linearVelocity = new Vector2(newX, rb.linearVelocity.y);
     }
+    private void ApplyFallGravity()
+    {
+        if (rb.gravityScale <= 0f) return; // durante el dash la gravedad es 0
+
+        Vector2 v = rb.linearVelocity;
+        if (v.y < 0f)
+        {
+            v.y += Physics2D.gravity.y * rb.gravityScale * (fallGravityMultiplier - 1f) * Time.fixedDeltaTime;
+            v.y = Mathf.Max(v.y, -maxFallSpeed);
+            rb.linearVelocity = v;
+        }
+    }
+
 
     private void FlipVisual()
     {
