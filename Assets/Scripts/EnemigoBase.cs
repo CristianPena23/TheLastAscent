@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 public class EnemigoBase : MonoBehaviour
 {
     [SerializeField] float velocidadPatrulla = 1.5f;
+    [SerializeField] float velocidadPersecucion = 2.5f;
+    
     Rigidbody2D rb;
 
     [Header("Sensores")]
@@ -15,8 +17,12 @@ public class EnemigoBase : MonoBehaviour
     [SerializeField] float distanciaPared = 0.2f;
 
     [Header("Detección")]
-    [SerializeField] float rangoDeteccion = 7f;
-    [SerializeField] float toleranciaVertical = 2.5f;
+    [SerializeField] float rangoDeteccion = 6f;
+    [SerializeField] float rangoPerdida = 9f;
+    [SerializeField] float tiempoDescanso = 2f;
+
+    float temporizadorDescanso;
+    bool persiguiendo;
 
     Transform jugador;
     SpriteRenderer sprite;
@@ -38,21 +44,90 @@ public class EnemigoBase : MonoBehaviour
     }
     void FixedUpdate()
     {
-        
+        ActualizarPersecucion();
+
+        if (persiguiendo)
+        {
+            Perseguir();
+        }
+        else
+        {
+            Patrullar();
+        }
+
+        sprite.color = persiguiendo ? Color.red : colorOriginal;
+    }
+    void ActualizarPersecucion()
+    {
+        if (jugador == null)
+        {
+            persiguiendo = false;
+            return;
+        }
+
+        if (temporizadorDescanso > 0f)
+        {
+            temporizadorDescanso -= Time.fixedDeltaTime;
+            return;
+        }
+
+        if (!persiguiendo && PuedeVerAlJugador())
+        {
+            persiguiendo = true;
+        }
+        else if (persiguiendo && DistanciaAlJugador() > rangoPerdida)
+        {
+            persiguiendo = false;
+        }
+    }
+    void Patrullar()
+    {
         if (!HaySueloAdelante() || HayParedAdelante())
         {
             Voltear();
         }
 
-        rb.linearVelocity = new Vector2(direccion * velocidadPatrulla, rb.linearVelocity.y);
-        sprite.color = PuedeVerAlJugador() ? Color.red : colorOriginal;
+        Mover(velocidadPatrulla);
     }
+    void Perseguir()
+    {
+        float diferenciaX = jugador.position.x - transform.position.x;
+        MirarHacia(diferenciaX);
 
+        if (!HaySueloAdelante() || HayParedAdelante())
+        {
+            Rendirse();
+            return;
+        }
+
+        bool estaEncima = Mathf.Abs(diferenciaX) < 0.3f;
+        Mover(estaEncima ? 0f : velocidadPersecucion);
+    }
+    void MirarHacia(float diferenciaX)
+    {
+        if (Mathf.Abs(diferenciaX) < 0.1f) return;
+
+        int direccionDeseada = diferenciaX > 0 ? 1 : -1;
+        if (direccionDeseada != direccion)
+        {
+            Voltear();
+        }
+    }
+    void Mover(float velocidad)
+    {
+        rb.linearVelocity = new Vector2(direccion * velocidad, rb.linearVelocity.y);
+    }
     bool HaySueloAdelante()
     {
         return Physics2D.Raycast(sensorSuelo.position, Vector2.down, distanciaSuelo, capaSuelo);
     }
-
+    void Rendirse()
+    {
+        persiguiendo = false;
+        temporizadorDescanso = tiempoDescanso;
+        Voltear();
+    }
+    
     bool HayParedAdelante()
     {
         return Physics2D.Raycast(sensorPared.position, Vector2.right * direccion, distanciaPared, capaSuelo);
@@ -61,17 +136,15 @@ public class EnemigoBase : MonoBehaviour
     bool PuedeVerAlJugador()
     {
         if (jugador == null) return false;
-
-        Vector2 haciaJugador = jugador.position - transform.position;
-
-        if (haciaJugador.magnitude > rangoDeteccion) return false;
-        if (Mathf.Abs(haciaJugador.y) > toleranciaVertical) return false;
-
-        bool estaAdelante = Mathf.Sign(haciaJugador.x) == direccion;
-        if (!estaAdelante) return false;
+        if (DistanciaAlJugador() > rangoDeteccion) return false;
 
         bool hayObstaculo = Physics2D.Linecast(transform.position, jugador.position, capaSuelo);
         return !hayObstaculo;
+    }
+
+    float DistanciaAlJugador()
+    {
+        return Vector2.Distance(transform.position, jugador.position);
     }
     [ContextMenu("Voltear")]
     void Voltear()
@@ -97,6 +170,9 @@ public class EnemigoBase : MonoBehaviour
         }
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, rangoDeteccion);
+
+        Gizmos.color = new Color(1f, 0.5f, 0f);   // naranja
+        Gizmos.DrawWireSphere(transform.position, rangoPerdida);
     }
     
     
