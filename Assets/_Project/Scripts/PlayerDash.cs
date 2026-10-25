@@ -10,6 +10,7 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private float dashDuration = 0.15f;
     [SerializeField] private float dashCooldown = 0.4f;
     [SerializeField] private bool oneAirDash = true;
+    [SerializeField] private AnimationCurve speedCurve = AnimationCurve.EaseInOut(0f, 1f, 1f, 0.25f);
 
     [Header("Atravesar enemigos")]
     [SerializeField] private string enemyLayerName = "Enemy";
@@ -94,12 +95,21 @@ public class PlayerDash : MonoBehaviour
         player.InputLocked = true;
         originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
-        rb.linearVelocity = new Vector2(player.FacingDirection * dashSpeed, 0f);
 
         if (animator != null && animator.runtimeAnimatorController != null)
             animator.SetTrigger(DashHash);
 
-        yield return new WaitForSeconds(dashDuration);
+        // Arranca a toda velocidad y se frena hacia el final
+        float elapsed = 0f;
+        while (elapsed < dashDuration)
+        {
+            float t = elapsed / dashDuration;
+            float speed = dashSpeed * speedCurve.Evaluate(t);
+            rb.linearVelocity = new Vector2(player.FacingDirection * speed, 0f);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
         EndDash();
     }
 

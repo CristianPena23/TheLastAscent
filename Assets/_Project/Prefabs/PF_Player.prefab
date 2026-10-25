@@ -58,7 +58,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 4.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -119,13 +119,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d8cb70f4f08d744a11f0aba75bdb19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 9
+  moveSpeed: 12
   acceleration: 90
   deceleration: 100
-  jumpForce: 16
+  jumpForce: 26
   coyoteTime: 0.1
   jumpBufferTime: 0.1
-  jumpCutMultiplier: 0.5
+  jumpCutMultiplier: 0.4
+  fallGravityMultiplier: 2.2
+  maxFallSpeed: 16
   groundCheck: {fileID: 7694635264825522997}
   groundCheckSize: {x: 0.5, y: 0.1}
   groundLayer:
@@ -147,10 +149,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa226792b2344744498d3e70cc1f2c80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
-  dashSpeed: 22
-  dashDuration: 0.15
-  dashCooldown: 0.4
+  dashSpeed: 40
+  dashDuration: 0.24
+  dashCooldown: 0.5
   oneAirDash: 1
+  speedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.5053711
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   enemyLayerName: Enemy
   dashAction: {fileID: 6542085211272851348, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   animator: {fileID: 0}
@@ -178,7 +204,7 @@ MonoBehaviour:
   upSize: {x: 1.4, y: 1.4}
   downOffset: {x: 0, y: -1.5}
   downSize: {x: 1.4, y: 1.4}
-  pogoForce: 13
+  pogoForce: 18
   attackAction: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   attackVfx: {fileID: 1186772630254755851}
