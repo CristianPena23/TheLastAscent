@@ -15,7 +15,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     [SerializeField] private float knockbackDuration = 0.2f;
 
     [Header("Muerte")]
-    [SerializeField] private float respawnDelay = 1.5f;
+    [SerializeField] private float respawnDelay = 1.8f;
 
     [Header("Feedback (opcional)")]
     [SerializeField] private SpriteRenderer blinkSprite;
@@ -23,6 +23,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     [SerializeField] private Animator animator;
 
     private static readonly int HurtHash = Animator.StringToHash("Hurt");
+    private static readonly int DieHash = Animator.StringToHash("Die");
 
     public event Action<int, int> OnHealthChanged; // (actual, máxima) para el HUD
     public event Action OnDied;
@@ -103,6 +104,8 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         player.InputLocked = true;
         rb.linearVelocity = Vector2.zero;
         OnDied?.Invoke();
+        if (animator != null && animator.runtimeAnimatorController != null)
+            animator.SetTrigger(DieHash);
         Debug.Log("El jugador murió");
 
         yield return new WaitForSeconds(respawnDelay);
@@ -112,6 +115,11 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         CurrentHealth = maxHealth;
         OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
         if (blinkSprite != null) blinkSprite.enabled = true;
+        if (animator != null && animator.runtimeAnimatorController != null)
+        {
+            animator.ResetTrigger(DieHash);
+            animator.Play("PL_Idle", 0, 0f);
+        }
         IsInvulnerable = false;
         IsDead = false;
         player.InputLocked = false;
