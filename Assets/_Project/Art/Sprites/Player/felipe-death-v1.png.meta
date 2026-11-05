@@ -1,0 +1,1616 @@
+fileFormatVersion: 2
+guid: bfb0d418429eced498b7f78277b0890b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2926247478192007867
+    second: felipe-death-v1_0
+  - first:
+      213: 5871871853179945010
+    second: felipe-death-v1_1
+  - first:
+      213: -4095960038644752458
+    second: felipe-death-v1_2
+  - first:
+      213: 3657995802297400683
+    second: felipe-death-v1_3
+  - first:
+      213: -2733297893816703948
+    second: felipe-death-v1_4
+  - first:
+      213: 8449148632944122572
+    second: felipe-death-v1_5
+  - first:
+      213: 2251645199072073408
+    second: felipe-death-v1_6
+  - first:
+      213: 4506082408022677617
+    second: felipe-death-v1_7
+  - first:
+      213: 4747804828252589686
+    second: felipe-death-v1_8
+  - first:
+      213: -4176606811126361020
+    second: felipe-death-v1_9
+  - first:
+      213: 8312376924280924214
+    second: felipe-death-v1_10
+  - first:
+      213: -5557012767282706730
+    second: felipe-death-v1_11
+  - first:
+      213: -4180982369509169336
+    second: felipe-death-v1_12
+  - first:
+      213: 3966033613544988700
+    second: felipe-death-v1_13
+  - first:
+      213: 7836543428941074039
+    second: felipe-death-v1_14
+  - first:
+      213: -8241992416220181638
+    second: felipe-death-v1_15
+  - first:
+      213: -8426171638264006035
+    second: felipe-death-v1_16
+  - first:
+      213: 2261545709523994129
+    second: felipe-death-v1_17
+  - first:
+      213: 141174111006092530
+    second: felipe-death-v1_18
+  - first:
+      213: 1926066637835668305
+    second: felipe-death-v1_19
+  - first:
+      213: 7864103832607176533
+    second: felipe-death-v1_20
+  - first:
+      213: 6093884418399092423
+    second: felipe-death-v1_21
+  - first:
+      213: -8804032461054990484
+    second: felipe-death-v1_22
+  - first:
+      213: 6461597544002453126
+    second: felipe-death-v1_23
+  - first:
+      213: 1494262003625650768
+    second: felipe-death-v1_24
+  - first:
+      213: -9178300953881764945
+    second: felipe-death-v1_25
+  - first:
+      213: -6222376648903253674
+    second: felipe-death-v1_26
+  - first:
+      213: 6656258012831320070
+    second: felipe-death-v1_27
+  - first:
+      213: 9090752276921093475
+    second: felipe-death-v1_28
+  - first:
+      213: 8570939741052616370
+    second: felipe-death-v1_29
+  - first:
+      213: 1177379118909143469
+    second: felipe-death-v1_30
+  - first:
+      213: -5297579665381975393
+    second: felipe-death-v1_31
+  - first:
+      213: 4314093536932535760
+    second: felipe-death-v1_32
+  - first:
+      213: 6574248505160164422
+    second: felipe-death-v1_33
+  - first:
+      213: -6441687190225187100
+    second: felipe-death-v1_34
+  - first:
+      213: 7248713713200139872
+    second: felipe-death-v1_35
+  - first:
+      213: -7397073596909862326
+    second: felipe-death-v1_36
+  - first:
+      213: 1510109054793220399
+    second: felipe-death-v1_37
+  - first:
+      213: -599413522283058117
+    second: felipe-death-v1_38
+  - first:
+      213: -707295291667630544
+    second: felipe-death-v1_39
+  - first:
+      213: -9052092992748543071
+    second: felipe-death-v1_40
+  - first:
+      213: 4125635058676003269
+    second: felipe-death-v1_41
+  - first:
+      213: -3082526294444463199
+    second: felipe-death-v1_42
+  - first:
+      213: 6541268898553079900
+    second: felipe-death-v1_43
+  - first:
+      213: 7360192520364620305
+    second: felipe-death-v1_44
+  - first:
+      213: 7149841837298923254
+    second: felipe-death-v1_45
+  - first:
+      213: -8049835776545579506
+    second: felipe-death-v1_46
+  - first:
+      213: -1498080819526558135
+    second: felipe-death-v1_47
+  - first:
+      213: -70434978147465304
+    second: felipe-death-v1_48
+  - first:
+      213: 6447454137368869550
+    second: felipe-death-v1_49
+  - first:
+      213: 4754378204642247010
+    second: felipe-death-v1_50
+  - first:
+      213: -1812983756143476034
+    second: felipe-death-v1_51
+  - first:
+      213: -2727691041849346734
+    second: felipe-death-v1_52
+  - first:
+      213: 3415972180105130317
+    second: felipe-death-v1_53
+  - first:
+      213: 5631409475060861242
+    second: felipe-death-v1_54
+  - first:
+      213: 5813320102384686925
+    second: felipe-death-v1_55
+  - first:
+      213: 9178914957581825714
+    second: felipe-death-v1_56
+  - first:
+      213: 6895805213173666444
+    second: felipe-death-v1_57
+  - first:
+      213: -756917519407362390
+    second: felipe-death-v1_58
+  - first:
+      213: 3877280186234166601
+    second: felipe-death-v1_59
+  - first:
+      213: 1405877152153202445
+    second: felipe-death-v1_60
+  - first:
+      213: 2468787512042536674
+    second: felipe-death-v1_61
+  - first:
+      213: 6541973025446617678
+    second: felipe-death-v1_62
+  - first:
+      213: -6817911310305159704
+    second: felipe-death-v1_63
+  - first:
+      213: 224002403346484327
+    second: felipe-death-v1_64
+  - first:
+      213: 7077487048808989446
+    second: felipe-death-v1_65
+  - first:
+      213: 7407052326523205287
+    second: felipe-death-v1_66
+  - first:
+      213: -5280872001500143177
+    second: felipe-death-v1_67
+  - first:
+      213: 8524464766346850199
+    second: felipe-death-v1_68
+  - first:
+      213: -2708634305068252112
+    second: felipe-death-v1_69
+  - first:
+      213: -4616282383837800669
+    second: felipe-death-v1_70
+  - first:
+      213: 6836813021791274479
+    second: felipe-death-v1_71
+  - first:
+      213: 9016844518323831336
+    second: felipe-death-v1_72
+  - first:
+      213: -907440330588768340
+    second: felipe-death-v1_73
+  - first:
+      213: -6375922312158083674
+    second: felipe-death-v1_74
+  - first:
+      213: 2983508386596628309
+    second: felipe-death-v1_75
+  - first:
+      213: -1353332989644385514
+    second: felipe-death-v1_76
+  - first:
+      213: -5112534766446096428
+    second: felipe-death-v1_77
+  - first:
+      213: 2229947299315197097
+    second: felipe-death-v1_78
+  - first:
+      213: 7521696547297658877
+    second: felipe-death-v1_79
+  - first:
+      213: 1274931860041822490
+    second: felipe-death-v1_80
+  - first:
+      213: 9125755452006572555
+    second: felipe-death-v1_81
+  - first:
+      213: -5664233419899082729
+    second: felipe-death-v1_82
+  - first:
+      213: 1226544743105925547
+    second: felipe-death-v1_83
+  - first:
+      213: 228599736756988112
+    second: felipe-death-v1_84
+  - first:
+      213: 5689908368130813236
+    second: felipe-death-v1_85
+  - first:
+      213: -5078603090289093421
+    second: felipe-death-v1_86
+  - first:
+      213: 4831903566989990063
+    second: felipe-death-v1_87
+  - first:
+      213: -8630569587102807207
+    second: felipe-death-v1_88
+  - first:
+      213: -8169340896637450450
+    second: felipe-death-v1_89
+  - first:
+      213: 213918163830379045
+    second: felipe-death-v1_90
+  - first:
+      213: -1845658898259371880
+    second: felipe-death-v1_91
+  - first:
+      213: 1154606032302601575
+    second: felipe-death-v1_92
+  - first:
+      213: 2655701778608919793
+    second: felipe-death-v1_93
+  - first:
+      213: -8896688035036869482
+    second: felipe-death-v1_94
+  - first:
+      213: 7877248008273733876
+    second: felipe-death-v1_95
+  - first:
+      213: 8485326848203023049
+    second: felipe-death-v1_96
+  - first:
+      213: -7458780125033363423
+    second: felipe-death-v1_97
+  - first:
+      213: 6471706854167030765
+    second: felipe-death-v1_98
+  - first:
+      213: 2799324657050990757
+    second: felipe-death-v1_99
+  - first:
+      213: -4562384842125852981
+    second: felipe-death-v1_100
+  - first:
+      213: -5084167052264852746
+    second: felipe-death-v1_101
+  - first:
+      213: 8906182618223553143
+    second: felipe-death-v1_102
+  - first:
+      213: 949382405466782423
+    second: felipe-death-v1_103
+  - first:
+      213: -356636838786469196
+    second: felipe-death-v1_104
+  - first:
+      213: -5102220934095378286
+    second: felipe-death-v1_105
+  - first:
+      213: 8549940914305588062
+    second: felipe-death-v1_106
+  - first:
+      213: 4349954321554567250
+    second: felipe-death-v1_107
+  - first:
+      213: -8344130039448063133
+    second: felipe-death-v1_108
+  - first:
+      213: -1172391843419781630
+    second: felipe-death-v1_109
+  - first:
+      213: 9106317320267127605
+    second: felipe-death-v1_110
+  - first:
+      213: -1214213275730735348
+    second: felipe-death-v1_111
+  - first:
+      213: -7042245453168171258
+    second: felipe-death-v1_112
+  - first:
+      213: -2630125805612525369
+    second: felipe-death-v1_113
+  - first:
+      213: -1976746739764909546
+    second: felipe-death-v1_114
+  - first:
+      213: 4760422625416525167
+    second: felipe-death-v1_115
+  - first:
+      213: -6514138499345142697
+    second: felipe-death-v1_116
+  - first:
+      213: 4380989183011226483
+    second: felipe-death-v1_117
+  - first:
+      213: 3500970513160383832
+    second: felipe-death-v1_118
+  - first:
+      213: -6815465209522455252
+    second: felipe-death-v1_119
+  - first:
+      213: -1490564355310936585
+    second: felipe-death-v1_120
+  - first:
+      213: 2930691109425993757
+    second: felipe-death-v1_121
+  - first:
+      213: 7689577302369922419
+    second: felipe-death-v1_122
+  - first:
+      213: -8573447324185236326
+    second: felipe-death-v1_123
+  - first:
+      213: -7812440921874640711
+    second: felipe-death-v1_124
+  - first:
+      213: 7904210580413761402
+    second: felipe-death-v1_125
+  - first:
+      213: 75343681288685993
+    second: felipe-death-v1_126
+  - first:
+      213: -7451558306027414045
+    second: felipe-death-v1_127
+  - first:
+      213: -6853533502104759944
+    second: felipe-death-v1_128
+  - first:
+      213: -7861107819407276033
+    second: felipe-death-v1_129
+  - first:
+      213: -4787564330224887157
+    second: felipe-death-v1_130
+  - first:
+      213: -687296357793658458
+    second: felipe-death-v1_131
+  - first:
+      213: 8062855019758259165
+    second: felipe-death-v1_132
+  - first:
+      213: -249676614648045474
+    second: felipe-death-v1_133
+  - first:
+      213: 5574793819581859725
+    second: felipe-death-v1_134
+  - first:
+      213: -8139148823970551621
+    second: felipe-death-v1_135
+  - first:
+      213: 2867670200839193685
+    second: felipe-death-v1_136
+  - first:
+      213: 2205947888709439466
+    second: felipe-death-v1_137
+  - first:
+      213: -3013430786065083228
+    second: felipe-death-v1_138
+  - first:
+      213: 5746394535456598753
+    second: felipe-death-v1_139
+  - first:
+      213: -5929801706145603204
+    second: felipe-death-v1_140
+  - first:
+      213: 8943057557869822579
+    second: felipe-death-v1_141
+  - first:
+      213: -3274698598630535037
+    second: felipe-death-v1_142
+  - first:
+      213: 5881942957500386988
+    second: felipe-death-v1_143
+  - first:
+      213: 8439605466952235439
+    second: felipe-death-v1_144
+  - first:
+      213: -3115192848102062029
+    second: felipe-death-v1_145
+  - first:
+      213: 231378520765307232
+    second: felipe-death-v1_146
+  - first:
+      213: -1601613673754597415
+    second: felipe-death-v1_147
+  - first:
+      213: -6105564755182732278
+    second: felipe-death-v1_148
+  - first:
+      213: 1099990680045264687
+    second: felipe-death-v1_149
+  - first:
+      213: -1841791380698470951
+    second: felipe-death-v1_150
+  - first:
+      213: -2895760763818544330
+    second: felipe-death-v1_151
+  - first:
+      213: 5378509052611837874
+    second: felipe-death-v1_152
+  - first:
+      213: 9118491013300451996
+    second: felipe-death-v1_153
+  - first:
+      213: 1798980580718534443
+    second: felipe-death-v1_154
+  - first:
+      213: -1677405555142458558
+    second: felipe-death-v1_155
+  - first:
+      213: 2276269058266395620
+    second: felipe-death-v1_156
+  - first:
+      213: 7069141002073657087
+    second: felipe-death-v1_157
+  - first:
+      213: 8677964752325764527
+    second: felipe-death-v1_158
+  - first:
+      213: 7619553593083458835
+    second: felipe-death-v1_159
+  - first:
+      213: 3494470769709116386
+    second: felipe-death-v1_160
+  - first:
+      213: 1192173754670744630
+    second: felipe-death-v1_161
+  - first:
+      213: -1253837520554269178
+    second: felipe-death-v1_162
+  - first:
+      213: 4120501502958739548
+    second: felipe-death-v1_163
+  - first:
+      213: 4227859014546119191
+    second: felipe-death-v1_164
+  - first:
+      213: 6518268596912193132
+    second: felipe-death-v1_165
+  - first:
+      213: 6642701177907613819
+    second: felipe-death-v1_166
+  - first:
+      213: 4237345471452378502
+    second: felipe-death-v1_167
+  - first:
+      213: 5628050051377571735
+    second: felipe-death-v1_168
+  - first:
+      213: -7669306832381038541
+    second: felipe-death-v1_169
+  - first:
+      213: -2741746475776212859
+    second: felipe-death-v1_170
+  - first:
+      213: 3032312854490951067
+    second: felipe-death-v1_171
+  - first:
+      213: -5824015236904163825
+    second: felipe-death-v1_172
+  - first:
+      213: 2237939839959839236
+    second: felipe-death-v1_173
+  - first:
+      213: 7036541937803113864
+    second: felipe-death-v1_174
+  - first:
+      213: 931514004474440075
+    second: felipe-death-v1_175
+  - first:
+      213: -2715544864657471857
+    second: felipe-death-v1_176
+  - first:
+      213: -6448096031719324862
+    second: felipe-death-v1_177
+  - first:
+      213: -3997785339286734555
+    second: felipe-death-v1_178
+  - first:
+      213: -7105674025909598875
+    second: felipe-death-v1_179
+  - first:
+      213: -711169551278792519
+    second: felipe-death-v1_180
+  - first:
+      213: 9209453145386380537
+    second: felipe-death-v1_181
+  - first:
+      213: -6004020741068136202
+    second: felipe-death-v1_182
+  - first:
+      213: -1410706331245383193
+    second: felipe-death-v1_183
+  - first:
+      213: 1403049229341297761
+    second: felipe-death-v1_184
+  - first:
+      213: 7075713421526325418
+    second: felipe-death-v1_185
+  - first:
+      213: 5843705026450451227
+    second: felipe-death-v1_186
+  - first:
+      213: -8963386025426091068
+    second: felipe-death-v1_187
+  - first:
+      213: -2773147200950016429
+    second: felipe-death-v1_188
+  - first:
+      213: 1064234093116958005
+    second: felipe-death-v1_189
+  - first:
+      213: -8813941005334060179
+    second: felipe-death-v1_190
+  - first:
+      213: 1418994557885433114
+    second: felipe-death-v1_191
+  - first:
+      213: 3101360542125817824
+    second: felipe-death-v1_192
+  - first:
+      213: -7763849458338575851
+    second: felipe-death-v1_193
+  - first:
+      213: 245543214306244193
+    second: felipe-death-v1_194
+  - first:
+      213: 7039143537147881953
+    second: felipe-death-v1_195
+  - first:
+      213: 1414215356581220554
+    second: felipe-death-v1_196
+  - first:
+      213: -5790205957113999701
+    second: felipe-death-v1_197
+  - first:
+      213: 9101065369021695505
+    second: felipe-death-v1_198
+  - first:
+      213: 4687530880184126744
+    second: felipe-death-v1_199
+  - first:
+      213: -5665562796426110405
+    second: felipe-death-v1_200
+  - first:
+      213: -7597807644308482410
+    second: felipe-death-v1_201
+  - first:
+      213: -1599135221558412240
+    second: felipe-death-v1_202
+  - first:
+      213: 8416359220853679457
+    second: felipe-death-v1_203
+  - first:
+      213: 4755395096400864539
+    second: felipe-death-v1_204
+  - first:
+      213: 1271780950273884500
+    second: felipe-death-v1_205
+  - first:
+      213: -8989051807672540001
+    second: felipe-death-v1_206
+  - first:
+      213: 5940201688548760254
+    second: felipe-death-v1_207
+  - first:
+      213: -3493248923807112513
+    second: felipe-death-v1_208
+  - first:
+      213: -8352252668980696044
+    second: felipe-death-v1_209
+  - first:
+      213: -3131933995313709176
+    second: felipe-death-v1_210
+  - first:
+      213: 4648277422062557186
+    second: felipe-death-v1_211
+  - first:
+      213: -3530006140461955386
+    second: felipe-death-v1_212
+  - first:
+      213: 3758036308764897814
+    second: felipe-death-v1_213
+  - first:
+      213: 276579802544487320
+    second: felipe-death-v1_214
+  - first:
+      213: 1856308949597909828
+    second: felipe-death-v1_215
+  - first:
+      213: 8290810371421394172
+    second: felipe-death-v1_216
+  - first:
+      213: -740035622139448086
+    second: felipe-death-v1_217
+  - first:
+      213: -7472330592861099385
+    second: felipe-death-v1_218
+  - first:
+      213: -4385011620220645259
+    second: felipe-death-v1_219
+  - first:
+      213: -3090462521898621214
+    second: felipe-death-v1_220
+  - first:
+      213: 326990395415275848
+    second: felipe-death-v1_221
+  - first:
+      213: -1385558962108827236
+    second: felipe-death-v1_222
+  - first:
+      213: 5009973656119025590
+    second: felipe-death-v1_223
+  - first:
+      213: -4957012339032663906
+    second: felipe-death-v1_224
+  - first:
+      213: -4512078989765055946
+    second: felipe-death-v1_225
+  - first:
+      213: -1887575761832897783
+    second: felipe-death-v1_226
+  - first:
+      213: 5038369919947426286
+    second: felipe-death-v1_227
+  - first:
+      213: -1779995738817703820
+    second: felipe-death-v1_228
+  - first:
+      213: 4899654278898630700
+    second: felipe-death-v1_229
+  - first:
+      213: 665534345584069214
+    second: felipe-death-v1_230
+  - first:
+      213: 1913632913667937977
+    second: felipe-death-v1_231
+  - first:
+      213: 4772618137777085148
+    second: felipe-death-v1_232
+  - first:
+      213: 5349442447058406629
+    second: felipe-death-v1_233
+  - first:
+      213: -6687619930447811564
+    second: felipe-death-v1_234
+  - first:
+      213: 5416812112783386860
+    second: felipe-death-v1_235
+  - first:
+      213: 8715817986501796126
+    second: felipe-death-v1_236
+  - first:
+      213: -1132878642411937723
+    second: felipe-death-v1_237
+  - first:
+      213: -124679060645224114
+    second: felipe-death-v1_238
+  - first:
+      213: 2759575156928661436
+    second: felipe-death-v1_239
+  - first:
+      213: -8450360476979147378
+    second: felipe-death-v1_240
+  - first:
+      213: -8093225801117644072
+    second: felipe-death-v1_241
+  - first:
+      213: -3733088358166290146
+    second: felipe-death-v1_242
+  - first:
+      213: 423867394367118085
+    second: felipe-death-v1_243
+  - first:
+      213: 7252185524561552692
+    second: felipe-death-v1_244
+  - first:
+      213: 7399480496499429829
+    second: felipe-death-v1_245
+  - first:
+      213: -6833301624880693290
+    second: felipe-death-v1_246
+  - first:
+      213: 7134329073052475312
+    second: felipe-death-v1_247
+  - first:
+      213: -9021014464668380070
+    second: felipe-death-v1_248
+  - first:
+      213: 1571947450901275533
+    second: felipe-death-v1_249
+  - first:
+      213: -7862535939080948559
+    second: felipe-death-v1_250
+  - first:
+      213: -3724333020758410369
+    second: felipe-death-v1_251
+  - first:
+      213: 8434498648143383921
+    second: felipe-death-v1_252
+  - first:
+      213: 7588435176475215045
+    second: felipe-death-v1_253
+  - first:
+      213: -5673858379686354107
+    second: felipe-death-v1_254
+  - first:
+      213: -7532270309742048904
+    second: felipe-death-v1_255
+  - first:
+      213: 1630740761686260485
+    second: felipe-death-v1_256
+  - first:
+      213: 4489531408427173153
+    second: felipe-death-v1_257
+  - first:
+      213: -5094616135531447719
+    second: felipe-death-v1_258
+  - first:
+      213: 2666933126588985549
+    second: felipe-death-v1_259
+  - first:
+      213: 3324463235107059266
+    second: felipe-death-v1_260
+  - first:
+      213: 5923087711090692440
+    second: felipe-death-v1_261
+  - first:
+      213: 3132397838839105480
+    second: felipe-death-v1_262
+  - first:
+      213: -6480789329672664540
+    second: felipe-death-v1_263
+  - first:
+      213: 382127721013955035
+    second: felipe-death-v1_264
+  - first:
+      213: 7954705643974114453
+    second: felipe-death-v1_265
+  - first:
+      213: -3998759425580888222
+    second: felipe-death-v1_266
+  - first:
+      213: -2518143511501553206
+    second: felipe-death-v1_267
+  - first:
+      213: 1787128947584770297
+    second: felipe-death-v1_268
+  - first:
+      213: -7592496969059074147
+    second: felipe-death-v1_269
+  - first:
+      213: -165295532290044538
+    second: felipe-death-v1_270
+  - first:
+      213: -4077910939500524685
+    second: felipe-death-v1_271
+  - first:
+      213: -6398094018061318487
+    second: felipe-death-v1_272
+  - first:
+      213: 3493273397242491331
+    second: felipe-death-v1_273
+  - first:
+      213: 8053152470419168894
+    second: felipe-death-v1_274
+  - first:
+      213: -2599199938746094427
+    second: felipe-death-v1_275
+  - first:
+      213: 232262088076308260
+    second: felipe-death-v1_276
+  - first:
+      213: -7937443085778758258
+    second: felipe-death-v1_277
+  - first:
+      213: 3188694456359726025
+    second: felipe-death-v1_278
+  - first:
+      213: 5791276201249957678
+    second: felipe-death-v1_279
+  - first:
+      213: -3170963623823171933
+    second: felipe-death-v1_280
+  - first:
+      213: 2017251741380310144
+    second: felipe-death-v1_281
+  - first:
+      213: 3234528506631757808
+    second: felipe-death-v1_282
+  - first:
+      213: -2902059504524607455
+    second: felipe-death-v1_283
+  - first:
+      213: 3316234410952825457
+    second: felipe-death-v1_284
+  - first:
+      213: -3080474546866426890
+    second: felipe-death-v1_285
+  - first:
+      213: 8829187211840879042
+    second: felipe-death-v1_286
+  - first:
+      213: -9210857942272213266
+    second: felipe-death-v1_287
+  - first:
+      213: 7927449522397441521
+    second: felipe-death-v1_288
+  - first:
+      213: 7217796443478113016
+    second: felipe-death-v1_289
+  - first:
+      213: 728208874599977721
+    second: felipe-death-v1_290
+  - first:
+      213: 4933763741432639889
+    second: felipe-death-v1_291
+  - first:
+      213: 8114836794577274133
+    second: felipe-death-v1_292
+  - first:
+      213: 6936721635447606164
+    second: felipe-death-v1_293
+  - first:
+      213: 3684235535813026975
+    second: felipe-death-v1_294
+  - first:
+      213: 2128001329622427309
+    second: felipe-death-v1_295
+  - first:
+      213: -2929154800851817073
+    second: felipe-death-v1_296
+  - first:
+      213: 5103334838064101866
+    second: felipe-death-v1_297
+  - first:
+      213: -2552199906496023983
+    second: felipe-death-v1_298
+  - first:
+      213: -6460803993455623882
+    second: felipe-death-v1_299
+  - first:
+      213: 1426376685094950434
+    second: felipe-death-v1_300
+  - first:
+      213: -7415492373912471675
+    second: felipe-death-v1_301
+  - first:
+      213: -3724151155383695048
+    second: felipe-death-v1_302
+  - first:
+      213: -8259072711001874883
+    second: felipe-death-v1_303
+  - first:
+      213: 7171540464435266489
+    second: felipe-death-v1_304
+  - first:
+      213: 6096463127231914264
+    second: felipe-death-v1_305
+  - first:
+      213: 9197730952409089500
+    second: felipe-death-v1_306
+  - first:
+      213: 2950350959008331415
+    second: felipe-death-v1_307
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: felipe-death-v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba6486d39e1c9820800000000000000
+      internalID: 2926247478192007867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230c76707541d7150800000000000000
+      internalID: 5871871853179945010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf5262db0a3827c0800000000000000
+      internalID: -4095960038644752458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d7ec12dcfc3c230800000000000000
+      internalID: 3657995802297400683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4346bb51c00611ad0800000000000000
+      internalID: -2733297893816703948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca9c198ae7614570800000000000000
+      internalID: 8449148632944122572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c697eaf0637f3f10800000000000000
+      internalID: 2251645199072073408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17814da6312d88e30800000000000000
+      internalID: 4506082408022677617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e41ea165793e140800000000000000
+      internalID: 4747804828252589686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4441650eb36b906c0800000000000000
+      internalID: -4176606811126361020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6382be295ce7b5370800000000000000
+      internalID: 8312376924280924214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6cdc9945681e2b0800000000000000
+      internalID: -5557012767282706730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8472c3dcfaa2af5c0800000000000000
+      internalID: -4180982369509169336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_13
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10ab9efe8e2a0730800000000000000
+      internalID: 3966033613544988700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e44f49abef0cc60800000000000000
+      internalID: 7836543428941074039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b8bbdb09f8e9d80800000000000000
+      internalID: -8241992416220181638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a7dcce989301b80800000000000000
+      internalID: -8426171638264006035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1168c7337df926f10800000000000000
+      internalID: 2261545709523994129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fceff12b1d85f100800000000000000
+      internalID: 141174111006092530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_19
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b0de10763caba10800000000000000
+      internalID: 1926066637835668305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557b65b15c8e22d60800000000000000
+      internalID: 7864103832607176533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce37fc7793d19450800000000000000
+      internalID: 6093884418399092423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c672fc75f1bc1d580800000000000000
+      internalID: -8804032461054990484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_23
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e7dc33bb43ca950800000000000000
+      internalID: 6461597544002453126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felipe-death-v1_24
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a6877106facb410800000000000000
+      internalID: 1494262003625650768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8c33610cb6701344ba081d9cf5014572
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      felipe-death-v1_0: 2926247478192007867
+      felipe-death-v1_1: 5871871853179945010
+      felipe-death-v1_10: 8312376924280924214
+      felipe-death-v1_11: -5557012767282706730
+      felipe-death-v1_12: -4180982369509169336
+      felipe-death-v1_13: 3966033613544988700
+      felipe-death-v1_14: 7836543428941074039
+      felipe-death-v1_15: -8241992416220181638
+      felipe-death-v1_16: -8426171638264006035
+      felipe-death-v1_17: 2261545709523994129
+      felipe-death-v1_18: 141174111006092530
+      felipe-death-v1_19: 1926066637835668305
+      felipe-death-v1_2: -4095960038644752458
+      felipe-death-v1_20: 7864103832607176533
+      felipe-death-v1_21: 6093884418399092423
+      felipe-death-v1_22: -8804032461054990484
+      felipe-death-v1_23: 6461597544002453126
+      felipe-death-v1_24: 1494262003625650768
+      felipe-death-v1_3: 3657995802297400683
+      felipe-death-v1_4: -2733297893816703948
+      felipe-death-v1_5: 8449148632944122572
+      felipe-death-v1_6: 2251645199072073408
+      felipe-death-v1_7: 4506082408022677617
+      felipe-death-v1_8: 4747804828252589686
+      felipe-death-v1_9: -4176606811126361020
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
