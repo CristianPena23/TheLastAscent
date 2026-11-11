@@ -16,7 +16,7 @@ public class PlayerSheetSetup : EditorWindow
     class Preset
     {
         public string label, clip, trigger = "";
-        public int first, last, texMaxSize = 4096;
+        public int first, last, texMaxSize = 4096, attackDir = -1;
         public float fps, ppu, pivotY = 0.14f;
         public bool loop, returnToIdle = true;
         public Link link;
@@ -29,14 +29,16 @@ public class PlayerSheetSetup : EditorWindow
         new Preset { label = "Dash",       clip = "PL_Dash",   first = 0, last = 11, fps = 48, ppu = 95,  loop = false, link = Link.ActionTrigger, trigger = "Dash" },
         new Preset { label = "Jump (subida)", clip = "PL_JumpUp", first = 5, last = 8, fps = 20, ppu = 190, loop = false, link = Link.AirRise },
         new Preset { label = "Jump (caida)",  clip = "PL_Fall",   first = 10, last = 11, fps = 8, ppu = 190, loop = true,  link = Link.AirFall },
-        new Preset { label = "Attack",     clip = "PL_Attack", first = 1, last = 12, fps = 36, ppu = 190, loop = false, link = Link.ActionTrigger, trigger = "Attack", texMaxSize = 2048, pivotY = 0.0625f },
+        new Preset { label = "Attack",     clip = "PL_Attack", first = 1, last = 12, fps = 36, ppu = 190, loop = false, link = Link.ActionTrigger, trigger = "Attack", texMaxSize = 2048, pivotY = 0.0625f, attackDir = 0 },
+        new Preset { label = "Attack Up",   clip = "PL_AttackUp",   first = 7, last = 18, fps = 36, ppu = 95, loop = false, link = Link.ActionTrigger, trigger = "Attack", texMaxSize = 2048, pivotY = 0.14f, attackDir = 1 },
+        new Preset { label = "Attack Down", clip = "PL_AttackDown", first = 5, last = 14, fps = 36, ppu = 95, loop = false, link = Link.ActionTrigger, trigger = "Attack", texMaxSize = 2048, pivotY = 0.14f, attackDir = 2 },
         new Preset { label = "Death",      clip = "PL_Death",  first = 0, last = 24, fps = 15, ppu = 190, loop = false, link = Link.ActionTrigger, trigger = "Die", returnToIdle = false },
         new Preset { label = "Personalizado", clip = "PL_Nuevo", first = 0, last = 24, fps = 12, ppu = 190, loop = true, link = Link.None },
     };
 
     Texture2D sheet;
     int presetIndex;
-    int cols = 5, rows = 5, first, last = 24, texMaxSize = 4096;
+    int cols = 5, rows = 5, first, last = 24, texMaxSize = 4096, attackDir = -1;
     float fps = 12, ppu = 190, pivotY = 0.14f;
     bool loop = true, returnToIdle = true;
     string clipName = "PL_Nuevo", trigger = "";
@@ -74,6 +76,7 @@ public class PlayerSheetSetup : EditorWindow
         if (link == Link.ActionTrigger)
         {
             trigger = EditorGUILayout.TextField("Trigger", trigger);
+            attackDir = EditorGUILayout.IntField("AttackDirection (-1 = ninguna, 0 = frente, 1 = arriba, 2 = abajo)", attackDir);
             returnToIdle = EditorGUILayout.Toggle("Volver a Idle al terminar", returnToIdle);
         }
 
@@ -85,7 +88,7 @@ public class PlayerSheetSetup : EditorWindow
     {
         clipName = p.clip; first = p.first; last = p.last; fps = p.fps; ppu = p.ppu;
         pivotY = p.pivotY; loop = p.loop; link = p.link; trigger = p.trigger;
-        returnToIdle = p.returnToIdle; texMaxSize = p.texMaxSize;
+        returnToIdle = p.returnToIdle; texMaxSize = p.texMaxSize; attackDir = p.attackDir;
     }
 
     void Apply()
@@ -271,6 +274,7 @@ public class PlayerSheetSetup : EditorWindow
                 any.duration = 0f;
                 any.canTransitionToSelf = false;
                 any.AddCondition(AnimatorConditionMode.If, 0f, trigger);
+                if (attackDir >= 0) any.AddCondition(AnimatorConditionMode.Equals, attackDir, "AttackDirection");
                 if (returnToIdle)
                 {
                     var back = NewLink(state, idle);
