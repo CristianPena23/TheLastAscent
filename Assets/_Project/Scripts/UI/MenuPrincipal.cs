@@ -50,6 +50,7 @@ public class MenuPrincipal : MonoBehaviour
     {
         if (iniciando) return;
         iniciando = true;
+        IntroCaida.OlvidarMostrados(); // partida nueva: la luciérnaga vuelve a hablar
         if (SceneTransition.Instance != null) SceneTransition.Go(primeraEscena, idSpawn);
         else SceneManager.LoadScene(primeraEscena);
     }

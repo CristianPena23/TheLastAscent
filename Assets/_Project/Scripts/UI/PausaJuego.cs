@@ -43,8 +43,8 @@ public static class PausaJuego
     }
 
     // El jugador lee sus acciones del asset de acciones del proyecto (InputSystem_Actions).
-    // Apagar el mapa "Player" evita que salto/ataque/parry/dash se disparen en pausa.
-    private static void InputJugador(bool activo)
+    // Apagar el mapa "Player" evita que salto/ataque/parry/dash se disparen en pausa (y en diálogos).
+    public static void InputJugador(bool activo)
     {
         InputActionMap mapa = InputSystem.actions != null ? InputSystem.actions.FindActionMap("Player") : null;
         if (mapa == null) return;

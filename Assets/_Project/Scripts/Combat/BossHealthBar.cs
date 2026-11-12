@@ -35,6 +35,8 @@ public class BossHealthBar : MonoBehaviour
     [SerializeField] private TemaUI tema;
     [Tooltip("Diseno del documento: abajo, con placa y marco (requiere el arte en el tema)")]
     [SerializeField] private bool estiloDocumento = true;
+    [Tooltip("Color de la barra en el estilo documento")]
+    [SerializeField] private Color colorBarra = Color.white;
 
     private BossHealth boss;
     private GameObject canvasGo;
@@ -122,24 +124,25 @@ public class BossHealthBar : MonoBehaviour
         CrearCanvas();
         var anclaAbajo = new Vector2(0.5f, 0f);
 
-        // Marco de la barra (mockup: x312 y685 740x40); el relleno va dentro, sin tocar los adornos
-        Image marco = NewImage("Marco", canvasGo.transform, Color.white);
-        marco.sprite = tema.marcoBarraJefe;
-        Colocar(marco.rectTransform, 312, 685, 740, 40, anclaAbajo);
+        // Barra abajo al centro: delgada, de un solo color (colorBarra), sin el marco café
+        // (x330 y738 740x6 en coordenadas del mockup 1400x787)
+        Image marco = NewImage("Marco", canvasGo.transform, new Color(0, 0, 0, 0));
+        Colocar(marco.rectTransform, 330, 738, 740, 6, anclaAbajo);
 
         var inner = NewImage("Inner", marco.transform, new Color(0, 0, 0, 0)).rectTransform;
         inner.anchorMin = Vector2.zero; inner.anchorMax = Vector2.one;
-        inner.offsetMin = new Vector2(38 * K, 13 * K); inner.offsetMax = new Vector2(-10 * K, -13 * K);
-        lagRect = NewImage("Lag", inner, lagColor).rectTransform;
+        inner.offsetMin = Vector2.zero; inner.offsetMax = Vector2.zero;
+        // Barra de daño retrasado invisible: solo se ve la barra principal
+        lagRect = NewImage("Lag", inner, new Color(0, 0, 0, 0)).rectTransform;
         StretchBar(lagRect);
-        fillRect = NewImage("Fill", inner, fillColor).rectTransform;
+        fillRect = NewImage("Fill", inner, colorBarra).rectTransform;
         StretchBar(fillRect);
 
-        // Placa con el nombre (mockup: x565 y640 250x50)
+        // Placa con el nombre, encima de la barra (x575 y677 250x50)
         Image placa = NewImage("Placa", canvasGo.transform, Color.white);
         if (tema.placaJefe != null) placa.sprite = tema.placaJefe;
         else placa.color = new Color(0, 0, 0, 0);
-        Colocar(placa.rectTransform, 565, 640, 250, 50, anclaAbajo);
+        Colocar(placa.rectTransform, 575, 677, 250, 50, anclaAbajo);
 
         var textGo = new GameObject("Nombre", typeof(RectTransform));
         textGo.transform.SetParent(placa.transform, false);
