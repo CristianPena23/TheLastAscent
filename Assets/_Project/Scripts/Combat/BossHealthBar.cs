@@ -29,6 +29,9 @@ public class BossHealthBar : MonoBehaviour
 
     [SerializeField] private bool showOnStart = true;
 
+    [Tooltip("Opcional: si se asigna, usa los colores del tema de la UI")]
+    [SerializeField] private TemaUI tema;
+
     private BossHealth boss;
     private GameObject canvasGo;
     private CanvasGroup group;
@@ -38,6 +41,13 @@ public class BossHealthBar : MonoBehaviour
     private void Start()
     {
         boss = GetComponent<BossHealth>();
+        if (tema != null)
+        {
+            frameColor = tema.fondo;
+            fillColor = tema.acento;
+            lagColor = tema.resaltado;
+            textColor = tema.texto;
+        }
         Build();
         boss.Changed += OnChanged;
         boss.Died += OnDied;
