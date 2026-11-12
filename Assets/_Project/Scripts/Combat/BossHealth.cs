@@ -10,6 +10,8 @@ public class BossHealth : MonoBehaviour, IDamageable
     [Header("Vida")]
     [SerializeField] private string bossName = "JEFE";
     [SerializeField] private int maxHealth = 30;
+    [Tooltip("Si el jugador muere, el jefe recupera toda su vida")]
+    [SerializeField] private bool restaurarAlMorirJugador = true;
 
     [Header("Referencias (opcional, se buscan solas)")]
     [SerializeField] private SpriteRenderer bossSprite;
@@ -39,6 +41,7 @@ public class BossHealth : MonoBehaviour, IDamageable
     public bool IsDead { get; private set; }
 
     private Coroutine flashRoutine;
+    private PlayerHealth jugador;
 
     private void Awake()
     {
@@ -46,6 +49,28 @@ public class BossHealth : MonoBehaviour, IDamageable
         if (bossSprite == null) bossSprite = GetComponentInChildren<SpriteRenderer>();
         if (animator == null) animator = GetComponentInChildren<Animator>();
         if (attackController == null) attackController = GetComponentInChildren<BossAttackController>();
+    }
+
+    private void Start()
+    {
+        if (!restaurarAlMorirJugador) return;
+        jugador = FindFirstObjectByType<PlayerHealth>();
+        if (jugador != null) jugador.OnDied += Restaurar;
+    }
+
+    private void OnDestroy()
+    {
+        if (jugador != null) jugador.OnDied -= Restaurar;
+    }
+
+    // Vuelve a la vida maxima (p. ej. cuando el jugador muere). No hace nada si el jefe ya murio.
+    public void Restaurar()
+    {
+        if (IsDead || Current == maxHealth) return;
+        Current = maxHealth;
+        if (flashRoutine != null) { StopCoroutine(flashRoutine); flashRoutine = null; }
+        if (bossSprite != null) bossSprite.color = Color.white;
+        Changed?.Invoke(Current, maxHealth);
     }
 
     public void TakeDamage(int amount, Vector2 hitDirection)

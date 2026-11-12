@@ -138,8 +138,18 @@ public class BossAttackController : MonoBehaviour
     private void OnHealthChanged(int cur, int max)
     {
         fightStarted = true; // si le pegan, empieza el combate
-        if (phase2 || max <= 0 || cur <= 0) return;
-        if ((float)cur / max > phase2HealthPercent) return;
+        if (max <= 0 || cur <= 0) return;
+        bool debajo = (float)cur / max <= phase2HealthPercent;
+
+        // Si recupera la vida (el jugador murio), vuelve a la fase 1
+        if (phase2 && !debajo)
+        {
+            phase2 = false;
+            speed = 1f;
+            if (animator != null) animator.speed = 1f;
+            return;
+        }
+        if (phase2 || !debajo) return;
 
         phase2 = true;
         speed = Mathf.Max(0.1f, phase2Speed);

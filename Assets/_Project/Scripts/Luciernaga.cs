@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Luciernaga : MonoBehaviour
 {
@@ -19,6 +21,14 @@ public class Luciernaga : MonoBehaviour
     [SerializeField] float velocidadOrbita = 2f;
     [SerializeField] float umbralMovimiento = 0.1f;
 
+    [Header("Acciones del guion (diálogos)")]
+    [SerializeField] float tiempoAparecer = 0.9f;
+    [SerializeField] float escalaPulso = 1.6f;
+    [SerializeField] float tiempoPulso = 0.45f;
+    [Tooltip("Cuánto se adelanta al jugador para iluminar el camino")]
+    [SerializeField] Vector2 offsetIluminar = new Vector2(2.8f, 1.2f);
+    [SerializeField] float tiempoIluminar = 1.6f;
+
     enum Estado { Seguir, Merodear }
     Estado estado = Estado.Seguir;
 
@@ -27,9 +37,41 @@ public class Luciernaga : MonoBehaviour
     int lado = 1;
     float tiempoQuieto;
     float angulo;
+    SpriteRenderer sr;
+    Light2D luz;
+    float intensidadLuz;
+    Vector3 escalaBase;
+    float tiempoGuia;
+    float direccionGuia = 1f;
+
+    SpriteRenderer Sr => sr != null ? sr : (sr = GetComponent<SpriteRenderer>());
+
+    void Awake()
+    {
+        escalaBase = transform.localScale;
+        luz = GetComponentInChildren<Light2D>();
+        if (luz != null) intensidadLuz = luz.intensity;
+    }
+
+    void OnEnable()
+    {
+        DialogueManager.AlAccion += EjecutarAccion;
+        DialogueManager.AlTerminar += Mostrar;
+    }
+
+    void OnDisable()
+    {
+        DialogueManager.AlAccion -= EjecutarAccion;
+        DialogueManager.AlTerminar -= Mostrar;
+    }
 
     void Start()
     {
+        sr = GetComponent<SpriteRenderer>();
+
+        if (jugador == null)
+            jugador = GameObject.FindWithTag("Player").transform;
+
         ultimaPosJugador = jugador.position;
     }
 
@@ -38,6 +80,11 @@ public class Luciernaga : MonoBehaviour
         ObservarJugador();
 
         Vector3 objetivo = estado == Estado.Seguir ? ObjetivoSeguir() : ObjetivoOrbita();
+        if (tiempoGuia > 0f)
+        {
+            tiempoGuia -= Time.unscaledDeltaTime;
+            objetivo = jugador.position + new Vector3(offsetIluminar.x * direccionGuia, offsetIluminar.y, 0f);
+        }
         objetivo += Temblor();
 
         transform.position = Vector3.SmoothDamp(
@@ -56,6 +103,7 @@ public class Luciernaga : MonoBehaviour
         if (Mathf.Abs(delta.x) > 0.001f)
         {
             lado = delta.x > 0 ? 1 : -1;
+            sr.flipX = lado < 0;
         }
 
         if (rapidez > umbralMovimiento)
@@ -99,5 +147,79 @@ public class Luciernaga : MonoBehaviour
         float x = Mathf.Sin(Time.time * velocidadTemblor);
         float y = Mathf.Cos(Time.time * velocidadTemblor * 1.3f);
         return new Vector3(x, y, 0f) * amplitudTemblor;
+    }
+
+    // ---------- Acciones del guion ----------
+
+    // Invisible hasta que el guion la haga aparecer (lo llama IntroCaida)
+    public void Ocultar()
+    {
+        SetAlpha(0f);
+        if (luz != null) luz.intensity = 0f;
+    }
+
+    // Si el diálogo se saltó antes de que apareciera, que no se quede invisible
+    void Mostrar()
+    {
+        if (Sr == null || Sr.color.a >= 1f) return;
+        StopAllCoroutines();
+        SetAlpha(1f);
+        transform.localScale = escalaBase;
+        if (luz != null) luz.intensity = intensidadLuz;
+    }
+
+    void EjecutarAccion(AccionDialogo accion)
+    {
+        switch (accion)
+        {
+            case AccionDialogo.LuciernagaAparece: StartCoroutine(Aparecer()); break;
+            case AccionDialogo.LuciernagaPulso: StartCoroutine(Pulso()); break;
+            case AccionDialogo.LuciernagaIlumina:
+                var pc = jugador != null ? jugador.GetComponent<PlayerController>() : null;
+                direccionGuia = pc != null ? pc.FacingDirection : lado;
+                tiempoGuia = tiempoIluminar;
+                StartCoroutine(Pulso());
+                break;
+        }
+    }
+
+    IEnumerator Aparecer()
+    {
+        float t = 0f;
+        while (t < tiempoAparecer)
+        {
+            t += Time.unscaledDeltaTime;
+            float k = Mathf.Clamp01(t / tiempoAparecer);
+            SetAlpha(k);
+            if (luz != null) luz.intensity = intensidadLuz * k;
+            yield return null;
+        }
+        SetAlpha(1f);
+        if (luz != null) luz.intensity = intensidadLuz;
+        yield return Pulso();
+    }
+
+    // Un pulso de luz: crece y brilla, y vuelve
+    IEnumerator Pulso()
+    {
+        float t = 0f;
+        while (t < tiempoPulso)
+        {
+            t += Time.unscaledDeltaTime;
+            float k = Mathf.Sin(Mathf.Clamp01(t / tiempoPulso) * Mathf.PI); // 0 -> 1 -> 0
+            transform.localScale = escalaBase * Mathf.Lerp(1f, escalaPulso, k);
+            if (luz != null) luz.intensity = intensidadLuz * (1f + k * 1.5f);
+            yield return null;
+        }
+        transform.localScale = escalaBase;
+        if (luz != null) luz.intensity = intensidadLuz;
+    }
+
+    void SetAlpha(float a)
+    {
+        if (Sr == null) return;
+        Color c = Sr.color;
+        c.a = a;
+        Sr.color = c;
     }
 }

@@ -12,6 +12,9 @@ public class SceneTransition : MonoBehaviour
     // Id del SpawnPoint donde debe aparecer el jugador en la escena nueva
     public static string PendingSpawnId { get; private set; } = "";
 
+    // true mientras hay un fade/carga en curso (lo usa el menu de pausa)
+    public static bool IsBusy => Instance != null && Instance.busy;
+
     [SerializeField] private float fadeOutTime = 0.4f;
     [SerializeField] private float fadeInTime = 0.4f;
 

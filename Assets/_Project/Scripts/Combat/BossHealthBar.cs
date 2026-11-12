@@ -1,9 +1,11 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 // Barra de vida de jefe, reutilizable. Poner en el mismo objeto que BossHealth.
-// Crea su propio Canvas por codigo (sin prefab): arriba en el centro de la pantalla, con nombre.
+// Crea su propio Canvas por codigo (sin prefab). Con el tema de UI usa el diseno del documento:
+// abajo al centro, placa con el nombre y marco ornamentado. Sin tema: barra simple arriba.
 [RequireComponent(typeof(BossHealth))]
 public class BossHealthBar : MonoBehaviour
 {
@@ -29,6 +31,13 @@ public class BossHealthBar : MonoBehaviour
 
     [SerializeField] private bool showOnStart = true;
 
+    [Tooltip("Vacio = tema del proyecto (Resources/UI_Tema)")]
+    [SerializeField] private TemaUI tema;
+    [Tooltip("Diseno del documento: abajo, con placa y marco (requiere el arte en el tema)")]
+    [SerializeField] private bool estiloDocumento = true;
+    [Tooltip("Color de la barra en el estilo documento")]
+    [SerializeField] private Color colorBarra = Color.white;
+
     private BossHealth boss;
     private GameObject canvasGo;
     private CanvasGroup group;
@@ -38,7 +47,19 @@ public class BossHealthBar : MonoBehaviour
     private void Start()
     {
         boss = GetComponent<BossHealth>();
-        Build();
+        tema = TemaUI.O(tema);
+        if (tema != null)
+        {
+            fillColor = tema.vidaJefe;
+            lagColor = tema.vidaJefeRetraso;
+            textColor = tema.texto;
+        }
+        bool documento = estiloDocumento && tema != null && tema.marcoBarraJefe != null;
+        if (documento) BuildDocumento();
+        else Build();
+        fillPct = lagPct = boss.Max > 0 ? (float)boss.Current / boss.Max : 1f;
+        SetAnchor(fillRect, fillPct);
+        SetAnchor(lagRect, lagPct);
         boss.Changed += OnChanged;
         boss.Died += OnDied;
         if (showOnStart) Show();
@@ -95,7 +116,62 @@ public class BossHealthBar : MonoBehaviour
         if (r != null) r.anchorMax = new Vector2(Mathf.Clamp01(pct), 1f);
     }
 
-    private void Build()
+    // Medidas tomadas del mockup del HUD (1400x787) y escaladas a 1920x1080
+    private const float K = 1920f / 1400f;
+
+    private void BuildDocumento()
+    {
+        CrearCanvas();
+        var anclaAbajo = new Vector2(0.5f, 0f);
+
+        // Barra abajo al centro: delgada, de un solo color (colorBarra), sin el marco café
+        // (x330 y738 740x6 en coordenadas del mockup 1400x787)
+        Image marco = NewImage("Marco", canvasGo.transform, new Color(0, 0, 0, 0));
+        Colocar(marco.rectTransform, 330, 738, 740, 6, anclaAbajo);
+
+        var inner = NewImage("Inner", marco.transform, new Color(0, 0, 0, 0)).rectTransform;
+        inner.anchorMin = Vector2.zero; inner.anchorMax = Vector2.one;
+        inner.offsetMin = Vector2.zero; inner.offsetMax = Vector2.zero;
+        // Barra de daño retrasado invisible: solo se ve la barra principal
+        lagRect = NewImage("Lag", inner, new Color(0, 0, 0, 0)).rectTransform;
+        StretchBar(lagRect);
+        fillRect = NewImage("Fill", inner, colorBarra).rectTransform;
+        StretchBar(fillRect);
+
+        // Placa con el nombre, encima de la barra (x575 y677 250x50)
+        Image placa = NewImage("Placa", canvasGo.transform, Color.white);
+        if (tema.placaJefe != null) placa.sprite = tema.placaJefe;
+        else placa.color = new Color(0, 0, 0, 0);
+        Colocar(placa.rectTransform, 575, 677, 250, 50, anclaAbajo);
+
+        var textGo = new GameObject("Nombre", typeof(RectTransform));
+        textGo.transform.SetParent(placa.transform, false);
+        var tmp = textGo.AddComponent<TextMeshProUGUI>();
+        if (tema.fuenteTitulo != null) tmp.font = tema.fuenteTitulo;
+        if (tema.materialTitulo != null) tmp.fontSharedMaterial = tema.materialTitulo;
+        tmp.text = string.IsNullOrEmpty(nameOverride) ? boss.BossName : nameOverride;
+        tmp.fontStyle = FontStyles.SmallCaps;
+        tmp.fontSize = 44;
+        tmp.color = textColor;
+        tmp.alignment = TextAlignmentOptions.Center;
+        tmp.textWrappingMode = TextWrappingModes.NoWrap;
+        tmp.raycastTarget = false;
+        var tr = tmp.rectTransform;
+        tr.anchorMin = Vector2.zero; tr.anchorMax = Vector2.one;
+        tr.offsetMin = new Vector2(50 * K, 0); tr.offsetMax = new Vector2(-50 * K, 0);
+    }
+
+    // Posiciona con coordenadas del mockup (esquina superior izquierda, en px de 1400x787)
+    private static void Colocar(RectTransform r, float x, float y, float w, float h, Vector2 ancla)
+    {
+        r.anchorMin = r.anchorMax = ancla;
+        r.pivot = new Vector2(0.5f, 0.5f);
+        float cx = (x + w * 0.5f) * K, cy = (787f - (y + h * 0.5f)) * K;
+        r.anchoredPosition = new Vector2(cx - ancla.x * 1920f, cy - ancla.y * 1080f);
+        r.sizeDelta = new Vector2(w * K, h * K);
+    }
+
+    private void CrearCanvas()
     {
         canvasGo = new GameObject("BossHealthBar_UI");
         var canvas = canvasGo.AddComponent<Canvas>();
@@ -109,7 +185,11 @@ public class BossHealthBar : MonoBehaviour
         group.alpha = 0f;
         group.interactable = false;
         group.blocksRaycasts = false;
+    }
 
+    private void Build()
+    {
+        CrearCanvas();
         Image frame = NewImage("Frame", canvasGo.transform, frameColor);
         var fr = frame.rectTransform;
         fr.anchorMin = fr.anchorMax = new Vector2(0.5f, 1f);
@@ -141,10 +221,6 @@ public class BossHealthBar : MonoBehaviour
         tr.pivot = new Vector2(0.5f, 1f);
         tr.sizeDelta = new Vector2(barWidth, 44f);
         tr.anchoredPosition = new Vector2(0f, -4f);
-
-        fillPct = lagPct = boss.Max > 0 ? (float)boss.Current / boss.Max : 1f;
-        SetAnchor(fillRect, fillPct);
-        SetAnchor(lagRect, lagPct);
     }
 
     private static void StretchBar(RectTransform r)

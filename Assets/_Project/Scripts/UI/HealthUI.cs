@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -5,7 +6,7 @@ using UnityEngine.UI;
 public class HealthUI : MonoBehaviour
 {
     [Header("Referencias")]
-    [SerializeField] private PlayerHealth playerHealth; // opcional: si est· vacÌo lo busca solo
+    [SerializeField] private PlayerHealth playerHealth; // opcional: si est√° vac√≠o lo busca solo
     [SerializeField] private Image iconPrefab;
     [SerializeField] private Transform container;
 
@@ -13,11 +14,27 @@ public class HealthUI : MonoBehaviour
     [SerializeField] private Sprite fullSprite;
     [SerializeField] private Sprite emptySprite;
 
-    [Header("Colores (con sprites propios, dÈjalos en blanco)")]
+    [Header("Colores (con sprites propios, d√©jalos en blanco)")]
     [SerializeField] private Color fullColor = Color.white;
     [SerializeField] private Color emptyColor = new Color(1f, 1f, 1f, 0.2f);
 
+    [Header("Tema (vac√≠o = tema del proyecto). Solo se usa si no hay sprites")]
+    [SerializeField] private TemaUI tema;
+
+    [Header("Pulso al perder vida")]
+    [SerializeField] private float escalaPulso = 1.3f;
+    [SerializeField] private float tiempoPulso = 0.25f;
+
     private readonly List<Image> icons = new List<Image>();
+    private int previo = -1;
+
+    private void Awake()
+    {
+        var t = TemaUI.O(tema);
+        if (t == null || fullSprite != null) return;
+        fullColor = t.vida;
+        emptyColor = new Color(t.vida.r * 0.3f, t.vida.g * 0.3f, t.vida.b * 0.3f, 0.6f);
+    }
 
     private void OnEnable()
     {
@@ -46,6 +63,23 @@ public class HealthUI : MonoBehaviour
             bool full = i < current;
             icon.sprite = full ? fullSprite : (emptySprite != null ? emptySprite : fullSprite);
             icon.color = full ? fullColor : emptyColor;
+
+            // √çconos que se acaban de vaciar: pulso para que se note el golpe
+            if (previo >= 0 && i >= current && i < previo && icon.gameObject.activeInHierarchy)
+                StartCoroutine(Pulso(icon.rectTransform));
         }
+        previo = current;
+    }
+
+    private IEnumerator Pulso(RectTransform r)
+    {
+        float t = 0f;
+        while (t < tiempoPulso)
+        {
+            t += Time.unscaledDeltaTime;
+            r.localScale = Vector3.one * Mathf.Lerp(escalaPulso, 1f, t / tiempoPulso);
+            yield return null;
+        }
+        r.localScale = Vector3.one;
     }
 }
