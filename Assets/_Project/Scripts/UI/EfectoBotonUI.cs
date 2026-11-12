@@ -3,28 +3,27 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-// Feedback de botón de menú: al seleccionarse (teclado, gamepad o mouse) el texto pasa a dorado,
-// aparece el marcador y crece un poco. El hover del mouse también selecciona, así nunca hay dos resaltados.
+// Feedback de opción de menú: al seleccionarse (teclado, gamepad o mouse) el texto se aclara
+// y aparece la llama a su izquierda. El hover del mouse también selecciona, así nunca hay dos resaltados.
+// Si el Selectable no es interactuable (p. ej. "Mapa" aún sin implementar) se ve apagado y se salta.
 [RequireComponent(typeof(Selectable))]
 public class EfectoBotonUI : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerEnterHandler, ISubmitHandler, IPointerClickHandler
 {
-    [SerializeField] private TemaUI tema;
+    [SerializeField] private TemaUI tema; // vacío = tema del proyecto
     [SerializeField] private TMP_Text etiqueta;
-    [SerializeField] private GameObject marcador;
-    [SerializeField] private float escalaSeleccionado = 1.08f;
-    [SerializeField] private float velocidad = 1.5f;
-
-    [Header("Sin tema asignado")]
-    [SerializeField] private Color colorNormal = new Color(0.92f, 0.95f, 1f, 0.5f);
-    [SerializeField] private Color colorSeleccionado = new Color(1f, 0.85f, 0.4f, 1f);
+    [SerializeField] private RectTransform marcador;
+    [Tooltip("Coloca la llama justo a la izquierda del texto (botones centrados)")]
+    [SerializeField] private bool marcadorJuntoAlTexto = true;
+    [SerializeField] private float separacionMarcador = 22f;
+    [SerializeField] private float escalaSeleccionado = 1.04f;
+    [SerializeField] private float velocidad = 1f;
 
     private Selectable seleccionable;
     private AudioSource fuenteAudio;
     private bool seleccionado;
     private float escala = 1f;
 
-    private Color Normal => tema != null ? tema.textoTenue : colorNormal;
-    private Color Seleccionado => tema != null ? tema.resaltado : colorSeleccionado;
+    private TemaUI T => TemaUI.O(tema);
 
     private void Awake()
     {
@@ -38,7 +37,7 @@ public class EfectoBotonUI : MonoBehaviour, ISelectHandler, IDeselectHandler, IP
         seleccionado = EventSystem.current != null && EventSystem.current.currentSelectedGameObject == gameObject;
         escala = seleccionado ? escalaSeleccionado : 1f;
         transform.localScale = Vector3.one * escala;
-        Aplicar(seleccionado);
+        Aplicar();
     }
 
     private void Update()
@@ -52,14 +51,14 @@ public class EfectoBotonUI : MonoBehaviour, ISelectHandler, IDeselectHandler, IP
     public void OnSelect(BaseEventData e)
     {
         seleccionado = true;
-        Aplicar(true);
-        Sonar(tema != null ? tema.sonidoNavegar : null);
+        Aplicar();
+        Sonar(T != null ? T.sonidoNavegar : null);
     }
 
     public void OnDeselect(BaseEventData e)
     {
         seleccionado = false;
-        Aplicar(false);
+        Aplicar();
     }
 
     public void OnPointerEnter(PointerEventData e)
@@ -68,13 +67,23 @@ public class EfectoBotonUI : MonoBehaviour, ISelectHandler, IDeselectHandler, IP
             EventSystem.current.SetSelectedGameObject(gameObject);
     }
 
-    public void OnSubmit(BaseEventData e) => Sonar(tema != null ? tema.sonidoAceptar : null);
-    public void OnPointerClick(PointerEventData e) => Sonar(tema != null ? tema.sonidoAceptar : null);
+    public void OnSubmit(BaseEventData e) => Sonar(T != null ? T.sonidoAceptar : null);
+    public void OnPointerClick(PointerEventData e) => Sonar(T != null ? T.sonidoAceptar : null);
 
-    private void Aplicar(bool activo)
+    private void Aplicar()
     {
-        if (etiqueta != null) etiqueta.color = activo ? Seleccionado : Normal;
-        if (marcador != null) marcador.SetActive(activo);
+        var t = T;
+        bool activo = seleccionable == null || seleccionable.IsInteractable();
+        if (etiqueta != null && t != null)
+            etiqueta.color = !activo ? t.textoDeshabilitado : seleccionado ? t.textoSeleccionado : t.textoNormal;
+
+        if (marcador == null) return;
+        marcador.gameObject.SetActive(seleccionado && activo);
+        if (marcadorJuntoAlTexto && etiqueta != null)
+        {
+            float ancho = Mathf.Min(etiqueta.preferredWidth, etiqueta.rectTransform.rect.width);
+            marcador.anchoredPosition = new Vector2(-ancho * 0.5f - separacionMarcador - marcador.rect.width * 0.5f, marcador.anchoredPosition.y);
+        }
     }
 
     private void Sonar(AudioClip clip)

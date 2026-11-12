@@ -18,11 +18,11 @@ public class HealthUI : MonoBehaviour
     [SerializeField] private Color fullColor = Color.white;
     [SerializeField] private Color emptyColor = new Color(1f, 1f, 1f, 0.2f);
 
-    [Header("Tema (opcional: si se asigna, usa sus colores)")]
+    [Header("Tema (vacío = tema del proyecto). Solo se usa si no hay sprites")]
     [SerializeField] private TemaUI tema;
 
     [Header("Pulso al perder vida")]
-    [SerializeField] private float escalaPulso = 1.45f;
+    [SerializeField] private float escalaPulso = 1.3f;
     [SerializeField] private float tiempoPulso = 0.25f;
 
     private readonly List<Image> icons = new List<Image>();
@@ -30,9 +30,10 @@ public class HealthUI : MonoBehaviour
 
     private void Awake()
     {
-        if (tema == null) return;
-        fullColor = tema.acento;
-        emptyColor = new Color(tema.textoTenue.r, tema.textoTenue.g, tema.textoTenue.b, 0.2f);
+        var t = TemaUI.O(tema);
+        if (t == null || fullSprite != null) return;
+        fullColor = t.vida;
+        emptyColor = new Color(t.vida.r * 0.3f, t.vida.g * 0.3f, t.vida.b * 0.3f, 0.6f);
     }
 
     private void OnEnable()

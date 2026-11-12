@@ -1,29 +1,62 @@
 using TMPro;
 using UnityEngine;
 
-// Paleta y fuente compartidas por toda la interfaz. Cambiar el arte = editar este asset.
-// Crear: clic derecho > Create > Ultimo Descenso > Tema UI (o Tools > Ultimo Descenso > Configurar UI).
+// Paleta, fuentes y arte compartidos por toda la interfaz (documento IEEE, sección "Interfaz de usuario":
+// marcos de hueso, tipografía serif clásica, fondos oscuros y acentos en rojo brasa).
+// Vive en Assets/_Project/Resources/UI_Tema.asset y se carga solo: no hace falta asignarlo a mano.
 [CreateAssetMenu(menuName = "Ultimo Descenso/Tema UI", fileName = "UI_Tema")]
 public class TemaUI : ScriptableObject
 {
+    private const string RutaResources = "UI_Tema";
+    private static TemaUI cache;
+
+    // El tema del proyecto (Resources/UI_Tema)
+    public static TemaUI Predeterminado
+    {
+        get
+        {
+            if (cache == null) cache = Resources.Load<TemaUI>(RutaResources);
+            return cache;
+        }
+    }
+
+    // Devuelve el tema asignado o, si está vacío, el del proyecto
+    public static TemaUI O(TemaUI asignado) => asignado != null ? asignado : Predeterminado;
+
     [Header("Fondos")]
-    public Color fondo = new Color(0.04f, 0.05f, 0.09f, 0.92f);
-    public Color panel = new Color(0.07f, 0.09f, 0.15f, 0.96f);
-    public Color velo = new Color(0f, 0f, 0f, 0.65f);
+    public Color fondo = new Color(0.05f, 0.043f, 0.035f, 0.96f);
+    public Color velo = new Color(0f, 0f, 0f, 0.72f);
+
+    [Header("Texto (hueso / pergamino)")]
+    public Color texto = new Color(0.91f, 0.86f, 0.78f, 1f);
+    public Color textoNormal = new Color(0.80f, 0.75f, 0.68f, 1f);
+    public Color textoSeleccionado = new Color(0.98f, 0.86f, 0.74f, 1f);
+    public Color textoDeshabilitado = new Color(0.55f, 0.50f, 0.45f, 0.45f);
 
     [Header("Acentos")]
-    [Tooltip("Azul hielo: vida, bordes, barras")]
-    public Color acento = new Color(0.55f, 0.82f, 1f, 1f);
-    [Tooltip("Dorado: energía, selección, daño retrasado")]
-    public Color resaltado = new Color(1f, 0.85f, 0.4f, 1f);
-    [Tooltip("Rojo apagado: muerte")]
-    public Color peligro = new Color(0.62f, 0.1f, 0.12f, 1f);
+    [Tooltip("Rojo brasa: selección, detalles")]
+    public Color brasa = new Color(0.85f, 0.27f, 0.12f, 1f);
+    public Color vida = new Color(0.66f, 0.06f, 0.07f, 1f);
+    [Tooltip("Violeta: barra de energía")]
+    public Color energia = new Color(0.36f, 0.26f, 0.62f, 1f);
+    public Color energiaLlena = new Color(0.62f, 0.50f, 1f, 1f);
+    public Color vidaJefe = new Color(0.66f, 0.13f, 0.02f, 1f);
+    public Color vidaJefeRetraso = new Color(0.95f, 0.55f, 0.25f, 1f);
 
-    [Header("Texto")]
-    public Color texto = new Color(0.92f, 0.95f, 1f, 1f);
-    public Color textoTenue = new Color(0.92f, 0.95f, 1f, 0.5f);
-    [Tooltip("Vacío = fuente por defecto de TextMeshPro")]
-    public TMP_FontAsset fuente;
+    [Header("Fuentes")]
+    [Tooltip("Títulos (Cinzel)")]
+    public TMP_FontAsset fuenteTitulo;
+    public Material materialTitulo;
+    [Tooltip("Texto y botones (EB Garamond)")]
+    public TMP_FontAsset fuenteTexto;
+    public Material materialTexto;
+
+    [Header("Arte (temporal: recortes de los mockups)")]
+    [Tooltip("Llama que marca la opción seleccionada")]
+    public Sprite marcador;
+    public Sprite separador;
+    public Sprite marcoBarraJefe;
+    public Sprite placaJefe;
 
     [Header("Sonidos (opcional)")]
     public AudioClip sonidoNavegar;

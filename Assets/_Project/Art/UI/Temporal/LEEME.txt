@@ -1,0 +1,4 @@
+ARTE TEMPORAL DE INTERFAZ
+Recortes de los mockups del documento IEEE (The_Last_Ascent_IEEE, figs. 2-4 y dialogo).
+Baja resolucion: reemplazar por el arte final con el MISMO nombre de archivo
+y Unity actualiza todos los prefabs automaticamente.

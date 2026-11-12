@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// Menú de pausa: Esc / Start. Continuar, Opciones, Volver al menú.
+// Menú de pausa (Esc / Start): Continuar, Mapa, Habilidades, Opciones, Salir al menú.
 // No se abre durante un diálogo, una transición de escena o con el jugador muerto.
 public class MenuPausa : MonoBehaviour
 {
@@ -12,8 +12,12 @@ public class MenuPausa : MonoBehaviour
 
     [Header("Botones")]
     [SerializeField] private Button botonContinuar;
+    [Tooltip("Deshabilitado hasta que exista el mapa")]
+    [SerializeField] private Button botonMapa;
+    [Tooltip("Deshabilitado hasta que exista la pantalla de habilidades")]
+    [SerializeField] private Button botonHabilidades;
     [SerializeField] private Button botonOpciones;
-    [SerializeField] private Button botonMenu;
+    [SerializeField] private Button botonSalirMenu;
 
     [SerializeField] private string escenaMenu = "SC_MenuPrincipal";
 
@@ -24,8 +28,10 @@ public class MenuPausa : MonoBehaviour
     private void Awake()
     {
         if (botonContinuar != null) botonContinuar.onClick.AddListener(Continuar);
+        if (botonMapa != null) botonMapa.interactable = false;               // TODO: abrir el mapa
+        if (botonHabilidades != null) botonHabilidades.interactable = false; // TODO: abrir habilidades
         if (botonOpciones != null) botonOpciones.onClick.AddListener(AbrirOpciones);
-        if (botonMenu != null) botonMenu.onClick.AddListener(VolverAlMenu);
+        if (botonSalirMenu != null) botonSalirMenu.onClick.AddListener(SalirAlMenu);
     }
 
     private void Start()
@@ -85,7 +91,7 @@ public class MenuPausa : MonoBehaviour
     }
 
     // Se queda en pausa durante el fade; PausaJuego se reanuda solo al cargar la escena nueva
-    public void VolverAlMenu()
+    public void SalirAlMenu()
     {
         saliendo = true;
         if (SceneTransition.Instance != null) SceneTransition.Go(escenaMenu, "");

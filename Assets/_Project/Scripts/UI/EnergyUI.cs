@@ -7,10 +7,10 @@ public class EnergyUI : MonoBehaviour
     [SerializeField] private RectTransform fillRect;
     [SerializeField] private float smoothSpeed = 8f;
 
-    [Header("Color (tema opcional: si se asigna, usa su dorado)")]
+    [Header("Color (vacío = tema del proyecto: violeta)")]
     [SerializeField] private TemaUI tema;
-    [SerializeField] private Color colorRelleno = new Color(1f, 0.85f, 0.4f, 1f);
-    [SerializeField] private Color colorBrilloLlena = Color.white;
+    [SerializeField] private Color colorRelleno = new Color(0.36f, 0.26f, 0.62f, 1f);
+    [SerializeField] private Color colorBrilloLlena = new Color(0.62f, 0.5f, 1f, 1f);
     [SerializeField] private float velocidadBrillo = 4f;
 
     private Image fillImage;
@@ -22,7 +22,8 @@ public class EnergyUI : MonoBehaviour
     private void Awake()
     {
         if (fillRect == null) return;
-        if (tema != null) colorRelleno = tema.resaltado;
+        var t = TemaUI.O(tema);
+        if (t != null) { colorRelleno = t.energia; colorBrilloLlena = t.energiaLlena; }
         fillImage = fillRect.GetComponent<Image>();
         if (fillImage != null) fillImage.color = colorRelleno;
         fillRect.anchorMin = Vector2.zero;
@@ -54,11 +55,11 @@ public class EnergyUI : MonoBehaviour
 
     private void Update()
     {
-        // Energía llena: la barra late entre dorado y blanco
+        // Energía llena: la barra late entre violeta y violeta claro
         if (llena && fillImage != null)
         {
             float k = (Mathf.Sin(Time.unscaledTime * velocidadBrillo) + 1f) * 0.5f;
-            fillImage.color = Color.Lerp(colorRelleno, colorBrilloLlena, k * 0.6f);
+            fillImage.color = Color.Lerp(colorRelleno, colorBrilloLlena, k);
         }
 
         if (fillRect == null || Mathf.Approximately(currentFill, targetFill)) return;

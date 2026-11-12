@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// Menú principal (escena SC_MenuPrincipal): Jugar, Opciones, Salir.
+// Menú principal (escena SC_MenuPrincipal): Nueva partida, Continuar, Opciones, Salir.
 public class MenuPrincipal : MonoBehaviour
 {
     [Header("Paneles")]
@@ -10,7 +10,9 @@ public class MenuPrincipal : MonoBehaviour
     [SerializeField] private PanelOpciones panelOpciones;
 
     [Header("Botones")]
-    [SerializeField] private Button botonJugar;
+    [SerializeField] private Button botonNuevaPartida;
+    [Tooltip("Deshabilitado hasta que exista el sistema de guardado")]
+    [SerializeField] private Button botonContinuar;
     [SerializeField] private Button botonOpciones;
     [SerializeField] private Button botonSalir;
 
@@ -23,7 +25,8 @@ public class MenuPrincipal : MonoBehaviour
 
     private void Awake()
     {
-        if (botonJugar != null) botonJugar.onClick.AddListener(Jugar);
+        if (botonNuevaPartida != null) botonNuevaPartida.onClick.AddListener(NuevaPartida);
+        if (botonContinuar != null) botonContinuar.interactable = false; // TODO: activar cuando haya partida guardada
         if (botonOpciones != null) botonOpciones.onClick.AddListener(AbrirOpciones);
         if (botonSalir != null) botonSalir.onClick.AddListener(Salir);
     }
@@ -31,6 +34,7 @@ public class MenuPrincipal : MonoBehaviour
     private void Start()
     {
         PausaJuego.Reanudar();
+        Almas.Reiniciar();
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         if (panelPrincipal != null) panelPrincipal.Abrir(true);
@@ -42,7 +46,7 @@ public class MenuPrincipal : MonoBehaviour
             panelOpciones.Volver();
     }
 
-    public void Jugar()
+    public void NuevaPartida()
     {
         if (iniciando) return;
         iniciando = true;
