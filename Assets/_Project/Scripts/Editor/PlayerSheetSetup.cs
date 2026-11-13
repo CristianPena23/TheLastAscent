@@ -32,6 +32,7 @@ public class PlayerSheetSetup : EditorWindow
         new Preset { label = "Attack",     clip = "PL_Attack", first = 1, last = 12, fps = 36, ppu = 190, loop = false, link = Link.ActionTrigger, trigger = "Attack", texMaxSize = 2048, pivotY = 0.0625f, attackDir = 0 },
         new Preset { label = "Attack Up",   clip = "PL_AttackUp",   first = 7, last = 18, fps = 36, ppu = 95, loop = false, link = Link.ActionTrigger, trigger = "Attack", texMaxSize = 2048, pivotY = 0.14f, attackDir = 1 },
         new Preset { label = "Attack Down", clip = "PL_AttackDown", first = 5, last = 14, fps = 36, ppu = 95, loop = false, link = Link.ActionTrigger, trigger = "Attack", texMaxSize = 2048, pivotY = 0.14f, attackDir = 2 },
+        new Preset { label = "Attack Aire (horizontal)", clip = "PL_AttackAir", first = 5, last = 14, fps = 36, ppu = 190, loop = false, link = Link.ActionTrigger, trigger = "Attack", texMaxSize = 2048, pivotY = 0.14f, attackDir = 3 },
         new Preset { label = "Death",      clip = "PL_Death",  first = 0, last = 24, fps = 15, ppu = 190, loop = false, link = Link.ActionTrigger, trigger = "Die", returnToIdle = false },
         new Preset { label = "Personalizado", clip = "PL_Nuevo", first = 0, last = 24, fps = 12, ppu = 190, loop = true, link = Link.None },
     };

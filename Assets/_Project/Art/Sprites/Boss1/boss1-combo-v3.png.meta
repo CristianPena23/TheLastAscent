@@ -1,0 +1,1433 @@
+fileFormatVersion: 2
+guid: eb1ad008d518f0e41acc2e615c88ed1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -509549280791732860
+    second: boss1-combo-v3_0
+  - first:
+      213: -5039478229719360938
+    second: boss1-combo-v3_1
+  - first:
+      213: -4303803732569669304
+    second: boss1-combo-v3_2
+  - first:
+      213: -5781046683729796091
+    second: boss1-combo-v3_3
+  - first:
+      213: 8902107152240371764
+    second: boss1-combo-v3_4
+  - first:
+      213: 6691540609222808855
+    second: boss1-combo-v3_5
+  - first:
+      213: -1215108654845835317
+    second: boss1-combo-v3_6
+  - first:
+      213: -1083484049557779138
+    second: boss1-combo-v3_7
+  - first:
+      213: 5222679428222269203
+    second: boss1-combo-v3_8
+  - first:
+      213: -9177188790451066702
+    second: boss1-combo-v3_9
+  - first:
+      213: -7717936193977160329
+    second: boss1-combo-v3_10
+  - first:
+      213: -8130637781875062661
+    second: boss1-combo-v3_11
+  - first:
+      213: 6064775409339899680
+    second: boss1-combo-v3_12
+  - first:
+      213: -7708956748843194957
+    second: boss1-combo-v3_13
+  - first:
+      213: -5518439532626927216
+    second: boss1-combo-v3_14
+  - first:
+      213: 5776380712987557638
+    second: boss1-combo-v3_15
+  - first:
+      213: -9086604209481849135
+    second: boss1-combo-v3_16
+  - first:
+      213: -7406760610925923235
+    second: boss1-combo-v3_17
+  - first:
+      213: -8572389063043597012
+    second: boss1-combo-v3_18
+  - first:
+      213: -2743357132964414215
+    second: boss1-combo-v3_19
+  - first:
+      213: 5708199315174167503
+    second: boss1-combo-v3_20
+  - first:
+      213: 3999323987078498675
+    second: boss1-combo-v3_21
+  - first:
+      213: -5240699098006981906
+    second: boss1-combo-v3_22
+  - first:
+      213: 5156101954215429035
+    second: boss1-combo-v3_23
+  - first:
+      213: -4012069393026707337
+    second: boss1-combo-v3_24
+  - first:
+      213: 4628643234305736958
+    second: boss1-combo-v3_25
+  - first:
+      213: -7984226779613317696
+    second: boss1-combo-v3_26
+  - first:
+      213: 5080013468077078531
+    second: boss1-combo-v3_27
+  - first:
+      213: 4237962714082147504
+    second: boss1-combo-v3_28
+  - first:
+      213: 1697696511615973081
+    second: boss1-combo-v3_29
+  - first:
+      213: 6752156434365852489
+    second: boss1-combo-v3_30
+  - first:
+      213: -4226100586903767450
+    second: boss1-combo-v3_31
+  - first:
+      213: -4215464880584109522
+    second: boss1-combo-v3_32
+  - first:
+      213: -5636782686729595532
+    second: boss1-combo-v3_33
+  - first:
+      213: 1998644263623018233
+    second: boss1-combo-v3_34
+  - first:
+      213: 4513408293502330050
+    second: boss1-combo-v3_35
+  - first:
+      213: 970874125246484403
+    second: boss1-combo-v3_36
+  - first:
+      213: 4875018035989535048
+    second: boss1-combo-v3_37
+  - first:
+      213: -7108758158052717060
+    second: boss1-combo-v3_38
+  - first:
+      213: 7886434599293199889
+    second: boss1-combo-v3_39
+  - first:
+      213: -6428303230946622868
+    second: boss1-combo-v3_40
+  - first:
+      213: 7837062274068808482
+    second: boss1-combo-v3_41
+  - first:
+      213: -6082972994513036520
+    second: boss1-combo-v3_42
+  - first:
+      213: 6080030171686856272
+    second: boss1-combo-v3_43
+  - first:
+      213: -2979494671533961498
+    second: boss1-combo-v3_44
+  - first:
+      213: -821292008813546930
+    second: boss1-combo-v3_45
+  - first:
+      213: 2421577563440420037
+    second: boss1-combo-v3_46
+  - first:
+      213: -8746274854013178234
+    second: boss1-combo-v3_47
+  - first:
+      213: -3475151038279242494
+    second: boss1-combo-v3_48
+  - first:
+      213: 4581370925401098298
+    second: boss1-combo-v3_49
+  - first:
+      213: -3490285499156804221
+    second: boss1-combo-v3_50
+  - first:
+      213: 5251095491617959054
+    second: boss1-combo-v3_51
+  - first:
+      213: 689226168480109
+    second: boss1-combo-v3_52
+  - first:
+      213: 4482060597608015144
+    second: boss1-combo-v3_53
+  - first:
+      213: 5713953819400531844
+    second: boss1-combo-v3_54
+  - first:
+      213: 6165503175705238988
+    second: boss1-combo-v3_55
+  - first:
+      213: -4247600036150766562
+    second: boss1-combo-v3_56
+  - first:
+      213: -5535292116377895931
+    second: boss1-combo-v3_57
+  - first:
+      213: -5065033894641434602
+    second: boss1-combo-v3_58
+  - first:
+      213: 3511167035694128379
+    second: boss1-combo-v3_59
+  - first:
+      213: 197351193157690780
+    second: boss1-combo-v3_60
+  - first:
+      213: -1951717657860673439
+    second: boss1-combo-v3_61
+  - first:
+      213: 3037919691854864741
+    second: boss1-combo-v3_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 47
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss1-combo-v3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3024
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d5adaf0a7bde8f0800000000000000
+      internalID: -509549280791732860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_1
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 3024
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a5348104d201ab0800000000000000
+      internalID: -5039478229719360938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_2
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 3024
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8414f29ce41d544c0800000000000000
+      internalID: -4303803732569669304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_3
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 3024
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504e552aba895cfa0800000000000000
+      internalID: -5781046683729796091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_4
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 3024
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43860c12a43aa8b70800000000000000
+      internalID: 8902107152240371764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_5
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3024
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71593d41bb02ddc50800000000000000
+      internalID: 6691540609222808855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_6
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 3024
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc74968cd11132fe0800000000000000
+      internalID: -1215108654845835317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d8e4a5ff0b6f0f0800000000000000
+      internalID: -1083484049557779138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_8
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2520
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317bdeed44faa7840800000000000000
+      internalID: 5222679428222269203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_9
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 2520
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8a77cfa6314a080800000000000000
+      internalID: -9177188790451066702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_10
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2520
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d6cd64ce164e490800000000000000
+      internalID: -7717936193977160329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_11
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2520
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7887fde30c2a2f80800000000000000
+      internalID: -8130637781875062661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_12
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2520
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f9a3c2a196a2450800000000000000
+      internalID: 6064775409339899680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_13
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 2520
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5e9544ea8440590800000000000000
+      internalID: -7708956748843194957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2016
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091ac47ab709a63b0800000000000000
+      internalID: -5518439532626927216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_15
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2016
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f7a0567a3d92050800000000000000
+      internalID: 5776380712987557638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_16
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 2016
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6e3474d95e5e180800000000000000
+      internalID: -9086604209481849135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_17
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2016
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54b7619776e53990800000000000000
+      internalID: -7406760610925923235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_18
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2016
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2db7dcc091c80980800000000000000
+      internalID: -8572389063043597012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_19
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2016
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc3f95f833ade9d0800000000000000
+      internalID: -2743357132964414215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_20
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 2016
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc39518a809973f40800000000000000
+      internalID: 5708199315174167503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37943871af3708730800000000000000
+      internalID: 3999323987078498675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_22
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1512
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee27590dfeb4547b0800000000000000
+      internalID: -5240699098006981906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_23
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1512
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba345beb8672e8740800000000000000
+      internalID: 5156101954215429035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_24
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1512
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7701d66d4244258c0800000000000000
+      internalID: -4012069393026707337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_25
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1512
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef00fcc7f7e3c3040800000000000000
+      internalID: 4628643234305736958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_26
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1512
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5bcf2db04523190800000000000000
+      internalID: -7984226779613317696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_27
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1512
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3083fea8555df7640800000000000000
+      internalID: 5080013468077078531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc773082a440da30800000000000000
+      internalID: 4237962714082147504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_29
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1008
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d63a478bfd6f8710800000000000000
+      internalID: 1697696511615973081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_30
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1008
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bae3aa08a74bd50800000000000000
+      internalID: 6752156434365852489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_31
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1008
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666f78438efd955c0800000000000000
+      internalID: -4226100586903767450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_32
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1008
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2256ad8609af75c0800000000000000
+      internalID: -4215464880584109522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_33
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1008
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4751969e20026c1b0800000000000000
+      internalID: -5636782686729595532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_34
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1008
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f64f955e5c9cbb10800000000000000
+      internalID: 1998644263623018233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4228c0ee8d2ae30800000000000000
+      internalID: 4513408293502330050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_36
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 504
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf4fec7fdc397d00800000000000000
+      internalID: 970874125246484403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_37
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 504
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84957c4231b87a340800000000000000
+      internalID: 4875018035989535048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_38
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 504
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd8b1b7e1e985d90800000000000000
+      internalID: -7108758158052717060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_39
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 504
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116a833eb7e327d60800000000000000
+      internalID: 7886434599293199889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_40
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 504
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c624ee225441ac6a0800000000000000
+      internalID: -6428303230946622868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_41
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 504
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2238c70ad96d2cc60800000000000000
+      internalID: 7837062274068808482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b91cb5a40f49ba0800000000000000
+      internalID: -6082972994513036520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_43
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0566d0f4a3b906450800000000000000
+      internalID: 6080030171686856272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_44
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee8c0dd165b6a6d0800000000000000
+      internalID: -2979494671533961498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_45
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e423dc5f44f2a94f0800000000000000
+      internalID: -821292008813546930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_46
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c41ce0c6fb2b9120800000000000000
+      internalID: 2421577563440420037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_47
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68eec9a2c5dfe9680800000000000000
+      internalID: -8746274854013178234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1-combo-v3_48
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 0
+        width: 504
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d2986fa88c5cfc0800000000000000
+      internalID: -3475151038279242494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5286d663d6928284bac157e59f32243a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss1-combo-v3_0: -509549280791732860
+      boss1-combo-v3_1: -5039478229719360938
+      boss1-combo-v3_10: -7717936193977160329
+      boss1-combo-v3_11: -8130637781875062661
+      boss1-combo-v3_12: 6064775409339899680
+      boss1-combo-v3_13: -7708956748843194957
+      boss1-combo-v3_14: -5518439532626927216
+      boss1-combo-v3_15: 5776380712987557638
+      boss1-combo-v3_16: -9086604209481849135
+      boss1-combo-v3_17: -7406760610925923235
+      boss1-combo-v3_18: -8572389063043597012
+      boss1-combo-v3_19: -2743357132964414215
+      boss1-combo-v3_2: -4303803732569669304
+      boss1-combo-v3_20: 5708199315174167503
+      boss1-combo-v3_21: 3999323987078498675
+      boss1-combo-v3_22: -5240699098006981906
+      boss1-combo-v3_23: 5156101954215429035
+      boss1-combo-v3_24: -4012069393026707337
+      boss1-combo-v3_25: 4628643234305736958
+      boss1-combo-v3_26: -7984226779613317696
+      boss1-combo-v3_27: 5080013468077078531
+      boss1-combo-v3_28: 4237962714082147504
+      boss1-combo-v3_29: 1697696511615973081
+      boss1-combo-v3_3: -5781046683729796091
+      boss1-combo-v3_30: 6752156434365852489
+      boss1-combo-v3_31: -4226100586903767450
+      boss1-combo-v3_32: -4215464880584109522
+      boss1-combo-v3_33: -5636782686729595532
+      boss1-combo-v3_34: 1998644263623018233
+      boss1-combo-v3_35: 4513408293502330050
+      boss1-combo-v3_36: 970874125246484403
+      boss1-combo-v3_37: 4875018035989535048
+      boss1-combo-v3_38: -7108758158052717060
+      boss1-combo-v3_39: 7886434599293199889
+      boss1-combo-v3_4: 8902107152240371764
+      boss1-combo-v3_40: -6428303230946622868
+      boss1-combo-v3_41: 7837062274068808482
+      boss1-combo-v3_42: -6082972994513036520
+      boss1-combo-v3_43: 6080030171686856272
+      boss1-combo-v3_44: -2979494671533961498
+      boss1-combo-v3_45: -821292008813546930
+      boss1-combo-v3_46: 2421577563440420037
+      boss1-combo-v3_47: -8746274854013178234
+      boss1-combo-v3_48: -3475151038279242494
+      boss1-combo-v3_5: 6691540609222808855
+      boss1-combo-v3_6: -1215108654845835317
+      boss1-combo-v3_7: -1083484049557779138
+      boss1-combo-v3_8: 5222679428222269203
+      boss1-combo-v3_9: -9177188790451066702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
