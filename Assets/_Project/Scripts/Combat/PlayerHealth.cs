@@ -49,6 +49,28 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
     private void Start() => OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
 
+    // Checkpoints: donde reaparece el jugador al morir
+    public void SetRespawnPoint(Vector3 position) => spawnPosition = position;
+
+    // Caida al vacio: muere sin importar invulnerabilidad ni dash y reaparece en el ultimo checkpoint
+    public void KillFromVoid()
+    {
+        if (IsDead) return;
+        CurrentHealth = 0;
+        OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
+        StopAllCoroutines();
+        StartCoroutine(DieRoutine());
+    }
+
+    // Devuelve true si realmente curo (false si ya tenia la vida llena)
+    public bool HealToFull()
+    {
+        if (IsDead || CurrentHealth >= maxHealth) return false;
+        CurrentHealth = maxHealth;
+        OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
+        return true;
+    }
+
     // hitDirection: dirección del golpe (de quien golpea hacia quien lo recibe)
     public void TakeDamage(int amount, Vector2 hitDirection)
     {

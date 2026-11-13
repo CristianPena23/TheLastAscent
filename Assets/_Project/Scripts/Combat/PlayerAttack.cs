@@ -106,7 +106,9 @@ public class PlayerAttack : MonoBehaviour
 
         if (animator != null && animator.runtimeAnimatorController != null)
         {
-            animator.SetInteger(AttackDirHash, (int)dir);
+            int animDir = (int)dir;
+            if (dir == AttackDir.Forward && !player.IsGrounded) animDir = 3; // ataque horizontal en el aire
+            animator.SetInteger(AttackDirHash, animDir);
             animator.SetTrigger(AttackHash);
         }
     }

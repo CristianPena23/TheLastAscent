@@ -24,6 +24,15 @@ public class PlayerEnergy : MonoBehaviour
         Debug.Log($"Energía: {Current}/{maxEnergy}");
     }
 
+    // Devuelve true si realmente recargo (false si ya estaba llena)
+    public bool RefillToFull()
+    {
+        if (Current >= maxEnergy) return false;
+        Current = maxEnergy;
+        OnEnergyChanged?.Invoke(Current, maxEnergy);
+        return true;
+    }
+
     public bool CanSpend(int amount) => Current >= amount;
 
     public bool TrySpend(int amount)

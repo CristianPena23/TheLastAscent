@@ -16,6 +16,10 @@ public class SpawnPoint : MonoBehaviour
             player.transform.position = transform.position;
             var rb = player.GetComponent<Rigidbody2D>();
             if (rb != null) rb.linearVelocity = Vector2.zero;
+
+            // Si muere, reaparece aqui (y no en la posicion original del prefab)
+            var health = player.GetComponent<PlayerHealth>();
+            if (health != null) health.SetRespawnPoint(transform.position);
         }
         SceneTransition.ConsumeSpawn();
     }
