@@ -42,6 +42,7 @@ public class BossHealth : MonoBehaviour, IDamageable
 
     private Coroutine flashRoutine;
     private PlayerHealth jugador;
+    private SonidosJefe sonidos;
 
     private void Awake()
     {
@@ -49,6 +50,9 @@ public class BossHealth : MonoBehaviour, IDamageable
         if (bossSprite == null) bossSprite = GetComponentInChildren<SpriteRenderer>();
         if (animator == null) animator = GetComponentInChildren<Animator>();
         if (attackController == null) attackController = GetComponentInChildren<BossAttackController>();
+        // Sonidos del jefe: se agregan solos si no estan
+        sonidos = GetComponent<SonidosJefe>();
+        if (sonidos == null) sonidos = gameObject.AddComponent<SonidosJefe>();
     }
 
     private void Start()
@@ -84,6 +88,7 @@ public class BossHealth : MonoBehaviour, IDamageable
         flashRoutine = StartCoroutine(Flash());
 
         if (Current <= 0) StartCoroutine(Die());
+        else sonidos.Dolor();
     }
 
     private IEnumerator Flash()
@@ -106,6 +111,8 @@ public class BossHealth : MonoBehaviour, IDamageable
     private IEnumerator Die()
     {
         IsDead = true;
+        SonidosMundo.EnemigoMuerto();
+        sonidos.Muerte();
         if (attackController != null) attackController.Active = false;
         foreach (var c in GetComponentsInChildren<Collider2D>()) c.enabled = false;
         if (HasParam(dieTrigger)) animator.SetTrigger(dieTrigger);

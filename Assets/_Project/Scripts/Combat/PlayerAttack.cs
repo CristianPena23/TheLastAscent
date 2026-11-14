@@ -7,6 +7,9 @@ public class PlayerAttack : MonoBehaviour
 {
     private enum AttackDir { Forward = 0, Up = 1, Down = 2 }
 
+    // Cada ataque (true si golpeo algo). Lo escucha SonidosJugador
+    public event System.Action<bool> AlAtacar;
+
     [Header("Ataque")]
     [SerializeField] private int damage = 1;
     [SerializeField] private float cooldown = 0.35f;
@@ -97,6 +100,7 @@ public class PlayerAttack : MonoBehaviour
         if (hitSomething && dir == AttackDir.Down)
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, pogoForce);
         if (hitSomething && energy != null) energy.GainFromAttack();
+        AlAtacar?.Invoke(hitSomething);
 
         if (attackVfx != null)
         {

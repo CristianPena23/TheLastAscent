@@ -40,6 +40,16 @@ public class DialogueManager : MonoBehaviour
     bool soloAccion;
 
     public bool EnDialogo { get; private set; }
+    // true si cualquier DialogueManager está mostrando un diálogo (lo usa MusicaAmbiente para bajar el volumen)
+    public static bool HayDialogo { get; private set; }
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    static void ReiniciarEstatico() => HayDialogo = false;
+
+    void OnDisable()
+    {
+        if (EnDialogo) HayDialogo = false;
+    }
 
     // Acciones del guion (la luciérnaga aparece, pulsa, ilumina...). Las escucha quien las ejecuta.
     public static event Action<AccionDialogo> AlAccion;
@@ -52,6 +62,7 @@ public class DialogueManager : MonoBehaviour
         actual = dialogo;
         indice = 0;
         EnDialogo = true;
+        HayDialogo = true;
         tiempoPresionado = 0f;
         saltoDisparado = true; // ignora una tecla que ya venía presionada
         PausaJuego.InputJugador(false);
@@ -141,10 +152,12 @@ public class DialogueManager : MonoBehaviour
         textoDialogo.maxVisibleCharacters = 0;
         textoDialogo.ForceMeshUpdate();
         int visibles = textoDialogo.textInfo.characterCount; // sin contar etiquetas como <i>
+        SonidosUI.ReiniciarEscritura();
 
         for (int i = 0; i < visibles; i++)
         {
             textoDialogo.maxVisibleCharacters = i + 1;
+            SonidosUI.Tecla(textoDialogo.textInfo.characterInfo[i].character);
             yield return new WaitForSecondsRealtime(segundosPorLetra);
         }
 
@@ -192,6 +205,7 @@ public class DialogueManager : MonoBehaviour
         if (audioVoz != null) audioVoz.Stop();
         caja.SetActive(false);
         EnDialogo = false;
+        HayDialogo = false;
         escribiendo = false;
         soloAccion = false;
         PausaJuego.InputJugador(true);

@@ -154,6 +154,7 @@ public class HazardZone : MonoBehaviour
 
         // Salen los picos: daño activo
         box.enabled = true;
+        SonidosJefe.Cristal();
         warnSr.enabled = false;
         float rise = Mathf.Min(0.1f, activeTime);
         t = 0f;

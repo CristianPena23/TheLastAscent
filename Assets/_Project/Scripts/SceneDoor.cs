@@ -25,8 +25,17 @@ public class SceneDoor : MonoBehaviour
     [SerializeField] private float walkInTime = 0.7f;
     [SerializeField] private float endScale = 0.85f;
 
+    [Header("Sonido (Resources/Audio). Vacio = sin sonido")]
+    [Tooltip("Zumbido en loop mientras la puerta esta abierta (posicional)")]
+    [SerializeField] private string sonidoAbierta = "Jefe/portal_idle_loop";
+    [SerializeField] private string sonidoEntrar = "Jefe/portal_enter";
+    [Range(0f, 1f)] [SerializeField] private float volumenAbierta = 0.6f;
+    [Range(0f, 1f)] [SerializeField] private float volumenEntrar = 0.9f;
+
     private bool used;
     private float nextMessageTime;
+    private VozEnemigo voz;
+    private bool zumbando;
 
     private bool IsUnlocked => KeyInventory.Has(requiredKeyId);
 
@@ -43,6 +52,7 @@ public class SceneDoor : MonoBehaviour
     private void Refresh()
     {
         if (blocker != null) blocker.enabled = !IsUnlocked;
+        RefrescarSonido();
         if (doorRenderer == null) return;
         Sprite s = IsUnlocked ? openSprite : closedSprite;
         if (s != null) doorRenderer.sprite = s;
@@ -66,12 +76,29 @@ public class SceneDoor : MonoBehaviour
 
         used = true;
         if (consumeKey) KeyInventory.Remove(requiredKeyId);
+        if (voz != null && !string.IsNullOrEmpty(sonidoEntrar))
+        {
+            voz.SonarDesprendido(VozEnemigo.Cargar(sonidoEntrar), volumenEntrar, true); // sigue sonando en la escena nueva
+            voz.ApagarFondo(0.8f);
+        }
         player.InputLocked = true;
         var rb = player.GetComponent<Rigidbody2D>();
         if (rb != null) rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
         if (walkIn) StartCoroutine(WalkIn(player, rb));
         else SceneTransition.Go(targetScene, targetSpawnId);
+    }
+
+    // Puerta abierta: zumba (posicional, se oye al acercarse). Cerrada: en silencio
+    private void RefrescarSonido()
+    {
+        if (!Application.isPlaying || string.IsNullOrEmpty(sonidoAbierta) || used) return;
+        if (voz == null) voz = GetComponent<VozEnemigo>();
+        if (voz == null) voz = gameObject.AddComponent<VozEnemigo>();
+        bool abierta = IsUnlocked;
+        if (abierta && !zumbando) voz.Fondo(VozEnemigo.Cargar(sonidoAbierta), volumenAbierta);
+        else if (!abierta && zumbando) voz.ApagarFondo(0.5f);
+        zumbando = abierta;
     }
 
     private IEnumerator WalkIn(PlayerController player, Rigidbody2D rb)
