@@ -15,6 +15,8 @@ public class Checkpoint : MonoBehaviour
 
     [Header("Efecto")]
     [SerializeField] private bool healEveryVisit = true;
+    [Tooltip("Tambien llena la barra de energia. Apagado: la energia solo se gana peleando")]
+    [SerializeField] private bool recargarEnergia = false;
 
     [Header("Visual (opcional)")]
     [SerializeField] private SpriteRenderer sprite;
@@ -61,13 +63,14 @@ public class Checkpoint : MonoBehaviour
             Vector3 pos = respawnPoint != null ? respawnPoint.position : transform.position;
             health.SetRespawnPoint(pos);
             SetActiveVisual(true);
+            SonidosMundo.Checkpoint();
         }
 
         if (!isNew && !healEveryVisit) return;
 
         bool healed = health.HealToFull();
         PlayerEnergy energy = health.GetComponent<PlayerEnergy>();
-        bool recharged = energy != null && energy.RefillToFull();
+        bool recharged = recargarEnergia && energy != null && energy.RefillToFull();
 
         if (isNew || healed || recharged) Flash();
     }

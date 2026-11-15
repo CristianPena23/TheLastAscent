@@ -56,6 +56,9 @@ public class BossAttackController : MonoBehaviour
 
         [Header("Espejo (usa la animacion de la otra mano girada)")]
         public bool flipX = false;
+
+        [Tooltip("Sonido (Resources/Audio/Jefe). Vacio = automatico segun el trigger y el espejo")]
+        public string sonido = "";
     }
 
     [Header("Animacion")]
@@ -159,6 +162,8 @@ public class BossAttackController : MonoBehaviour
     private IEnumerator Loop()
     {
         if (waitForPlayerMove) yield return WaitForPlayerMove();
+        fightStarted = true;
+        if (SonidosJefe.Instancia != null) SonidosJefe.Instancia.EmpezarPelea(); // entra la musica de pelea
         yield return new WaitForSeconds(firstAttackDelay);
         int last = -1;
 
@@ -203,6 +208,8 @@ public class BossAttackController : MonoBehaviour
         if (bossSprite != null) bossSprite.flipX = a.flipX;
         if (animator != null && animator.runtimeAnimatorController != null)
             animator.SetTrigger(a.animatorTrigger);
+        if (SonidosJefe.Instancia != null)
+            SonidosJefe.Instancia.Ataque(a.animatorTrigger, a.flipX, a.sonido, a.hitDelay / speed, a.duration / speed);
 
         if (a.pattern == Pattern.Chase)
         {

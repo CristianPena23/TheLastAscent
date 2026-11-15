@@ -51,6 +51,7 @@ public class PanelOpciones : PanelUI
 
     public void Volver()
     {
+        SonidosUI.Volver();
         PlayerPrefs.Save();
         Cerrar(true);
         if (volverA != null) volverA.Abrir();

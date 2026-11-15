@@ -19,7 +19,6 @@ public class EfectoBotonUI : MonoBehaviour, ISelectHandler, IDeselectHandler, IP
     [SerializeField] private float velocidad = 1f;
 
     private Selectable seleccionable;
-    private AudioSource fuenteAudio;
     private bool seleccionado;
     private float escala = 1f;
 
@@ -28,8 +27,6 @@ public class EfectoBotonUI : MonoBehaviour, ISelectHandler, IDeselectHandler, IP
     private void Awake()
     {
         seleccionable = GetComponent<Selectable>();
-        fuenteAudio = GetComponentInParent<AudioSource>();
-        if (fuenteAudio != null) fuenteAudio.ignoreListenerPause = true;
     }
 
     private void OnEnable()
@@ -52,7 +49,7 @@ public class EfectoBotonUI : MonoBehaviour, ISelectHandler, IDeselectHandler, IP
     {
         seleccionado = true;
         Aplicar();
-        Sonar(T != null ? T.sonidoNavegar : null);
+        SonidosUI.Navegar();
     }
 
     public void OnDeselect(BaseEventData e)
@@ -67,8 +64,11 @@ public class EfectoBotonUI : MonoBehaviour, ISelectHandler, IDeselectHandler, IP
             EventSystem.current.SetSelectedGameObject(gameObject);
     }
 
-    public void OnSubmit(BaseEventData e) => Sonar(T != null ? T.sonidoAceptar : null);
-    public void OnPointerClick(PointerEventData e) => Sonar(T != null ? T.sonidoAceptar : null);
+    public void OnSubmit(BaseEventData e) => SonidosUI.Aceptar();
+    public void OnPointerClick(PointerEventData e)
+    {
+        if (seleccionable.IsInteractable()) SonidosUI.Aceptar();
+    }
 
     private void Aplicar()
     {
@@ -84,10 +84,5 @@ public class EfectoBotonUI : MonoBehaviour, ISelectHandler, IDeselectHandler, IP
             float ancho = Mathf.Min(etiqueta.preferredWidth, etiqueta.rectTransform.rect.width);
             marcador.anchoredPosition = new Vector2(-ancho * 0.5f - separacionMarcador - marcador.rect.width * 0.5f, marcador.anchoredPosition.y);
         }
-    }
-
-    private void Sonar(AudioClip clip)
-    {
-        if (clip != null && fuenteAudio != null) fuenteAudio.PlayOneShot(clip);
     }
 }
