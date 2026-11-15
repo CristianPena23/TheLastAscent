@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: cef1415b32436fb4c892f11e232111cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7177941059923024742
+    second: 22_COLISION_plataformas_0
+  - first:
+      213: 8518872740578840263
+    second: 22_COLISION_plataformas_1
+  - first:
+      213: 7774985213295866915
+    second: 22_COLISION_plataformas_2
+  - first:
+      213: -2549973064613629063
+    second: 22_COLISION_plataformas_3
+  - first:
+      213: 2508328767959790854
+    second: 22_COLISION_plataformas_4
+  - first:
+      213: -72533290681351817
+    second: 22_COLISION_plataformas_5
+  - first:
+      213: 8755855068018716983
+    second: 22_COLISION_plataformas_6
+  - first:
+      213: 1797329163589147183
+    second: 22_COLISION_plataformas_7
+  - first:
+      213: 3540339761145130745
+    second: 22_COLISION_plataformas_8
+  - first:
+      213: -6079505163569552169
+    second: 22_COLISION_plataformas_9
+  - first:
+      213: -8950199165481992091
+    second: 22_COLISION_plataformas_10
+  - first:
+      213: -7959676679298696498
+    second: 22_COLISION_plataformas_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 6
+  spritePivot: {x: 0, y: 0}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_0
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 867
+        width: 182
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94e898e2a4d26c90800000000000000
+      internalID: -7177941059923024742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_1
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 861
+        width: 162
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cec5f46f9d193670800000000000000
+      internalID: 8518872740578840263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_2
+      rect:
+        serializedVersion: 2
+        x: 5789
+        y: 891
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3243a6c9bdb46eb60800000000000000
+      internalID: 7774985213295866915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_3
+      rect:
+        serializedVersion: 2
+        x: 6469
+        y: 891
+        width: 162
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973f3e0120dac9cd0800000000000000
+      internalID: -2549973064613629063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_4
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 803
+        width: 202
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605f22a89bf5fc220800000000000000
+      internalID: 2508328767959790854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_5
+      rect:
+        serializedVersion: 2
+        x: 5579
+        y: 781
+        width: 162
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7714c8e3b5f4efef0800000000000000
+      internalID: -72533290681351817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_6
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 703
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7313f0a3bcb038970800000000000000
+      internalID: 8755855068018716983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_7
+      rect:
+        serializedVersion: 2
+        x: 6749
+        y: 751
+        width: 162
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a5e240a5561f810800000000000000
+      internalID: 1797329163589147183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_8
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 671
+        width: 162
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe2f375140d12130800000000000000
+      internalID: 3540339761145130745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_9
+      rect:
+        serializedVersion: 2
+        x: 7799
+        y: 551
+        width: 162
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4a84ba34241aba0800000000000000
+      internalID: -6079505163569552169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_10
+      rect:
+        serializedVersion: 2
+        x: 8059
+        y: 591
+        width: 162
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560c27877418ac380800000000000000
+      internalID: -8950199165481992091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_COLISION_plataformas_11
+      rect:
+        serializedVersion: 2
+        x: 8319
+        y: 561
+        width: 162
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecab07b7b3c898190800000000000000
+      internalID: -7959676679298696498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      22_COLISION_plataformas_0: -7177941059923024742
+      22_COLISION_plataformas_1: 8518872740578840263
+      22_COLISION_plataformas_10: -8950199165481992091
+      22_COLISION_plataformas_11: -7959676679298696498
+      22_COLISION_plataformas_2: 7774985213295866915
+      22_COLISION_plataformas_3: -2549973064613629063
+      22_COLISION_plataformas_4: 2508328767959790854
+      22_COLISION_plataformas_5: -72533290681351817
+      22_COLISION_plataformas_6: 8755855068018716983
+      22_COLISION_plataformas_7: 1797329163589147183
+      22_COLISION_plataformas_8: 3540339761145130745
+      22_COLISION_plataformas_9: -6079505163569552169
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 18bae364927e8544da22b98142007ac5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8350117952212576476
+    second: 09_Llamas_errantes_y_Malebranche_0
+  - first:
+      213: 540470730275512315
+    second: 09_Llamas_errantes_y_Malebranche_1
+  - first:
+      213: -2758196167731854549
+    second: 09_Llamas_errantes_y_Malebranche_2
+  - first:
+      213: -5335926711499393424
+    second: 09_Llamas_errantes_y_Malebranche_3
+  - first:
+      213: 1871174038776014398
+    second: 09_Llamas_errantes_y_Malebranche_4
+  - first:
+      213: -9024589484268982275
+    second: 09_Llamas_errantes_y_Malebranche_5
+  - first:
+      213: -1250869221816132596
+    second: 09_Llamas_errantes_y_Malebranche_6
+  - first:
+      213: 8670597007346971301
+    second: 09_Llamas_errantes_y_Malebranche_7
+  - first:
+      213: 4388600575059438331
+    second: 09_Llamas_errantes_y_Malebranche_8
+  - first:
+      213: 5531805485376755198
+    second: 09_Llamas_errantes_y_Malebranche_9
+  - first:
+      213: -3185208048341414973
+    second: 09_Llamas_errantes_y_Malebranche_10
+  - first:
+      213: -6428215732063107762
+    second: 09_Llamas_errantes_y_Malebranche_11
+  - first:
+      213: -7085448940137336104
+    second: 09_Llamas_errantes_y_Malebranche_12
+  - first:
+      213: -5819996899102836045
+    second: 09_Llamas_errantes_y_Malebranche_13
+  - first:
+      213: -8656700164908985754
+    second: 09_Llamas_errantes_y_Malebranche_14
+  - first:
+      213: -2874704278339298670
+    second: 09_Llamas_errantes_y_Malebranche_15
+  - first:
+      213: 3813174894891588247
+    second: 09_Llamas_errantes_y_Malebranche_16
+  - first:
+      213: 8357477569448057315
+    second: 09_Llamas_errantes_y_Malebranche_17
+  - first:
+      213: -8411644424895831383
+    second: 09_Llamas_errantes_y_Malebranche_18
+  - first:
+      213: -3554115364020641256
+    second: 09_Llamas_errantes_y_Malebranche_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 6
+  spritePivot: {x: 0, y: 0}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_0
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1443
+        width: 114
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427d1c996fb6e1c80800000000000000
+      internalID: -8350117952212576476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_1
+      rect:
+        serializedVersion: 2
+        x: 7664
+        y: 1421
+        width: 181
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff51910443208700800000000000000
+      internalID: 540470730275512315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_2
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1075
+        width: 218
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23cf71f23be8b9d0800000000000000
+      internalID: -2758196167731854549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_3
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 1243
+        width: 154
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0767f854deaf2f5b0800000000000000
+      internalID: -5335926711499393424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_4
+      rect:
+        serializedVersion: 2
+        x: 4886
+        y: 1185
+        width: 114
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e366d26dfdeb7f910800000000000000
+      internalID: 1871174038776014398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_5
+      rect:
+        serializedVersion: 2
+        x: 6232
+        y: 1241
+        width: 188
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffeb6aada732c280800000000000000
+      internalID: -9024589484268982275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_6
+      rect:
+        serializedVersion: 2
+        x: 9053
+        y: 1108
+        width: 108
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c1e25f11504aee0800000000000000
+      internalID: -1250869221816132596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 344
+        width: 1477
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a23b751a06245870800000000000000
+      internalID: 8670597007346971301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_8
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 456
+        width: 273
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa2e71a8f077ec30800000000000000
+      internalID: 4388600575059438331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_9
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 507
+        width: 536
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5507ab7cbe4cc40800000000000000
+      internalID: 5531805485376755198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_10
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 496
+        width: 267
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb05eee72edbc3d0800000000000000
+      internalID: -3185208048341414973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_11
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 429
+        width: 393
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e450dce89d36ac6a0800000000000000
+      internalID: -6428215732063107762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_12
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 344
+        width: 665
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d232f0babd6bad90800000000000000
+      internalID: -7085448940137336104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_13
+      rect:
+        serializedVersion: 2
+        x: 4461
+        y: 408
+        width: 857
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bab91be7a73b3fa0800000000000000
+      internalID: -5819996899102836045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_14
+      rect:
+        serializedVersion: 2
+        x: 5363
+        y: 361
+        width: 707
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662d88fa0193dd780800000000000000
+      internalID: -8656700164908985754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_15
+      rect:
+        serializedVersion: 2
+        x: 6115
+        y: 452
+        width: 591
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a5a4f80bffa18d0800000000000000
+      internalID: -2874704278339298670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_16
+      rect:
+        serializedVersion: 2
+        x: 6914
+        y: 432
+        width: 348
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a53742d5e1be430800000000000000
+      internalID: 3813174894891588247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_17
+      rect:
+        serializedVersion: 2
+        x: 7335
+        y: 373
+        width: 1185
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e91f31d199bbf370800000000000000
+      internalID: 8357477569448057315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_18
+      rect:
+        serializedVersion: 2
+        x: 8528
+        y: 351
+        width: 824
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2603d56f5d34b80800000000000000
+      internalID: -8411644424895831383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Llamas_errantes_y_Malebranche_19
+      rect:
+        serializedVersion: 2
+        x: 9456
+        y: 481
+        width: 144
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812aacc28ee3daec0800000000000000
+      internalID: -3554115364020641256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      09_Llamas_errantes_y_Malebranche_0: -8350117952212576476
+      09_Llamas_errantes_y_Malebranche_1: 540470730275512315
+      09_Llamas_errantes_y_Malebranche_10: -3185208048341414973
+      09_Llamas_errantes_y_Malebranche_11: -6428215732063107762
+      09_Llamas_errantes_y_Malebranche_12: -7085448940137336104
+      09_Llamas_errantes_y_Malebranche_13: -5819996899102836045
+      09_Llamas_errantes_y_Malebranche_14: -8656700164908985754
+      09_Llamas_errantes_y_Malebranche_15: -2874704278339298670
+      09_Llamas_errantes_y_Malebranche_16: 3813174894891588247
+      09_Llamas_errantes_y_Malebranche_17: 8357477569448057315
+      09_Llamas_errantes_y_Malebranche_18: -8411644424895831383
+      09_Llamas_errantes_y_Malebranche_19: -3554115364020641256
+      09_Llamas_errantes_y_Malebranche_2: -2758196167731854549
+      09_Llamas_errantes_y_Malebranche_3: -5335926711499393424
+      09_Llamas_errantes_y_Malebranche_4: 1871174038776014398
+      09_Llamas_errantes_y_Malebranche_5: -9024589484268982275
+      09_Llamas_errantes_y_Malebranche_6: -1250869221816132596
+      09_Llamas_errantes_y_Malebranche_7: 8670597007346971301
+      09_Llamas_errantes_y_Malebranche_8: 4388600575059438331
+      09_Llamas_errantes_y_Malebranche_9: 5531805485376755198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
