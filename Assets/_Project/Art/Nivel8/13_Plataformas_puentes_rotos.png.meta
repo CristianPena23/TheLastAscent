@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: c1286a9fde267c04ca478c11c1c7b1e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3420364678330186778
+    second: 13_Plataformas_puentes_rotos_0
+  - first:
+      213: -7421705424063816343
+    second: 13_Plataformas_puentes_rotos_1
+  - first:
+      213: -1592169948552154565
+    second: 13_Plataformas_puentes_rotos_2
+  - first:
+      213: 2440548066983948200
+    second: 13_Plataformas_puentes_rotos_3
+  - first:
+      213: -8554440490348046152
+    second: 13_Plataformas_puentes_rotos_4
+  - first:
+      213: 3921331999708702183
+    second: 13_Plataformas_puentes_rotos_5
+  - first:
+      213: 7494783196196271598
+    second: 13_Plataformas_puentes_rotos_6
+  - first:
+      213: -1831003402731023566
+    second: 13_Plataformas_puentes_rotos_7
+  - first:
+      213: -3548901701013523896
+    second: 13_Plataformas_puentes_rotos_8
+  - first:
+      213: 3019287155037897468
+    second: 13_Plataformas_puentes_rotos_9
+  - first:
+      213: -2779323243365397566
+    second: 13_Plataformas_puentes_rotos_10
+  - first:
+      213: -8309601986183061459
+    second: 13_Plataformas_puentes_rotos_11
+  - first:
+      213: -2413618247141674700
+    second: 13_Plataformas_puentes_rotos_12
+  - first:
+      213: -5652406409370988786
+    second: 13_Plataformas_puentes_rotos_13
+  - first:
+      213: -355156497742984003
+    second: 13_Plataformas_puentes_rotos_14
+  - first:
+      213: 1383774061400381023
+    second: 13_Plataformas_puentes_rotos_15
+  - first:
+      213: -7540881708758432957
+    second: 13_Plataformas_puentes_rotos_16
+  - first:
+      213: 3850816911333721163
+    second: 13_Plataformas_puentes_rotos_17
+  - first:
+      213: -3597570295683248762
+    second: 13_Plataformas_puentes_rotos_18
+  - first:
+      213: 8914565475774699432
+    second: 13_Plataformas_puentes_rotos_19
+  - first:
+      213: -2708852264865418550
+    second: 13_Plataformas_puentes_rotos_20
+  - first:
+      213: 7138433856716385716
+    second: 13_Plataformas_puentes_rotos_21
+  - first:
+      213: -5652192467434140603
+    second: 13_Plataformas_puentes_rotos_22
+  - first:
+      213: 608321757300233799
+    second: 13_Plataformas_puentes_rotos_23
+  - first:
+      213: 7040410023772261454
+    second: 13_Plataformas_puentes_rotos_24
+  - first:
+      213: 1460957826161914374
+    second: 13_Plataformas_puentes_rotos_25
+  - first:
+      213: 2086251109402251360
+    second: 13_Plataformas_puentes_rotos_26
+  - first:
+      213: 3454484757962342495
+    second: 13_Plataformas_puentes_rotos_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 6
+  spritePivot: {x: 0, y: 0}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_0
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 749
+        width: 212
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e306d9627c6880d0800000000000000
+      internalID: -3420364678330186778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_1
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 811
+        width: 193
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d161b1d3ec00990800000000000000
+      internalID: -7421705424063816343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_2
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 805
+        width: 174
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b323f721ed977e9e0800000000000000
+      internalID: -1592169948552154565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_3
+      rect:
+        serializedVersion: 2
+        x: 5573
+        y: 726
+        width: 174
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af28dd49819ed120800000000000000
+      internalID: 2440548066983948200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_4
+      rect:
+        serializedVersion: 2
+        x: 5784
+        y: 835
+        width: 162
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8169882b5884980800000000000000
+      internalID: -8554440490348046152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_5
+      rect:
+        serializedVersion: 2
+        x: 5824
+        y: 832
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e562097dae5b6630800000000000000
+      internalID: 3921331999708702183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_6
+      rect:
+        serializedVersion: 2
+        x: 5848
+        y: 827
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee578dd9b91d20860800000000000000
+      internalID: 7494783196196271598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_7
+      rect:
+        serializedVersion: 2
+        x: 6466
+        y: 833
+        width: 170
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2339fa53b18f696e0800000000000000
+      internalID: -1831003402731023566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_8
+      rect:
+        serializedVersion: 2
+        x: 6514
+        y: 824
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8423f40b4b4cfbec0800000000000000
+      internalID: -3548901701013523896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_9
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 797
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf20feeaba9a6e920800000000000000
+      internalID: 3019287155037897468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_10
+      rect:
+        serializedVersion: 2
+        x: 6494
+        y: 812
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb08335c3cdd69d0800000000000000
+      internalID: -2779323243365397566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_11
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 789
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20adac050d5eac80800000000000000
+      internalID: -8309601986183061459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_12
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 785
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43138bbfdfa118ed0800000000000000
+      internalID: -2413618247141674700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_13
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 775
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f0d43815e9e81b0800000000000000
+      internalID: -5652406409370988786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_14
+      rect:
+        serializedVersion: 2
+        x: 6745
+        y: 694
+        width: 170
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc8b580c0b321bf0800000000000000
+      internalID: -355156497742984003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_15
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 713
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f565b236d27243310800000000000000
+      internalID: 1383774061400381023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_16
+      rect:
+        serializedVersion: 2
+        x: 4854
+        y: 647
+        width: 151
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34386380a08695790800000000000000
+      internalID: -7540881708758432957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_17
+      rect:
+        serializedVersion: 2
+        x: 5365
+        y: 609
+        width: 172
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b440d1f0499d07530800000000000000
+      internalID: 3850816911333721163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_18
+      rect:
+        serializedVersion: 2
+        x: 5676
+        y: 695
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d8d4770ecd21ec0800000000000000
+      internalID: -3597570295683248762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_19
+      rect:
+        serializedVersion: 2
+        x: 6842
+        y: 667
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7138e9116e6bb70800000000000000
+      internalID: 8914565475774699432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_20
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 613
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac23fab9739386ad0800000000000000
+      internalID: -2708852264865418550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_21
+      rect:
+        serializedVersion: 2
+        x: 5448
+        y: 594
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bda33a85cfc01360800000000000000
+      internalID: 7138433856716385716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_22
+      rect:
+        serializedVersion: 2
+        x: 8053
+        y: 536
+        width: 174
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c0370c5e06f81b0800000000000000
+      internalID: -5652192467434140603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_23
+      rect:
+        serializedVersion: 2
+        x: 8315
+        y: 503
+        width: 170
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746950d4a61317800800000000000000
+      internalID: 608321757300233799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_24
+      rect:
+        serializedVersion: 2
+        x: 7793
+        y: 495
+        width: 174
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c8b0c6d9f84b160800000000000000
+      internalID: 7040410023772261454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_25
+      rect:
+        serializedVersion: 2
+        x: 7858
+        y: 486
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6023534076d564410800000000000000
+      internalID: 1460957826161914374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_26
+      rect:
+        serializedVersion: 2
+        x: 8161
+        y: 505
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0609f20a45ad3fc10800000000000000
+      internalID: 2086251109402251360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13_Plataformas_puentes_rotos_27
+      rect:
+        serializedVersion: 2
+        x: 8383
+        y: 488
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50c850b59bc0ff20800000000000000
+      internalID: 3454484757962342495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      13_Plataformas_puentes_rotos_0: -3420364678330186778
+      13_Plataformas_puentes_rotos_1: -7421705424063816343
+      13_Plataformas_puentes_rotos_10: -2779323243365397566
+      13_Plataformas_puentes_rotos_11: -8309601986183061459
+      13_Plataformas_puentes_rotos_12: -2413618247141674700
+      13_Plataformas_puentes_rotos_13: -5652406409370988786
+      13_Plataformas_puentes_rotos_14: -355156497742984003
+      13_Plataformas_puentes_rotos_15: 1383774061400381023
+      13_Plataformas_puentes_rotos_16: -7540881708758432957
+      13_Plataformas_puentes_rotos_17: 3850816911333721163
+      13_Plataformas_puentes_rotos_18: -3597570295683248762
+      13_Plataformas_puentes_rotos_19: 8914565475774699432
+      13_Plataformas_puentes_rotos_2: -1592169948552154565
+      13_Plataformas_puentes_rotos_20: -2708852264865418550
+      13_Plataformas_puentes_rotos_21: 7138433856716385716
+      13_Plataformas_puentes_rotos_22: -5652192467434140603
+      13_Plataformas_puentes_rotos_23: 608321757300233799
+      13_Plataformas_puentes_rotos_24: 7040410023772261454
+      13_Plataformas_puentes_rotos_25: 1460957826161914374
+      13_Plataformas_puentes_rotos_26: 2086251109402251360
+      13_Plataformas_puentes_rotos_27: 3454484757962342495
+      13_Plataformas_puentes_rotos_3: 2440548066983948200
+      13_Plataformas_puentes_rotos_4: -8554440490348046152
+      13_Plataformas_puentes_rotos_5: 3921331999708702183
+      13_Plataformas_puentes_rotos_6: 7494783196196271598
+      13_Plataformas_puentes_rotos_7: -1831003402731023566
+      13_Plataformas_puentes_rotos_8: -3548901701013523896
+      13_Plataformas_puentes_rotos_9: 3019287155037897468
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

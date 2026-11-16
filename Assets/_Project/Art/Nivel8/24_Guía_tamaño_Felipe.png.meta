@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 3e2f0e06baf220649b9308ae41d71e26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6437783579558597998
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_0"
+  - first:
+      213: -4813018167269265695
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_1"
+  - first:
+      213: -5782794356222095068
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_2"
+  - first:
+      213: 2043050111304220815
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_3"
+  - first:
+      213: 5636958833915869032
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_4"
+  - first:
+      213: 602571772718807145
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_5"
+  - first:
+      213: -7441248155421849713
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_6"
+  - first:
+      213: 8831920667754007930
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_7"
+  - first:
+      213: -1228257554230342605
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_8"
+  - first:
+      213: 9138872561634536405
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_9"
+  - first:
+      213: 5028152713792196781
+    second: "24_Gu\xEDa_tama\xF1o_Felipe_10"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_0"
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 909
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65de688e0a975950800000000000000
+      internalID: 6437783579558597998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_1"
+      rect:
+        serializedVersion: 2
+        x: 6149
+        y: 1038
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eee9623a79b43db0800000000000000
+      internalID: -4813018167269265695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_2"
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 881
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4219f3ceb236fbfa0800000000000000
+      internalID: -5782794356222095068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_3"
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 795
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f804c9e604f5a5c10800000000000000
+      internalID: 2043050111304220815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_4"
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 851
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8673e0d81308a3e40800000000000000
+      internalID: 5636958833915869032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_5"
+      rect:
+        serializedVersion: 2
+        x: 4289
+        y: 871
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968f490b5d3cc5800800000000000000
+      internalID: 602571772718807145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_6"
+      rect:
+        serializedVersion: 2
+        x: 4899
+        y: 751
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87cc826a306bb890800000000000000
+      internalID: -7441248155421849713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_7"
+      rect:
+        serializedVersion: 2
+        x: 5619
+        y: 829
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d88e5cd09419a70800000000000000
+      internalID: 8831920667754007930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_8"
+      rect:
+        serializedVersion: 2
+        x: 6799
+        y: 799
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c0963134a54fee0800000000000000
+      internalID: -1228257554230342605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_9"
+      rect:
+        serializedVersion: 2
+        x: 8109
+        y: 639
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db6acbcc2cc3de70800000000000000
+      internalID: 9138872561634536405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "24_Gu\xEDa_tama\xF1o_Felipe_10"
+      rect:
+        serializedVersion: 2
+        x: 9019
+        y: 520
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0100eb04697c540800000000000000
+      internalID: 5028152713792196781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "24_Gu\xEDa_tama\xF1o_Felipe_0": 6437783579558597998
+      "24_Gu\xEDa_tama\xF1o_Felipe_1": -4813018167269265695
+      "24_Gu\xEDa_tama\xF1o_Felipe_10": 5028152713792196781
+      "24_Gu\xEDa_tama\xF1o_Felipe_2": -5782794356222095068
+      "24_Gu\xEDa_tama\xF1o_Felipe_3": 2043050111304220815
+      "24_Gu\xEDa_tama\xF1o_Felipe_4": 5636958833915869032
+      "24_Gu\xEDa_tama\xF1o_Felipe_5": 602571772718807145
+      "24_Gu\xEDa_tama\xF1o_Felipe_6": -7441248155421849713
+      "24_Gu\xEDa_tama\xF1o_Felipe_7": 8831920667754007930
+      "24_Gu\xEDa_tama\xF1o_Felipe_8": -1228257554230342605
+      "24_Gu\xEDa_tama\xF1o_Felipe_9": 9138872561634536405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

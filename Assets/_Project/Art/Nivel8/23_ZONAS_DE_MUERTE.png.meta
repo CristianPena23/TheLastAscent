@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: a63699d32017c1b43ae86276af4cbe4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3603467726088257688
+    second: 23_ZONAS_DE_MUERTE_0
+  - first:
+      213: 4359099105031393739
+    second: 23_ZONAS_DE_MUERTE_1
+  - first:
+      213: -5698165765468637161
+    second: 23_ZONAS_DE_MUERTE_2
+  - first:
+      213: 215240555903049675
+    second: 23_ZONAS_DE_MUERTE_3
+  - first:
+      213: 2082103477513140569
+    second: 23_ZONAS_DE_MUERTE_4
+  - first:
+      213: 7979055618308109973
+    second: 23_ZONAS_DE_MUERTE_5
+  - first:
+      213: 1065771264560307324
+    second: 23_ZONAS_DE_MUERTE_6
+  - first:
+      213: 7550385271342734112
+    second: 23_ZONAS_DE_MUERTE_7
+  - first:
+      213: -3283980240700690792
+    second: 23_ZONAS_DE_MUERTE_8
+  - first:
+      213: -6535177849321028569
+    second: 23_ZONAS_DE_MUERTE_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 6
+  spritePivot: {x: 0, y: 0}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 23_ZONAS_DE_MUERTE_0
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 786
+        width: 102
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890431d0ec6120230800000000000000
+      internalID: 3603467726088257688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_ZONAS_DE_MUERTE_1
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 699
+        width: 142
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc19e106a81ae7c30800000000000000
+      internalID: 4359099105031393739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_ZONAS_DE_MUERTE_2
+      rect:
+        serializedVersion: 2
+        x: 5329
+        y: 591
+        width: 632
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71833fd2d6c0ce0b0800000000000000
+      internalID: -5698165765468637161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_ZONAS_DE_MUERTE_3
+      rect:
+        serializedVersion: 2
+        x: 7229
+        y: 551
+        width: 172
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfdbdb2520bcf200800000000000000
+      internalID: 215240555903049675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_ZONAS_DE_MUERTE_4
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 0
+        width: 322
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959b6c2d41e15ec10800000000000000
+      internalID: 2082103477513140569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_ZONAS_DE_MUERTE_5
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 0
+        width: 892
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596f65c5fcc4bbe60800000000000000
+      internalID: 7979055618308109973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_ZONAS_DE_MUERTE_6
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 0
+        width: 332
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c9fe381516ace00800000000000000
+      internalID: 1065771264560307324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_ZONAS_DE_MUERTE_7
+      rect:
+        serializedVersion: 2
+        x: 4679
+        y: 0
+        width: 492
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b99bf866b58c860800000000000000
+      internalID: 7550385271342734112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_ZONAS_DE_MUERTE_8
+      rect:
+        serializedVersion: 2
+        x: 6359
+        y: 0
+        width: 642
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e22afce55fc62d0800000000000000
+      internalID: -3283980240700690792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_ZONAS_DE_MUERTE_9
+      rect:
+        serializedVersion: 2
+        x: 7679
+        y: 0
+        width: 922
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7240833fe526e45a0800000000000000
+      internalID: -6535177849321028569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      23_ZONAS_DE_MUERTE_0: 3603467726088257688
+      23_ZONAS_DE_MUERTE_1: 4359099105031393739
+      23_ZONAS_DE_MUERTE_2: -5698165765468637161
+      23_ZONAS_DE_MUERTE_3: 215240555903049675
+      23_ZONAS_DE_MUERTE_4: 2082103477513140569
+      23_ZONAS_DE_MUERTE_5: 7979055618308109973
+      23_ZONAS_DE_MUERTE_6: 1065771264560307324
+      23_ZONAS_DE_MUERTE_7: 7550385271342734112
+      23_ZONAS_DE_MUERTE_8: -3283980240700690792
+      23_ZONAS_DE_MUERTE_9: -6535177849321028569
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

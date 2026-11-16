@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 801efdcee309fbf4296686fd4c7b8929
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4452952038918794674
+    second: 06_Riscos_lejanos_0
+  - first:
+      213: 2845205215411711807
+    second: 06_Riscos_lejanos_1
+  - first:
+      213: -3084785279969947594
+    second: 06_Riscos_lejanos_2
+  - first:
+      213: -8513333525033825465
+    second: 06_Riscos_lejanos_3
+  - first:
+      213: -955047905789175952
+    second: 06_Riscos_lejanos_4
+  - first:
+      213: -3442593644722221674
+    second: 06_Riscos_lejanos_5
+  - first:
+      213: 6258459589913154714
+    second: 06_Riscos_lejanos_6
+  - first:
+      213: -423481983798478081
+    second: 06_Riscos_lejanos_7
+  - first:
+      213: 1239851464034193712
+    second: 06_Riscos_lejanos_8
+  - first:
+      213: 6542291799372586944
+    second: 06_Riscos_lejanos_9
+  - first:
+      213: -718851726738506938
+    second: 06_Riscos_lejanos_10
+  - first:
+      213: -8663942909593186067
+    second: 06_Riscos_lejanos_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 6
+  spritePivot: {x: 0, y: 0}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 235
+        width: 743
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42d46e96bfe332c0800000000000000
+      internalID: -4452952038918794674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_1
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 235
+        width: 653
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f24b1a1133c7720800000000000000
+      internalID: 2845205215411711807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_2
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 236
+        width: 328
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630990bb124a035d0800000000000000
+      internalID: -3084785279969947594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_3
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 235
+        width: 750
+        height: 872
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b4fe9b3409ad980800000000000000
+      internalID: -8513333525033825465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_4
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 235
+        width: 1849
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07794ff5dfcfeb2f0800000000000000
+      internalID: -955047905789175952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_5
+      rect:
+        serializedVersion: 2
+        x: 4579
+        y: 236
+        width: 364
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d805cd1537930d0800000000000000
+      internalID: -3442593644722221674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_6
+      rect:
+        serializedVersion: 2
+        x: 4990
+        y: 235
+        width: 2030
+        height: 825
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9419e996d38ad650800000000000000
+      internalID: 6258459589913154714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_7
+      rect:
+        serializedVersion: 2
+        x: 7057
+        y: 235
+        width: 277
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaf9e2216d7f1af0800000000000000
+      internalID: -423481983798478081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_8
+      rect:
+        serializedVersion: 2
+        x: 7425
+        y: 235
+        width: 815
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03191086656d43110800000000000000
+      internalID: 1239851464034193712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_9
+      rect:
+        serializedVersion: 2
+        x: 8263
+        y: 236
+        width: 638
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfdd8e9ab3eaca50800000000000000
+      internalID: 6542291799372586944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_10
+      rect:
+        serializedVersion: 2
+        x: 8915
+        y: 235
+        width: 361
+        height: 852
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b3395c9202606f0800000000000000
+      internalID: -718851726738506938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06_Riscos_lejanos_11
+      rect:
+        serializedVersion: 2
+        x: 9279
+        y: 237
+        width: 321
+        height: 747
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de01f67c3dd73c780800000000000000
+      internalID: -8663942909593186067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      06_Riscos_lejanos_0: -4452952038918794674
+      06_Riscos_lejanos_1: 2845205215411711807
+      06_Riscos_lejanos_10: -718851726738506938
+      06_Riscos_lejanos_11: -8663942909593186067
+      06_Riscos_lejanos_2: -3084785279969947594
+      06_Riscos_lejanos_3: -8513333525033825465
+      06_Riscos_lejanos_4: -955047905789175952
+      06_Riscos_lejanos_5: -3442593644722221674
+      06_Riscos_lejanos_6: 6258459589913154714
+      06_Riscos_lejanos_7: -423481983798478081
+      06_Riscos_lejanos_8: 1239851464034193712
+      06_Riscos_lejanos_9: 6542291799372586944
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

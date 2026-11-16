@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 33afbc2de3d82ab49aafb328cdee15ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2400760226244416924
+    second: 18_Ojos_frente_0
+  - first:
+      213: -7428996661262249664
+    second: 18_Ojos_frente_1
+  - first:
+      213: 7910813053337067496
+    second: 18_Ojos_frente_2
+  - first:
+      213: -9097194654550805911
+    second: 18_Ojos_frente_3
+  - first:
+      213: 3517588078509473159
+    second: 18_Ojos_frente_4
+  - first:
+      213: 4757211483330294924
+    second: 18_Ojos_frente_5
+  - first:
+      213: 4635402104122446845
+    second: 18_Ojos_frente_6
+  - first:
+      213: -4978041828130107476
+    second: 18_Ojos_frente_7
+  - first:
+      213: 5800569429622020837
+    second: 18_Ojos_frente_8
+  - first:
+      213: -5169710464997765940
+    second: 18_Ojos_frente_9
+  - first:
+      213: -838114372001682545
+    second: 18_Ojos_frente_10
+  - first:
+      213: -4796203008259823534
+    second: 18_Ojos_frente_11
+  - first:
+      213: 1407382118450473645
+    second: 18_Ojos_frente_12
+  - first:
+      213: 1857208203991902940
+    second: 18_Ojos_frente_13
+  - first:
+      213: 8986812515120899570
+    second: 18_Ojos_frente_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 6
+  spritePivot: {x: 0, y: 0}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 18_Ojos_frente_0
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 23
+        width: 107
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c955f2cb4b6315120800000000000000
+      internalID: 2400760226244416924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_1
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 56
+        width: 109
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04196e7a5e6e6e890800000000000000
+      internalID: -7428996661262249664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_2
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 50
+        width: 109
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efdda80f8ad8cd60800000000000000
+      internalID: 7910813053337067496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_3
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 14
+        width: 99
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962bae229a540c180800000000000000
+      internalID: -9097194654550805911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_4
+      rect:
+        serializedVersion: 2
+        x: 3826
+        y: 29
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78db4bd68bbf0d030800000000000000
+      internalID: 3517588078509473159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_5
+      rect:
+        serializedVersion: 2
+        x: 5215
+        y: 34
+        width: 104
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84bf49a3a2050240800000000000000
+      internalID: 4757211483330294924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_6
+      rect:
+        serializedVersion: 2
+        x: 5907
+        y: 26
+        width: 98
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3115f77a1445040800000000000000
+      internalID: 4635402104122446845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_7
+      rect:
+        serializedVersion: 2
+        x: 6078
+        y: 38
+        width: 101
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafc44505517aeab0800000000000000
+      internalID: -4978041828130107476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_8
+      rect:
+        serializedVersion: 2
+        x: 6596
+        y: 69
+        width: 94
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea5c9bd923cf7050800000000000000
+      internalID: 5800569429622020837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_9
+      rect:
+        serializedVersion: 2
+        x: 6857
+        y: 79
+        width: 87
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc403ee8bf7148b0800000000000000
+      internalID: -5169710464997765940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_10
+      rect:
+        serializedVersion: 2
+        x: 7973
+        y: 77
+        width: 92
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ba0bf4b6b6e54f0800000000000000
+      internalID: -838114372001682545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_11
+      rect:
+        serializedVersion: 2
+        x: 8184
+        y: 56
+        width: 106
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258630e76c6707db0800000000000000
+      internalID: -4796203008259823534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_12
+      rect:
+        serializedVersion: 2
+        x: 8491
+        y: 8
+        width: 115
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa2a718496088310800000000000000
+      internalID: 1407382118450473645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_13
+      rect:
+        serializedVersion: 2
+        x: 8625
+        y: 74
+        width: 98
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdae0e8850126c910800000000000000
+      internalID: 1857208203991902940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Ojos_frente_14
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 5
+        width: 103
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5e0da4e5297bc70800000000000000
+      internalID: 8986812515120899570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      18_Ojos_frente_0: 2400760226244416924
+      18_Ojos_frente_1: -7428996661262249664
+      18_Ojos_frente_10: -838114372001682545
+      18_Ojos_frente_11: -4796203008259823534
+      18_Ojos_frente_12: 1407382118450473645
+      18_Ojos_frente_13: 1857208203991902940
+      18_Ojos_frente_14: 8986812515120899570
+      18_Ojos_frente_2: 7910813053337067496
+      18_Ojos_frente_3: -9097194654550805911
+      18_Ojos_frente_4: 3517588078509473159
+      18_Ojos_frente_5: 4757211483330294924
+      18_Ojos_frente_6: 4635402104122446845
+      18_Ojos_frente_7: -4978041828130107476
+      18_Ojos_frente_8: 5800569429622020837
+      18_Ojos_frente_9: -5169710464997765940
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

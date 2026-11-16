@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: 49a66a2a09cca1b47b7403196db9edbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5917037019239625221
+    second: 12_Detalles_del_suelo_0
+  - first:
+      213: -5541677203851896599
+    second: 12_Detalles_del_suelo_1
+  - first:
+      213: -2493360227362788154
+    second: 12_Detalles_del_suelo_2
+  - first:
+      213: -8042802993879271408
+    second: 12_Detalles_del_suelo_3
+  - first:
+      213: -3453557278106329681
+    second: 12_Detalles_del_suelo_4
+  - first:
+      213: -1795068472168803141
+    second: 12_Detalles_del_suelo_5
+  - first:
+      213: 3344778492194469477
+    second: 12_Detalles_del_suelo_6
+  - first:
+      213: -3505775406756383999
+    second: 12_Detalles_del_suelo_7
+  - first:
+      213: -2144937035823227067
+    second: 12_Detalles_del_suelo_8
+  - first:
+      213: -5165229086698892286
+    second: 12_Detalles_del_suelo_9
+  - first:
+      213: -1533006602568280158
+    second: 12_Detalles_del_suelo_10
+  - first:
+      213: 4839277552579261292
+    second: 12_Detalles_del_suelo_11
+  - first:
+      213: 8205195626639991389
+    second: 12_Detalles_del_suelo_12
+  - first:
+      213: 1017239380557844649
+    second: 12_Detalles_del_suelo_13
+  - first:
+      213: -6155863731722352448
+    second: 12_Detalles_del_suelo_14
+  - first:
+      213: 8195285395801605687
+    second: 12_Detalles_del_suelo_15
+  - first:
+      213: -7617726217503132352
+    second: 12_Detalles_del_suelo_16
+  - first:
+      213: 4540861543325247064
+    second: 12_Detalles_del_suelo_17
+  - first:
+      213: 4365940891159331232
+    second: 12_Detalles_del_suelo_18
+  - first:
+      213: 4950828887435705827
+    second: 12_Detalles_del_suelo_19
+  - first:
+      213: 1750497950848268784
+    second: 12_Detalles_del_suelo_20
+  - first:
+      213: 8816032546422216705
+    second: 12_Detalles_del_suelo_21
+  - first:
+      213: 1094881248414733373
+    second: 12_Detalles_del_suelo_22
+  - first:
+      213: -377863438793438186
+    second: 12_Detalles_del_suelo_23
+  - first:
+      213: -9184036881407866305
+    second: 12_Detalles_del_suelo_24
+  - first:
+      213: -3564714062131881589
+    second: 12_Detalles_del_suelo_25
+  - first:
+      213: -5946267517628183214
+    second: 12_Detalles_del_suelo_26
+  - first:
+      213: -8864688230309142656
+    second: 12_Detalles_del_suelo_27
+  - first:
+      213: -5209746483119457473
+    second: 12_Detalles_del_suelo_28
+  - first:
+      213: 7342822939702418088
+    second: 12_Detalles_del_suelo_29
+  - first:
+      213: -1875617190679330982
+    second: 12_Detalles_del_suelo_30
+  - first:
+      213: 5994352074404683461
+    second: 12_Detalles_del_suelo_31
+  - first:
+      213: -2417312227336836074
+    second: 12_Detalles_del_suelo_32
+  - first:
+      213: 6837801999818769831
+    second: 12_Detalles_del_suelo_33
+  - first:
+      213: 3469996569203166769
+    second: 12_Detalles_del_suelo_34
+  - first:
+      213: 8798789906307380854
+    second: 12_Detalles_del_suelo_35
+  - first:
+      213: -52575862608181025
+    second: 12_Detalles_del_suelo_36
+  - first:
+      213: -865835499261152282
+    second: 12_Detalles_del_suelo_37
+  - first:
+      213: -1326456097640056194
+    second: 12_Detalles_del_suelo_38
+  - first:
+      213: -7521147768289249407
+    second: 12_Detalles_del_suelo_39
+  - first:
+      213: -8685032507290548170
+    second: 12_Detalles_del_suelo_40
+  - first:
+      213: -381963060966170860
+    second: 12_Detalles_del_suelo_41
+  - first:
+      213: -2558501739442214875
+    second: 12_Detalles_del_suelo_42
+  - first:
+      213: -7060528052730315838
+    second: 12_Detalles_del_suelo_43
+  - first:
+      213: 3692395459552890486
+    second: 12_Detalles_del_suelo_44
+  - first:
+      213: 3235691333806799809
+    second: 12_Detalles_del_suelo_45
+  - first:
+      213: -7587357356770600511
+    second: 12_Detalles_del_suelo_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 6
+  spritePivot: {x: 0, y: 0}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_0
+      rect:
+        serializedVersion: 2
+        x: 6094
+        y: 1026
+        width: 93
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdc2694e2672eda0800000000000000
+      internalID: -5917037019239625221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_1
+      rect:
+        serializedVersion: 2
+        x: 6238
+        y: 720
+        width: 161
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e81784b1f10813b0800000000000000
+      internalID: -5541677203851896599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 871
+        width: 175
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc24f6651ec56dd0800000000000000
+      internalID: -2493360227362788154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 850
+        width: 88
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018b0672a49326090800000000000000
+      internalID: -8042802993879271408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_4
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 864
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadd10b04ff7210d0800000000000000
+      internalID: -3453557278106329681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 843
+        width: 90
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb410e83cb2a617e0800000000000000
+      internalID: -1795068472168803141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_6
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 859
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5663e97315a0b6e20800000000000000
+      internalID: 3344778492194469477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_7
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 831
+        width: 247
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1033cf987dbf85fc0800000000000000
+      internalID: -3505775406756383999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_8
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 846
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f5d2a5127ab32e0800000000000000
+      internalID: -2144937035823227067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_9
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 617
+        width: 160
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2041ccf138b6158b0800000000000000
+      internalID: -5165229086698892286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_10
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 861
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7d69ffd9aa9bae0800000000000000
+      internalID: -1533006602568280158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_11
+      rect:
+        serializedVersion: 2
+        x: 4279
+        y: 862
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6332036b41982340800000000000000
+      internalID: 4839277552579261292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_12
+      rect:
+        serializedVersion: 2
+        x: 4335
+        y: 860
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52277e03f5bed170800000000000000
+      internalID: 8205195626639991389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_13
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 494
+        width: 34
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a050b9b3d5fd1e00800000000000000
+      internalID: 1017239380557844649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_14
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 799
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c88af81d8af19aa0800000000000000
+      internalID: -6155863731722352448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_15
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 792
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73683b1a5a08bb170800000000000000
+      internalID: 8195285395801605687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_16
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 779
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045bb899d56684690800000000000000
+      internalID: -7617726217503132352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_17
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 769
+        width: 96
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8562220e381640f30800000000000000
+      internalID: 4540861543325247064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_18
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 584
+        width: 37
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a187e7db10f69c30800000000000000
+      internalID: 4365940891159331232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_19
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 566
+        width: 29
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edf85b74a0e4b440800000000000000
+      internalID: 4950828887435705827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_20
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 706
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f93c5c9c940b4810800000000000000
+      internalID: 1750497950848268784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_21
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 706
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10857c144e6d85a70800000000000000
+      internalID: 8816032546422216705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_22
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 698
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d341ffac1bcc13f00800000000000000
+      internalID: 1094881248414733373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_23
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 387
+        width: 99
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c0c15543f81caf0800000000000000
+      internalID: -377863438793438186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_24
+      rect:
+        serializedVersion: 2
+        x: 3768
+        y: 492
+        width: 70
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a099f8d1fbb8080800000000000000
+      internalID: -9184036881407866305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_25
+      rect:
+        serializedVersion: 2
+        x: 3837
+        y: 661
+        width: 132
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b891ac87277978ec0800000000000000
+      internalID: -3564714062131881589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_26
+      rect:
+        serializedVersion: 2
+        x: 3989
+        y: 677
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d0458823d9a7da0800000000000000
+      internalID: -5946267517628183214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_27
+      rect:
+        serializedVersion: 2
+        x: 4571
+        y: 407
+        width: 123
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f56db850d4af480800000000000000
+      internalID: -8864688230309142656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_28
+      rect:
+        serializedVersion: 2
+        x: 6333
+        y: 692
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bf2df0d2343b7b0800000000000000
+      internalID: -5209746483119457473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_29
+      rect:
+        serializedVersion: 2
+        x: 9185
+        y: 459
+        width: 415
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa5d894f82f6e560800000000000000
+      internalID: 7342822939702418088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_30
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 556
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f31fe3a1878f5e0800000000000000
+      internalID: -1875617190679330982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_31
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 537
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce5485c377303350800000000000000
+      internalID: 5994352074404683461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_32
+      rect:
+        serializedVersion: 2
+        x: 5149
+        y: 384
+        width: 49
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c2162365bf37ed0800000000000000
+      internalID: -2417312227336836074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_33
+      rect:
+        serializedVersion: 2
+        x: 6964
+        y: 263
+        width: 66
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a547abc0b0c4ee50800000000000000
+      internalID: 6837801999818769831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_34
+      rect:
+        serializedVersion: 2
+        x: 7069
+        y: 537
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ecd2fae77e72030800000000000000
+      internalID: 3469996569203166769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_35
+      rect:
+        serializedVersion: 2
+        x: 7412
+        y: 544
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6767eb24dc49b1a70800000000000000
+      internalID: 8798789906307380854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_36
+      rect:
+        serializedVersion: 2
+        x: 7469
+        y: 541
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8ca711886354ff0800000000000000
+      internalID: -52575862608181025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_37
+      rect:
+        serializedVersion: 2
+        x: 7537
+        y: 515
+        width: 105
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3bd98633febf3f0800000000000000
+      internalID: -865835499261152282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_38
+      rect:
+        serializedVersion: 2
+        x: 8583
+        y: 378
+        width: 96
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a7302053b779de0800000000000000
+      internalID: -1326456097640056194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_39
+      rect:
+        serializedVersion: 2
+        x: 9126
+        y: 506
+        width: 125
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187b5e714f38f9790800000000000000
+      internalID: -7521147768289249407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_40
+      rect:
+        serializedVersion: 2
+        x: 7653
+        y: 235
+        width: 35
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6380a3c23f0987780800000000000000
+      internalID: -8685032507290548170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_41
+      rect:
+        serializedVersion: 2
+        x: 8703
+        y: 515
+        width: 143
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f5ac9ae9ef2baf0800000000000000
+      internalID: -381963060966170860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_42
+      rect:
+        serializedVersion: 2
+        x: 8877
+        y: 493
+        width: 118
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528e35739306e7cd0800000000000000
+      internalID: -2558501739442214875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_43
+      rect:
+        serializedVersion: 2
+        x: 9049
+        y: 505
+        width: 92
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb3452f427f30e90800000000000000
+      internalID: -7060528052730315838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_44
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 466
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e4ae87b160e3330800000000000000
+      internalID: 3692395459552890486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_45
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 359
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb3d5aef1c77ec20800000000000000
+      internalID: 3235691333806799809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Detalles_del_suelo_46
+      rect:
+        serializedVersion: 2
+        x: 8593
+        y: 349
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9ddbdfeaa44b690800000000000000
+      internalID: -7587357356770600511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      12_Detalles_del_suelo_0: -5917037019239625221
+      12_Detalles_del_suelo_1: -5541677203851896599
+      12_Detalles_del_suelo_10: -1533006602568280158
+      12_Detalles_del_suelo_11: 4839277552579261292
+      12_Detalles_del_suelo_12: 8205195626639991389
+      12_Detalles_del_suelo_13: 1017239380557844649
+      12_Detalles_del_suelo_14: -6155863731722352448
+      12_Detalles_del_suelo_15: 8195285395801605687
+      12_Detalles_del_suelo_16: -7617726217503132352
+      12_Detalles_del_suelo_17: 4540861543325247064
+      12_Detalles_del_suelo_18: 4365940891159331232
+      12_Detalles_del_suelo_19: 4950828887435705827
+      12_Detalles_del_suelo_2: -2493360227362788154
+      12_Detalles_del_suelo_20: 1750497950848268784
+      12_Detalles_del_suelo_21: 8816032546422216705
+      12_Detalles_del_suelo_22: 1094881248414733373
+      12_Detalles_del_suelo_23: -377863438793438186
+      12_Detalles_del_suelo_24: -9184036881407866305
+      12_Detalles_del_suelo_25: -3564714062131881589
+      12_Detalles_del_suelo_26: -5946267517628183214
+      12_Detalles_del_suelo_27: -8864688230309142656
+      12_Detalles_del_suelo_28: -5209746483119457473
+      12_Detalles_del_suelo_29: 7342822939702418088
+      12_Detalles_del_suelo_3: -8042802993879271408
+      12_Detalles_del_suelo_30: -1875617190679330982
+      12_Detalles_del_suelo_31: 5994352074404683461
+      12_Detalles_del_suelo_32: -2417312227336836074
+      12_Detalles_del_suelo_33: 6837801999818769831
+      12_Detalles_del_suelo_34: 3469996569203166769
+      12_Detalles_del_suelo_35: 8798789906307380854
+      12_Detalles_del_suelo_36: -52575862608181025
+      12_Detalles_del_suelo_37: -865835499261152282
+      12_Detalles_del_suelo_38: -1326456097640056194
+      12_Detalles_del_suelo_39: -7521147768289249407
+      12_Detalles_del_suelo_4: -3453557278106329681
+      12_Detalles_del_suelo_40: -8685032507290548170
+      12_Detalles_del_suelo_41: -381963060966170860
+      12_Detalles_del_suelo_42: -2558501739442214875
+      12_Detalles_del_suelo_43: -7060528052730315838
+      12_Detalles_del_suelo_44: 3692395459552890486
+      12_Detalles_del_suelo_45: 3235691333806799809
+      12_Detalles_del_suelo_46: -7587357356770600511
+      12_Detalles_del_suelo_5: -1795068472168803141
+      12_Detalles_del_suelo_6: 3344778492194469477
+      12_Detalles_del_suelo_7: -3505775406756383999
+      12_Detalles_del_suelo_8: -2144937035823227067
+      12_Detalles_del_suelo_9: -5165229086698892286
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
