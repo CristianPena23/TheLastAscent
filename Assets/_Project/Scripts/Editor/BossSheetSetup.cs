@@ -15,7 +15,7 @@ public class BossSheetSetup : EditorWindow
         public string label, clip, trigger = "";
         public int cols = 5, rows = 5, first, last, texMaxSize = 2048;
         public float fps, ppu, pivotY = 0.02f;
-        public bool loop, isIdle;
+        public bool loop, isIdle, pingPong;
     }
 
     static readonly Preset[] presets =
@@ -23,18 +23,22 @@ public class BossSheetSetup : EditorWindow
         new Preset { label = "Idle (respirando 5x5)",        clip = "Boss_Idle",        cols = 5, rows = 5, first = 0, last = 24, fps = 12, ppu = 24, loop = true,  isIdle = true },
         new Preset { label = "Ataque mano derecha (7x7)",    clip = "Boss_AttackRight", cols = 7, rows = 7, first = 0, last = 48, fps = 30, ppu = 24, loop = false, trigger = "AttackRight" },
         new Preset { label = "Ataque mano izquierda (5x5, 512 px)", clip = "Boss_AttackLeft", cols = 5, rows = 5, first = 0, last = 24, fps = 30, ppu = 48, loop = false, trigger = "AttackLeft", texMaxSize = 4096 },
+        new Preset { label = "Jefe 2 - Idle (5x5, 512 px)",        clip = "Boss2_Idle",   cols = 5, rows = 5, first = 0, last = 24, fps = 12, ppu = 48, loop = true,  isIdle = true, pingPong = true, texMaxSize = 4096, pivotY = 0.287f },
+        new Preset { label = "Jefe 2 - Ataque basico (5x5, 512 px)", clip = "Boss2_Attack", cols = 5, rows = 5, first = 0, last = 24, fps = 24, ppu = 48, loop = false, trigger = "Attack", texMaxSize = 4096, pivotY = 0.287f },
+        new Preset { label = "Jefe 2 - Manos arriba (4x4, 512 px)", clip = "Boss2_RaiseHands", cols = 4, rows = 4, first = 0, last = 15, fps = 20, ppu = 48, loop = false, trigger = "RaiseHands", texMaxSize = 4096, pivotY = 0.287f },
         new Preset { label = "Personalizado",                clip = "Boss_Nuevo",       cols = 5, rows = 5, first = 0, last = 24, fps = 12, ppu = 24, loop = false },
     };
 
-    const string AnimFolder = "Assets/_Project/Art/Sprites/Boss1/Animations";
-    const string ControllerPath = AnimFolder + "/AC_Boss1.controller";
-    const string IdleName = "Boss_Idle";
+    // La carpeta de animaciones y el controller se calculan segun la carpeta del sprite sheet
+    // (Sprites/Boss1/... -> AC_Boss1, Sprites/Boss2/... -> AC_Boss2)
+    string AnimFolder, ControllerPath, bossFolderName;
+    string IdleName => bossFolderName == "Boss1" ? "Boss_Idle" : bossFolderName + "_Idle";
 
     Texture2D sheet;
     int presetIndex;
     int cols = 5, rows = 5, first, last = 24, texMaxSize = 2048;
     float fps = 12, ppu = 24, pivotY = 0.02f;
-    bool loop = true, isIdle;
+    bool loop = true, isIdle, pingPong;
     string clipName = "Boss_Idle", trigger = "";
 
     [MenuItem("Tools/Ultimo Descenso/Boss Sheet Setup")]
@@ -63,6 +67,7 @@ public class BossSheetSetup : EditorWindow
         last = EditorGUILayout.IntField("Frame final", last);
         fps = EditorGUILayout.FloatField("FPS", fps);
         loop = EditorGUILayout.Toggle("Loop", loop);
+        pingPong = EditorGUILayout.Toggle("Ida y vuelta (ping-pong)", pingPong);
         isIdle = EditorGUILayout.Toggle("Es el estado Idle (por defecto)", isIdle);
         if (!isIdle) trigger = EditorGUILayout.TextField("Trigger del ataque", trigger);
 
@@ -74,7 +79,7 @@ public class BossSheetSetup : EditorWindow
     {
         clipName = p.clip; cols = p.cols; rows = p.rows; first = p.first; last = p.last;
         fps = p.fps; ppu = p.ppu; pivotY = p.pivotY; loop = p.loop; trigger = p.trigger;
-        isIdle = p.isIdle; texMaxSize = p.texMaxSize;
+        isIdle = p.isIdle; texMaxSize = p.texMaxSize; pingPong = p.pingPong;
     }
 
     static void EnsureFolder(string path)
@@ -89,6 +94,10 @@ public class BossSheetSetup : EditorWindow
     {
         if (sheet == null) { ShowNotification(new GUIContent("Falta el sprite sheet")); return; }
         string path = AssetDatabase.GetAssetPath(sheet);
+        string dir = Path.GetDirectoryName(path).Replace('\\', '/');
+        bossFolderName = Path.GetFileName(dir);
+        AnimFolder = dir + "/Animations";
+        ControllerPath = AnimFolder + "/AC_" + bossFolderName + ".controller";
 
         ConfigureAndSlice(path);
 
@@ -97,6 +106,9 @@ public class BossSheetSetup : EditorWindow
             .Where(x => x.i >= first && x.i <= last)
             .OrderBy(x => x.i).Select(x => x.s).ToArray();
         if (frames.Length == 0) { ShowNotification(new GUIContent("No hay frames en ese rango")); return; }
+
+        if (pingPong && frames.Length > 2)
+            frames = frames.Concat(frames.Skip(1).Take(frames.Length - 2).Reverse()).ToArray();
 
         EnsureFolder(AnimFolder);
         var clip = BuildClip(frames);
@@ -211,9 +223,10 @@ public class BossSheetSetup : EditorWindow
         var ctrl = AssetDatabase.LoadAssetAtPath<AnimatorController>(ControllerPath);
         if (ctrl == null) ctrl = AnimatorController.CreateAnimatorControllerAtPath(ControllerPath);
 
-        foreach (var t in new[] { "AttackRight", "AttackLeft" })
-            if (!ctrl.parameters.Any(p => p.name == t))
-                ctrl.AddParameter(t, AnimatorControllerParameterType.Trigger);
+        if (bossFolderName == "Boss1")
+            foreach (var t in new[] { "AttackRight", "AttackLeft" })
+                if (!ctrl.parameters.Any(p => p.name == t))
+                    ctrl.AddParameter(t, AnimatorControllerParameterType.Trigger);
         if (!string.IsNullOrEmpty(trigger) && !ctrl.parameters.Any(p => p.name == trigger))
             ctrl.AddParameter(trigger, AnimatorControllerParameterType.Trigger);
 
