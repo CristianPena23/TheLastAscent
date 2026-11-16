@@ -430,7 +430,7 @@ public static class ConfigurarUI
         if (scaler != null)
         {
             scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-            scaler.referenceResolution = new Vector2(1920, 1080);
+            scaler.referenceResolution = new Vector2(2400, 1350);
             scaler.matchWidthOrHeight = 0.5f;
         }
 
@@ -569,7 +569,7 @@ public static class ConfigurarUI
         cv.sortingOrder = orden;
         var sc = go.AddComponent<CanvasScaler>();
         sc.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-        sc.referenceResolution = new Vector2(1920, 1080);
+        sc.referenceResolution = new Vector2(2400, 1350);
         sc.matchWidthOrHeight = 0.5f;
         go.AddComponent<GraphicRaycaster>();
         return go;
