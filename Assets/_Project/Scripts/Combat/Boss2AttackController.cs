@@ -95,8 +95,15 @@ public class Boss2AttackController : MonoBehaviour
     [Header("Fase 2 (rabia)")]
     [Range(0.05f, 0.95f)]
     [SerializeField] private float phase2HealthPercent = 0.5f;
+
     [Tooltip("1 = igual. 1.35 = 35% mas rapido")]
     [SerializeField] private float phase2Speed = 1.35f;
+    [Header("Final del juego")]
+    [Tooltip("Al bajar a este porcentaje de vida sale la cinemática final y, al terminar, se acaba el juego. 0 = desactivado")]
+    [Range(0f, 1f)] [SerializeField] private float vidaCinematicaFinal = 0.5f;
+    [SerializeField] private string cinematicaFinal = CinematicaInicio.RutaFinal;
+    [Tooltip("Escena a la que se vuelve al terminar la cinemática")]
+    [SerializeField] private string escenaAlTerminar = "SC_MenuPrincipal";
 
     public bool Active { get; set; } = true;
 
@@ -106,12 +113,16 @@ public class Boss2AttackController : MonoBehaviour
     private bool phase2;
     private bool fightStarted;
     private PlayerHealth playerHealth;
+    private SonidosJefe2 voz;
+    private bool finalIniciado; // rugido, zarpazos, cadenas, risa (se agrega solo)
 
     public void BeginFight() => fightStarted = true;
 
     private void Start()
     {
         if (animator == null) animator = GetComponent<Animator>();
+        voz = GetComponent<SonidosJefe2>();
+        if (voz == null) voz = gameObject.AddComponent<SonidosJefe2>();
         player = FindFirstObjectByType<PlayerController>();
         health = GetComponent<BossHealth>();
         if (health != null) health.Changed += OnHealthChanged;
@@ -130,7 +141,9 @@ public class Boss2AttackController : MonoBehaviour
     private void OnPlayerDied()
     {
         if (health != null && health.IsDead) return;
+        if (finalIniciado) return;
         StopAllCoroutines();
+        if (voz != null) voz.JugadorMuerto();
         StartCoroutine(ResetFight());
     }
 
@@ -159,6 +172,12 @@ public class Boss2AttackController : MonoBehaviour
     private void OnHealthChanged(int cur, int max)
     {
         fightStarted = true;
+        if (finalIniciado) return;
+        if (max > 0 && vidaCinematicaFinal > 0f && (float)cur / max <= vidaCinematicaFinal)
+        {
+            IniciarFinal();
+            return;
+        }
         if (max <= 0 || cur <= 0) return;
         bool debajo = (float)cur / max <= phase2HealthPercent;
 
@@ -173,12 +192,39 @@ public class Boss2AttackController : MonoBehaviour
 
         phase2 = true;
         speed = Mathf.Max(0.1f, phase2Speed);
+        if (voz != null) voz.Fase2();
         if (animator != null) animator.speed = speed;
+    }
+
+    // ---------- Final ----------
+
+    // A media vida: se corta el combate, se congela todo y sale la cinemática; al terminar, fin del juego
+    private void IniciarFinal()
+    {
+        finalIniciado = true;
+        Active = false;
+        StopAllCoroutines();
+        foreach (var c in FindObjectsByType<FuegoColumna>(FindObjectsSortMode.None)) Destroy(c.gameObject);
+        foreach (var b in FindObjectsByType<FuegoBola>(FindObjectsSortMode.None)) Destroy(b.gameObject);
+        foreach (var col in GetComponentsInChildren<Collider2D>()) col.enabled = false; // ya no recibe ni hace daño
+
+        PausaJuego.InputJugador(false);
+        Time.timeScale = 0f; // el video corre con tiempo real
+        CinematicaInicio.Reproducir(cinematicaFinal, TerminarJuego);
+    }
+
+    private void TerminarJuego()
+    {
+        Time.timeScale = 1f;
+        PausaJuego.InputJugador(true);
+        if (SceneTransition.Instance != null) SceneTransition.Go(escenaAlTerminar, "");
+        else UnityEngine.SceneManagement.SceneManager.LoadScene(escenaAlTerminar);
     }
 
     private IEnumerator Loop()
     {
         if (waitForPlayerMove) yield return WaitForPlayerMove();
+        if (voz != null) voz.EmpezarPelea();
         yield return new WaitForSeconds(firstAttackDelay);
         int last = -1;
 
@@ -222,6 +268,7 @@ public class Boss2AttackController : MonoBehaviour
     {
         if (animator != null && animator.runtimeAnimatorController != null && !string.IsNullOrEmpty(a.animatorTrigger))
             animator.SetTrigger(a.animatorTrigger);
+        if (voz != null) voz.Ataque(a.animatorTrigger, a.hitDelay / speed, a.duration / speed);
 
         StartCoroutine(ColumnsRoutine(a));
         StartCoroutine(BallsRoutine(a));

@@ -105,12 +105,21 @@ public class SonidosJefe : MonoBehaviour
         return f;
     }
 
+    // "boss_death" se busca en Resources/Audio/Jefe; con "/" es la ruta completa ("Audio/Jefe2/boss2_death")
     static AudioClip Cargar(string nombre)
     {
         if (string.IsNullOrEmpty(nombre)) return null;
-        var c = Resources.Load<AudioClip>(Carpeta + nombre);
-        if (c == null) Debug.LogWarning($"SonidosJefe: falta Resources/{Carpeta}{nombre}");
+        string ruta = nombre.Contains("/") ? nombre : Carpeta + nombre;
+        var c = Resources.Load<AudioClip>(ruta);
+        if (c == null) Debug.LogWarning($"SonidosJefe: falta Resources/{ruta}");
         return c;
+    }
+
+    // Otro jefe con su propia voz (lo usa SonidosJefe2): cambia el dolor y la muerte
+    public void Personalizar(string dolorPrefijo, int dolorVariantes, string muerte)
+    {
+        if (!string.IsNullOrEmpty(dolorPrefijo)) sDolores = CargarVarios(dolorPrefijo, dolorVariantes);
+        if (!string.IsNullOrEmpty(muerte)) sMuerte = Cargar(muerte);
     }
 
     static AudioClip[] CargarVarios(string prefijo, int cantidad)

@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 2762dfe08b8cf6308b02e85180d08120
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8853243778583507205
+    second: gargola_caminar_0
+  - first:
+      213: -3258272550802623314
+    second: gargola_caminar_1
+  - first:
+      213: 4580320619661825890
+    second: gargola_caminar_2
+  - first:
+      213: -527550883258675216
+    second: gargola_caminar_3
+  - first:
+      213: -8034572407420695546
+    second: gargola_caminar_4
+  - first:
+      213: -3291507032215360295
+    second: gargola_caminar_5
+  - first:
+      213: 3969503132207036144
+    second: gargola_caminar_6
+  - first:
+      213: 8448914405934410318
+    second: gargola_caminar_7
+  - first:
+      213: -2281120641844132083
+    second: gargola_caminar_8
+  - first:
+      213: 3460877908372785675
+    second: gargola_caminar_9
+  - first:
+      213: 4804457490611455221
+    second: gargola_caminar_10
+  - first:
+      213: -1576204014715930810
+    second: gargola_caminar_11
+  - first:
+      213: 1699889739321926135
+    second: gargola_caminar_12
+  - first:
+      213: -6179377831549051090
+    second: gargola_caminar_13
+  - first:
+      213: 964400560748986899
+    second: gargola_caminar_14
+  - first:
+      213: -1289008032281247732
+    second: gargola_caminar_15
+  - first:
+      213: -7598049729800835055
+    second: gargola_caminar_16
+  - first:
+      213: -306130027730779277
+    second: gargola_caminar_17
+  - first:
+      213: 8992870698674151013
+    second: gargola_caminar_18
+  - first:
+      213: 1858441778597293042
+    second: gargola_caminar_19
+  - first:
+      213: -6158214995209075722
+    second: gargola_caminar_20
+  - first:
+      213: -2061973784778143873
+    second: gargola_caminar_21
+  - first:
+      213: -7929580675183360607
+    second: gargola_caminar_22
+  - first:
+      213: -2858315096011097548
+    second: gargola_caminar_23
+  - first:
+      213: -678095618694511356
+    second: gargola_caminar_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.38690478, y: 0.3875}
+  spritePixelsToUnits: 81
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gargola_caminar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944ce3969c0f0c8f2e58e4a7876e702e
+      internalID: 8853243778583507205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 960
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25cadb7e465a332996ade7ca2f14051
+      internalID: -3258272550802623314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 960
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e56d506a5feebc5d05fe164df26ef2
+      internalID: 4580320619661825890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_3
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 960
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11709cdd9de99e8613ba34e58c62afd0
+      internalID: -527550883258675216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_4
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 960
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d352cacdadb6dcea0603b161affdfd
+      internalID: -8034572407420695546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784ba98fcf4f06b57bae7a231967beee
+      internalID: -3291507032215360295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 720
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35bd80123bfc970df3260d7c8ad4685
+      internalID: 3969503132207036144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 720
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acdd7204779ecf3d8e8b11bc3461709
+      internalID: 8448914405934410318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_8
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 720
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8e36038219e27719e42e7fed7fed3f
+      internalID: -2281120641844132083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_9
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 720
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae2122fd32f3c8bca10295c3ad5c81c
+      internalID: 3460877908372785675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526029a8038716f8b57ea00518a13a22
+      internalID: 4804457490611455221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d172116c3c65a754737c1f4c0fee3c
+      internalID: -1576204014715930810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25227a9c958c0309a0fca4f60d5b54e
+      internalID: 1699889739321926135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_13
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 480
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d3a8aaf26c650e355e5173aeec586a
+      internalID: -6179377831549051090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 480
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f9b8500d047b42d6d063e8df306e33
+      internalID: 964400560748986899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db07e8767db23cf2b370ce66e91681e
+      internalID: -1289008032281247732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5439a1ab0f4f15c78f9c23c27785aec3
+      internalID: -7598049729800835055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 240
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae642eb3aef746d6aed14a033549ad86
+      internalID: -306130027730779277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_18
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 240
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b513fc9a0ff188139a8fb5e730c0ec5
+      internalID: 8992870698674151013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_19
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 240
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfeac9df1f017e7373fd59f0c556fc1
+      internalID: 1858441778597293042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e66faffa18b6e23adc181ccdbd5002
+      internalID: -6158214995209075722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e94e482cdb505443c0221cde3ee4320
+      internalID: -2061973784778143873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_22
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3766c53e625c6970560781670fc8da9e
+      internalID: -7929580675183360607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_23
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbebf0c4bb86591d14cf8fe78ecb6c9c
+      internalID: -2858315096011097548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_caminar_24
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686eca93b8d21acba8f65ce59fd24796
+      internalID: -678095618694511356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+     outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gargola_caminar_0: 8853243778583507205
+      gargola_caminar_1: -3258272550802623314
+      gargola_caminar_10: 4804457490611455221
+      gargola_caminar_11: -1576204014715930810
+      gargola_caminar_12: 1699889739321926135
+      gargola_caminar_13: -6179377831549051090
+      gargola_caminar_14: 964400560748986899
+      gargola_caminar_15: -1289008032281247732
+      gargola_caminar_16: -7598049729800835055
+      gargola_caminar_17: -306130027730779277
+      gargola_caminar_18: 8992870698674151013
+      gargola_caminar_19: 1858441778597293042
+      gargola_caminar_2: 4580320619661825890
+      gargola_caminar_20: -6158214995209075722
+      gargola_caminar_21: -2061973784778143873
+      gargola_caminar_22: -7929580675183360607
+      gargola_caminar_23: -2858315096011097548
+      gargola_caminar_24: -678095618694511356
+      gargola_caminar_3: -527550883258675216
+      gargola_caminar_4: -8034572407420695546
+      gargola_caminar_5: -3291507032215360295
+      gargola_caminar_6: 3969503132207036144
+      gargola_caminar_7: 8448914405934410318
+      gargola_caminar_8: -2281120641844132083
+      gargola_caminar_9: 3460877908372785675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

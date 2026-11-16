@@ -56,6 +56,24 @@ public static class Recuerdos
                 "Después, los frenos... y el golpe."
             }
         },
+        // Círculo VIII, Fraude: la envidia cuando nació su hermano, escondida detrás de una sonrisa.
+        // Sin jefe por ahora: Jikininki no suelta recuerdo (a media vida sale la cinemática final)
+        new DatosRecuerdo
+        {
+            id = "recuerdo_2",
+            jefe = "",
+            numero = 2,
+            circulo = 8,
+            titulo = "La sonrisa",
+            lineas = new[]
+            {
+                "El día que llegó a casa, todos lo miraban a él.",
+                "Mamá me pidió que lo cargara para la foto.",
+                "Sonreí. Dije que lo quería mucho.",
+                "Esa noche le susurré a la cuna que ojalá nunca hubiera venido.",
+                "Nadie supo nunca que aquella sonrisa era mentira."
+            }
+        },
     };
 
     public static DatosRecuerdo DeJefe(string jefe)
