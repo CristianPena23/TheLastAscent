@@ -74,7 +74,7 @@ public class AvisoPoderUI : MonoBehaviour
         canvas.sortingOrder = 40;
         var escala = go.AddComponent<CanvasScaler>();
         escala.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-        escala.referenceResolution = new Vector2(1920, 1080);
+        escala.referenceResolution = new Vector2(2400, 1350);
         escala.matchWidthOrHeight = 0.5f;
         var aviso = go.AddComponent<AvisoPoderUI>();
         aviso.grupo = go.AddComponent<CanvasGroup>();

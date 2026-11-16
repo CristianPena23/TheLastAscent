@@ -10,7 +10,6 @@
 *.anim      text merge=unityyamlmerge eol=lf
 *.controller text merge=unityyamlmerge eol=lf
 *.meta      text merge=unityyamlmerge eol=lf
- 
 # ===== Git LFS: archivos pesados (arte pintado, audio, video) =====
 # Imagenes y arte
 *.png  filter=lfs diff=lfs merge=lfs -text
@@ -35,3 +34,4 @@
 *.fbx  filter=lfs diff=lfs merge=lfs -text
 *.ttf  filter=lfs diff=lfs merge=lfs -text
 *.otf  filter=lfs diff=lfs merge=lfs -text
+*.webm filter=lfs diff=lfs merge=lfs -text

@@ -1,8 +1,12 @@
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// Menú de pausa (Esc / Start): Continuar, Mapa, Habilidades, Opciones, Salir al menú.
+// Menú de pausa (Esc / Start): Continuar, Guardar, Opciones, Salir al menú.
+// "Guardar" abre las ranuras de guardado (PanelRanuras). Si el prefab no trae el botón,
+// se crea solo copiando el de Opciones y se reacomoda la columna de botones.
 // No se abre durante un diálogo, una transición de escena o con el jugador muerto.
 public class MenuPausa : MonoBehaviour
 {
@@ -12,10 +16,8 @@ public class MenuPausa : MonoBehaviour
 
     [Header("Botones")]
     [SerializeField] private Button botonContinuar;
-    [Tooltip("Deshabilitado hasta que exista el mapa")]
-    [SerializeField] private Button botonMapa;
-    [Tooltip("Deshabilitado hasta que exista la pantalla de habilidades")]
-    [SerializeField] private Button botonHabilidades;
+    [Tooltip("Vacío = se crea solo copiando el botón de Opciones")]
+    [SerializeField] private Button botonGuardar;
     [SerializeField] private Button botonOpciones;
     [SerializeField] private Button botonSalirMenu;
 
@@ -23,11 +25,12 @@ public class MenuPausa : MonoBehaviour
 
     [Header("Botón de pausa en pantalla")]
     [SerializeField] private bool mostrarBotonPausa = true;
-    [Tooltip("Posición desde la esquina superior derecha (referencia 1920x1080)")]
-    [SerializeField] private Vector2 posicionBoton = new Vector2(-437f, -50f);
+    [Tooltip("Posición desde la esquina superior derecha (referencia 2400x1350)")]
+    [SerializeField] private Vector2 posicionBoton = new Vector2(-70f, -60f);
     [SerializeField] private float tamanoBoton = 60f;
 
     private GameObject botonPausa;
+    private PanelRanuras panelRanuras;
 
     private PlayerHealth jugador;
     private DialogueManager dialogos;
@@ -36,10 +39,54 @@ public class MenuPausa : MonoBehaviour
     private void Awake()
     {
         if (botonContinuar != null) botonContinuar.onClick.AddListener(Continuar);
-        if (botonMapa != null) botonMapa.interactable = false;               // TODO: abrir el mapa
-        if (botonHabilidades != null) botonHabilidades.interactable = false; // TODO: abrir habilidades
         if (botonOpciones != null) botonOpciones.onClick.AddListener(AbrirOpciones);
         if (botonSalirMenu != null) botonSalirMenu.onClick.AddListener(SalirAlMenu);
+        PrepararGuardado();
+    }
+
+    private void PrepararGuardado()
+    {
+        Button plantilla = botonOpciones != null ? botonOpciones : botonContinuar;
+        if (plantilla == null) return;
+
+        if (botonGuardar == null) botonGuardar = CrearBotonGuardar(plantilla);
+        botonGuardar.onClick.AddListener(AbrirGuardado);
+
+        // Copia el panel de pausa (marco, título, círculo y almas) para que se vea igual
+        panelRanuras = PanelRanuras.Crear(transform, plantilla, PanelRanuras.Modo.Guardar, panelPausa);
+    }
+
+    // Copia el botón de Opciones, lo pone justo antes y reparte la columna con el mismo espaciado
+    private Button CrearBotonGuardar(Button plantilla)
+    {
+        var columna = new List<RectTransform>();
+        foreach (var b in new[] { botonContinuar, botonOpciones, botonSalirMenu })
+            if (b != null) columna.Add((RectTransform)b.transform);
+
+        var nuevo = Instantiate(plantilla, plantilla.transform.parent, false);
+        nuevo.name = "Boton_Guardar";
+        nuevo.onClick.RemoveAllListeners();
+        nuevo.interactable = true;
+        var etiqueta = nuevo.GetComponentInChildren<TMP_Text>(true);
+        if (etiqueta != null) etiqueta.text = "Guardar";
+        nuevo.transform.SetSiblingIndex(plantilla.transform.GetSiblingIndex());
+
+        int indice = botonOpciones != null ? columna.IndexOf((RectTransform)botonOpciones.transform) : columna.Count;
+        if (indice < 0) indice = columna.Count;
+
+        if (columna.Count >= 2)
+        {
+            float paso = columna[0].anchoredPosition.y - columna[1].anchoredPosition.y;
+            float centro = (columna[0].anchoredPosition.y + columna[columna.Count - 1].anchoredPosition.y) * 0.5f;
+            columna.Insert(indice, (RectTransform)nuevo.transform);
+            float arriba = centro + paso * (columna.Count - 1) * 0.5f;
+            for (int i = 0; i < columna.Count; i++)
+            {
+                var p = columna[i].anchoredPosition;
+                columna[i].anchoredPosition = new Vector2(p.x, arriba - paso * i);
+            }
+        }
+        return nuevo;
     }
 
     private void Start()
@@ -117,6 +164,12 @@ public class MenuPausa : MonoBehaviour
             return;
         }
 
+        if (panelRanuras != null && panelRanuras.EstaAbierto)
+        {
+            if (EntradaUI.AtrasPresionado() || EntradaUI.PausaPresionada()) panelRanuras.Volver();
+            return;
+        }
+
         if (EntradaUI.AtrasPresionado() || EntradaUI.PausaPresionada())
         {
             SonidosUI.Volver();
@@ -129,6 +182,7 @@ public class MenuPausa : MonoBehaviour
         if (SceneTransition.IsBusy) return false;
         if (jugador != null && jugador.IsDead) return false;
         if (dialogos != null && dialogos.EnDialogo) return false;
+        if (PantallaRecuerdo.Abierta) return false;
         return true;
     }
 
@@ -142,6 +196,7 @@ public class MenuPausa : MonoBehaviour
     public void Continuar()
     {
         if (panelOpciones != null && panelOpciones.EstaAbierto) panelOpciones.Cerrar(true);
+        if (panelRanuras != null && panelRanuras.EstaAbierto) panelRanuras.Cerrar(true);
         if (panelPausa != null) panelPausa.Cerrar();
         PausaJuego.Reanudar();
         if (botonPausa != null) botonPausa.SetActive(true);
@@ -150,6 +205,11 @@ public class MenuPausa : MonoBehaviour
     public void AbrirOpciones()
     {
         if (panelOpciones != null) panelOpciones.AbrirDesde(panelPausa);
+    }
+
+    public void AbrirGuardado()
+    {
+        if (panelRanuras != null) panelRanuras.AbrirDesde(panelPausa);
     }
 
     // Se queda en pausa durante el fade; PausaJuego se reanuda solo al cargar la escena nueva

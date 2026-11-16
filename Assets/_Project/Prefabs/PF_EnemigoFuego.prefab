@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7dca5928cfa1ce38a4b4cff89760df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemigoFuego
-  vida: 3
+  vida: 5
   colorGolpe: {r: 1, g: 0.5, b: 0.5, a: 1}
   tiempoParpadeo: 0.1
   empujeAlRecibirGolpe: 4
@@ -186,7 +186,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 72
   velocidadVuelo: 3
-  distanciaAtaque: 2
+  distanciaAtaque: 4
   alturaSobreJugador: 0.4
   toleranciaPosicion: 0.35
   hitboxFuego: {fileID: 3300588358006268865}
@@ -224,6 +224,15 @@ MonoBehaviour:
   - {fileID: 6744930709031391168, guid: b6ef2f4c244af76fab653a8572f1355f, type: 3}
   - {fileID: 5403365053347855892, guid: b6ef2f4c244af76fab653a8572f1355f, type: 3}
   fps: 14
+  volRespiracion: 0.5
+  volRugido: 0.8
+  volResoplido: 0.55
+  volInhalar: 0.8
+  volFuego: 0.9
+  volDolor: 0.85
+  volMuerte: 0.9
+  esperaEntreRugidos: 6
+  intervaloResoplido: {x: 4, y: 9}
 --- !u!1 &3300588358006268865
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,8 +260,8 @@ Transform:
   m_GameObject: {fileID: 3300588358006268865}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.7, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 357410766029628631}

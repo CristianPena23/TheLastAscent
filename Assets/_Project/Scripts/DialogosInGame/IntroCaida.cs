@@ -27,6 +27,15 @@ public class IntroCaida : MonoBehaviour
     // Partida nueva: los diálogos de entrada se vuelven a mostrar
     public static void OlvidarMostrados() => yaMostrados.Clear();
 
+    // Guardado: qué diálogos de entrada ya salieron en la partida
+    public static List<string> Mostrados() => new List<string>(yaMostrados);
+
+    public static void MarcarMostrados(IEnumerable<string> claves)
+    {
+        if (claves == null) return;
+        foreach (var c in claves) if (!string.IsNullOrEmpty(c)) yaMostrados.Add(c);
+    }
+
     IEnumerator Start()
     {
         string clave = SceneManager.GetActiveScene().name + "/" + (dialogoIntro != null ? dialogoIntro.name : "");

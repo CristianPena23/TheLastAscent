@@ -21,6 +21,13 @@ public static class Almas
         AlCambiar?.Invoke(Cantidad);
     }
 
+    // Cargar partida
+    public static void Establecer(int cantidad)
+    {
+        Cantidad = Mathf.Max(0, cantidad);
+        AlCambiar?.Invoke(Cantidad);
+    }
+
     public static void Sumar(int cantidad)
     {
         if (cantidad <= 0) return;

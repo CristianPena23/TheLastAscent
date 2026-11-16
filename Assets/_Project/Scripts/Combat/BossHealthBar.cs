@@ -179,7 +179,7 @@ public class BossHealthBar : MonoBehaviour
         canvas.sortingOrder = 40;
         var scaler = canvasGo.AddComponent<CanvasScaler>();
         scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-        scaler.referenceResolution = new Vector2(1920, 1080);
+        scaler.referenceResolution = new Vector2(2400, 1350);
         scaler.matchWidthOrHeight = 0.5f;
         group = canvasGo.AddComponent<CanvasGroup>();
         group.alpha = 0f;

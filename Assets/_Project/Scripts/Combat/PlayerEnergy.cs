@@ -42,6 +42,13 @@ public class PlayerEnergy : MonoBehaviour
         return true;
     }
 
+    // Cargar partida: deja la energia guardada
+    public void Establecer(int energia)
+    {
+        Current = Mathf.Clamp(energia, 0, maxEnergy);
+        OnEnergyChanged?.Invoke(Current, maxEnergy);
+    }
+
     public bool CanSpend(int amount) => Current >= amount;
 
     public bool TrySpend(int amount)

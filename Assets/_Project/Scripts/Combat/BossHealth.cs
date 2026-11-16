@@ -36,6 +36,7 @@ public class BossHealth : MonoBehaviour, IDamageable
     public event Action Died;
 
     public string BossName => bossName;
+    public float DeathFadeTime => deathFadeTime;
     public int Current { get; private set; }
     public int Max => maxHealth;
     public bool IsDead { get; private set; }
@@ -43,6 +44,7 @@ public class BossHealth : MonoBehaviour, IDamageable
     private Coroutine flashRoutine;
     private PlayerHealth jugador;
     private SonidosJefe sonidos;
+    private SoltarRecuerdo soltarRecuerdo;
 
     private void Awake()
     {
@@ -53,6 +55,9 @@ public class BossHealth : MonoBehaviour, IDamageable
         // Sonidos del jefe: se agregan solos si no estan
         sonidos = GetComponent<SonidosJefe>();
         if (sonidos == null) sonidos = gameObject.AddComponent<SonidosJefe>();
+        // Recuerdo que suelta al morir (si el catalogo de Recuerdos tiene uno para este jefe)
+        soltarRecuerdo = GetComponent<SoltarRecuerdo>();
+        if (soltarRecuerdo == null) soltarRecuerdo = gameObject.AddComponent<SoltarRecuerdo>();
     }
 
     private void Start()
@@ -137,6 +142,10 @@ public class BossHealth : MonoBehaviour, IDamageable
 
         if (!string.IsNullOrEmpty(nextScene))
         {
+            // No se sale de la arena sin recoger el recuerdo
+            yield return new WaitForSeconds(soltarRecuerdo != null ? soltarRecuerdo.Espera + 0.1f : 0f);
+            while (soltarRecuerdo != null && soltarRecuerdo.Pendiente) yield return null;
+            while (PantallaRecuerdo.Abierta) yield return null;
             yield return new WaitForSeconds(sceneDelay);
             SceneTransition.Go(nextScene, nextSpawnId);
         }

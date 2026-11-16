@@ -2,7 +2,7 @@
 // Construye la interfaz del documento IEEE (mockups de menú principal, HUD, pausa y diálogo):
 //  - Tema (Resources/UI_Tema), fuentes TMP (Cinzel y EB Garamond) e importación del arte temporal
 //  - Prefabs PF_PanelOpciones, PF_MenuPausa, PF_PantallaMuerte y escena SC_MenuPrincipal
-//  - Estilo de PF_HUD (retrato, vida, energía, almas, minimapa, ranuras) y del prefab de diálogo
+//  - Estilo de PF_HUD (retrato, vida, energía, almas, ranuras) y del prefab de diálogo
 // "Configurar" solo crea lo que falta. "Reconstruir" borra lo generado y lo vuelve a crear.
 // Las posiciones usan coordenadas de los mockups (1400x787) escaladas a 1920x1080.
 using System.IO;
@@ -232,10 +232,8 @@ public static class ConfigurarUI
         ImgArte(p, "Marco", "marco_panel", 500, 25, 400, 740, Centro);
         Texto(p, "Titulo", "PAUSA", 66, tema.texto, true, 580, 175, 240, 75, Centro);
         var continuar = Boton(p, "Continuar", 550, 302, 300, 46, Centro);
-        var mapa = Boton(p, "Mapa", 550, 362, 300, 46, Centro);
-        var habilidades = Boton(p, "Habilidades", 550, 422, 300, 46, Centro);
-        var opciones = Boton(p, "Opciones", 550, 482, 300, 46, Centro);
-        var salir = Boton(p, "Salir al menú", 550, 544, 300, 46, Centro);
+        var opciones = Boton(p, "Opciones", 550, 362, 300, 46, Centro);
+        var salir = Boton(p, "Salir al menú", 550, 422, 300, 46, Centro);
         Asignar(panel, "primerSeleccionado", continuar);
 
         var opcionesGo = (GameObject)PrefabUtility.InstantiatePrefab(prefabOpciones, raiz.transform);
@@ -244,8 +242,6 @@ public static class ConfigurarUI
         Asignar(menu, "panelPausa", panel);
         Asignar(menu, "panelOpciones", opcionesGo.GetComponent<PanelOpciones>());
         Asignar(menu, "botonContinuar", continuar);
-        Asignar(menu, "botonMapa", mapa);
-        Asignar(menu, "botonHabilidades", habilidades);
         Asignar(menu, "botonOpciones", opciones);
         Asignar(menu, "botonSalirMenu", salir);
         return Guardar(raiz, RutaPausa);
@@ -369,11 +365,6 @@ public static class ConfigurarUI
         numAlmas.alignment = TextAlignmentOptions.Left;
         Asignar(almasGo.AddComponent<ContadorAlmasUI>(), "texto", numAlmas);
 
-        // Minimapa (placeholder) con el nombre del círculo (mockup: x1145 y8 252x255)
-        var mini = ImgArte(r, "Minimapa", "minimapa", 1118, 8, 252, 255, ArribaDer);
-        var nombre = TextoEn(mini.transform, "Circulo", "Círculo IX", 30, tema.texto, false, 40, 200, 172, 36);
-        Asignar(mini.gameObject.AddComponent<NombreCirculoUI>(), "texto", nombre);
-
         // Ranuras de acción (mockup: x1045/1159/1273 y637, 98x98, tecla debajo)
         var ranuras = Nuevo("Ranuras", r);
         Estirar(ranuras);
@@ -430,7 +421,7 @@ public static class ConfigurarUI
         if (scaler != null)
         {
             scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-            scaler.referenceResolution = new Vector2(1920, 1080);
+            scaler.referenceResolution = new Vector2(2400, 1350);
             scaler.matchWidthOrHeight = 0.5f;
         }
 
@@ -569,7 +560,7 @@ public static class ConfigurarUI
         cv.sortingOrder = orden;
         var sc = go.AddComponent<CanvasScaler>();
         sc.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-        sc.referenceResolution = new Vector2(1920, 1080);
+        sc.referenceResolution = new Vector2(2400, 1350);
         sc.matchWidthOrHeight = 0.5f;
         go.AddComponent<GraphicRaycaster>();
         return go;
