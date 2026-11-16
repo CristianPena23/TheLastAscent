@@ -1,6 +1,8 @@
+using System.Collections;
 using UnityEngine;
 
-public class EnemigoVolador : MonoBehaviour
+// Volador que embiste. Recibe daño del jugador (IDamageable): cada golpe le da energía al jugador.
+public class EnemigoVolador : MonoBehaviour, IDamageable
 {
     [Header("Patrulla")]
     [SerializeField] float amplitud = 0.5f;
@@ -25,6 +27,11 @@ public class EnemigoVolador : MonoBehaviour
     [Header("Regreso")]
     [SerializeField] float velocidadRegreso = 4f;
 
+    [Header("Vida")]
+    [SerializeField] int vida = 2;
+    [SerializeField] Color colorGolpe = new Color(1f, 0.5f, 0.5f);
+    [SerializeField] float empujeAlRecibirGolpe = 5f;
+
     [Header("Ojo")]
     [SerializeField] Transform ojo;
     [SerializeField] float distanciaOjo = 0.25f;
@@ -40,21 +47,34 @@ public class EnemigoVolador : MonoBehaviour
     float temporizador;
     float fase;
     float tiempoUltimoAtaque = -999f;
+    bool muerto;
+    SpriteRenderer sprite;
+    Color colorOriginal;
+    Coroutine rutinaColor;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         nido = transform.position;
+        sprite = GetComponent<SpriteRenderer>();
+        if (sprite == null) sprite = GetComponentInChildren<SpriteRenderer>();
+        if (sprite != null) colorOriginal = sprite.color;
 
         GameObject objJugador = GameObject.FindWithTag("Player");
         if (objJugador != null)
         {
             jugador = objJugador.transform;
         }
+        else
+        {
+            var salud = FindFirstObjectByType<PlayerHealth>();
+            if (salud != null) jugador = salud.transform;
+        }
     }
 
     void FixedUpdate()
     {
+        if (muerto) return;
         switch (estado)
         {
             case Estado.Patrulla:
@@ -189,6 +209,49 @@ public class EnemigoVolador : MonoBehaviour
         }
 
         rb.linearVelocity = haciaNido.normalized * velocidadRegreso;
+    }
+
+    // ---------------- Vida ----------------
+
+    public void TakeDamage(int amount, Vector2 hitDirection)
+    {
+        if (muerto || amount <= 0) return;
+
+        vida -= amount;
+        if (rutinaColor != null) StopCoroutine(rutinaColor);
+        if (vida <= 0) { StartCoroutine(Morir()); return; }
+
+        rutinaColor = StartCoroutine(Parpadear());
+        // El golpe lo frena y lo deja aturdido un momento
+        IniciarAturdimiento();
+        rb.linearVelocity = hitDirection.normalized * empujeAlRecibirGolpe;
+    }
+
+    IEnumerator Parpadear()
+    {
+        if (sprite == null) yield break;
+        sprite.color = colorGolpe;
+        yield return new WaitForSeconds(0.1f);
+        sprite.color = colorOriginal;
+        rutinaColor = null;
+    }
+
+    IEnumerator Morir()
+    {
+        muerto = true;
+        SonidosMundo.EnemigoMuerto();
+        foreach (var c in GetComponentsInChildren<Collider2D>()) c.enabled = false;
+        rb.linearVelocity = Vector2.zero;
+        rb.gravityScale = 1.5f; // cae
+
+        float t = 0f;
+        while (t < 0.8f)
+        {
+            t += Time.deltaTime;
+            if (sprite != null) sprite.color = new Color(colorOriginal.r, colorOriginal.g, colorOriginal.b, 1f - t / 0.8f);
+            yield return null;
+        }
+        Destroy(gameObject);
     }
 
     // ---------------- Gizmos ----------------

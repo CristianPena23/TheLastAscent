@@ -85,6 +85,7 @@ public class KeyPickup : MonoBehaviour
         if (other.GetComponentInParent<PlayerController>() == null) return;
         taken = true;
         KeyInventory.Add(keyId);
+        SonidosMundo.Llave();
         if (!string.IsNullOrEmpty(pickupMessage))
             FloatingText.Spawn(pickupMessage, transform.position + Vector3.up * 0.8f, glowColor);
         StartCoroutine(CollectEffect());

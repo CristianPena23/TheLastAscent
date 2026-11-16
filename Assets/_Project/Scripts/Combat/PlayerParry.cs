@@ -26,6 +26,8 @@ public class PlayerParry : MonoBehaviour
     private static readonly int ParrySuccessHash = Animator.StringToHash("ParrySuccess");
 
     public event Action OnParrySuccess;
+    // La ventana de parry termino sin bloquear nada (lo usa SonidosJugador)
+    public event Action OnParryFail;
     public bool IsParrying { get; private set; }
 
     private PlayerController player;
@@ -83,6 +85,7 @@ public class PlayerParry : MonoBehaviour
 
         IsParrying = false;
         SetIndicator(false);
+        OnParryFail?.Invoke();
     }
 
     // Lo llama EnemyAttackHitbox. Devuelve true si el golpe fue bloqueado.

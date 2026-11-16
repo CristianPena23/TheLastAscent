@@ -11,7 +11,8 @@ public class EnergyUI : MonoBehaviour
     [SerializeField] private TemaUI tema;
     [SerializeField] private Color colorRelleno = new Color(0.36f, 0.26f, 0.62f, 1f);
     [SerializeField] private Color colorBrilloLlena = new Color(0.62f, 0.5f, 1f, 1f);
-    [SerializeField] private float velocidadBrillo = 4f;
+    [Tooltip("Veces por segundo que titila la barra llena (aviso de que el poder está listo)")]
+    [SerializeField] private float velocidadBrillo = 2.5f;
 
     private Image fillImage;
     private bool llena;
@@ -55,11 +56,13 @@ public class EnergyUI : MonoBehaviour
 
     private void Update()
     {
-        // Energía llena: la barra late entre violeta y violeta claro
+        // Energía llena: la barra titila (violeta claro / apagada) para avisar que el poder (C) está listo
         if (llena && fillImage != null)
         {
-            float k = (Mathf.Sin(Time.unscaledTime * velocidadBrillo) + 1f) * 0.5f;
-            fillImage.color = Color.Lerp(colorRelleno, colorBrilloLlena, k);
+            float k = Mathf.PingPong(Time.unscaledTime * velocidadBrillo * 2f, 1f);
+            k = k * k * (3f - 2f * k); // suaviza el encendido y apagado
+            Color apagado = new Color(colorRelleno.r, colorRelleno.g, colorRelleno.b, 0.35f);
+            fillImage.color = Color.Lerp(apagado, colorBrilloLlena, k);
         }
 
         if (fillRect == null || Mathf.Approximately(currentFill, targetFill)) return;

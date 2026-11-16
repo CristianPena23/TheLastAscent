@@ -44,8 +44,15 @@ public class PlayerController : MonoBehaviour
     public bool InputLocked { get; set; }
     public float FacingDirection { get; private set; } = 1f;
     public bool IsGrounded => isGrounded;
+    // Lo escucha SonidosJugador (y cualquier efecto que quiera reaccionar al salto)
+    public event System.Action AlSaltar;
 
-    private void Awake() => rb = GetComponent<Rigidbody2D>();
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        // Sonidos del jugador: se agregan solos si el prefab no los tiene
+        if (GetComponent<SonidosJugador>() == null) gameObject.AddComponent<SonidosJugador>();
+    }
 
     private void OnEnable()
     {
@@ -84,6 +91,7 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             jumpBufferCounter = 0f;
             coyoteCounter = 0f;
+            AlSaltar?.Invoke();
         }
 
         FlipVisual();

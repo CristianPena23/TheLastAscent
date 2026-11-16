@@ -1,0 +1,929 @@
+fileFormatVersion: 2
+guid: b6ef2f4c244af76fab653a8572f1355f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6954874612058924491
+    second: dragon_fuego_0
+  - first:
+      213: 9096262013391957746
+    second: dragon_fuego_1
+  - first:
+      213: -6239171201645221129
+    second: dragon_fuego_2
+  - first:
+      213: -1012855871192960244
+    second: dragon_fuego_3
+  - first:
+      213: -6817373390166865432
+    second: dragon_fuego_4
+  - first:
+      213: -5875555637966895257
+    second: dragon_fuego_5
+  - first:
+      213: -1436889524760128942
+    second: dragon_fuego_6
+  - first:
+      213: 434778131519855057
+    second: dragon_fuego_7
+  - first:
+      213: 7867786687088459356
+    second: dragon_fuego_8
+  - first:
+      213: 3120284516105260525
+    second: dragon_fuego_9
+  - first:
+      213: 1296924217233738731
+    second: dragon_fuego_10
+  - first:
+      213: 3466279726723013350
+    second: dragon_fuego_11
+  - first:
+      213: -1809105372941248097
+    second: dragon_fuego_12
+  - first:
+      213: 6408940359049979201
+    second: dragon_fuego_13
+  - first:
+      213: -5297420692401104665
+    second: dragon_fuego_14
+  - first:
+      213: 520144670850634338
+    second: dragon_fuego_15
+  - first:
+      213: -2683818143682601078
+    second: dragon_fuego_16
+  - first:
+      213: 4620612287597299270
+    second: dragon_fuego_17
+  - first:
+      213: 4828546647443538367
+    second: dragon_fuego_18
+  - first:
+      213: 2144779560881262112
+    second: dragon_fuego_19
+  - first:
+      213: -5324733541037733754
+    second: dragon_fuego_20
+  - first:
+      213: -5255179655713346116
+    second: dragon_fuego_21
+  - first:
+      213: 177966432623777085
+    second: dragon_fuego_22
+  - first:
+      213: 6744930709031391168
+    second: dragon_fuego_23
+  - first:
+      213: 5403365053347855892
+    second: dragon_fuego_24
+  - first:
+      213: 1432017889117261301
+    second: dragon_fuego_25
+  - first:
+      213: 7112362659738839202
+    second: dragon_fuego_26
+  - first:
+      213: 8584084103452795569
+    second: dragon_fuego_27
+  - first:
+      213: 967882667200431208
+    second: dragon_fuego_28
+  - first:
+      213: 8585868757754472383
+    second: dragon_fuego_29
+  - first:
+      213: -6394830816473635131
+    second: dragon_fuego_30
+  - first:
+      213: -3535269068858495149
+    second: dragon_fuego_31
+  - first:
+      213: -3541363024898519140
+    second: dragon_fuego_32
+  - first:
+      213: 195916818380427249
+    second: dragon_fuego_33
+  - first:
+      213: 6510960888846411140
+    second: dragon_fuego_34
+  - first:
+      213: -4634140208636347360
+    second: dragon_fuego_35
+  - first:
+      213: 608138869999006789
+    second: dragon_fuego_36
+  - first:
+      213: -5387170838023326673
+    second: dragon_fuego_37
+  - first:
+      213: 3050288694233476970
+    second: dragon_fuego_38
+  - first:
+      213: -466807959884047699
+    second: dragon_fuego_39
+  - first:
+      213: 2826444265577621501
+    second: dragon_fuego_40
+  - first:
+      213: 8584709284943055673
+    second: dragon_fuego_41
+  - first:
+      213: -7103868722694664252
+    second: dragon_fuego_42
+  - first:
+      213: -869169116185948954
+    second: dragon_fuego_43
+  - first:
+      213: 2377056331574485350
+    second: dragon_fuego_44
+  - first:
+      213: -2212371569791757965
+    second: dragon_fuego_45
+  - first:
+      213: 8189777409188336477
+    second: dragon_fuego_46
+  - first:
+      213: -3346350913788500167
+    second: dragon_fuego_47
+  - first:
+      213: -7699906716160591767
+    second: dragon_fuego_48
+  - first:
+      213: 4672995591584174543
+    second: dragon_fuego_49
+  - first:
+      213: 2343292821803694320
+    second: dragon_fuego_50
+  - first:
+      213: 7101148652719469667
+    second: dragon_fuego_51
+  - first:
+      213: -1236082565850846440
+    second: dragon_fuego_52
+  - first:
+      213: -5180147857893274197
+    second: dragon_fuego_53
+  - first:
+      213: 8447024533473679006
+    second: dragon_fuego_54
+  - first:
+      213: -7547372293579318304
+    second: dragon_fuego_55
+  - first:
+      213: 4544580449970226785
+    second: dragon_fuego_56
+  - first:
+      213: -3132530976979847713
+    second: dragon_fuego_57
+  - first:
+      213: 8007940872032251602
+    second: dragon_fuego_58
+  - first:
+      213: 4683680591724477612
+    second: dragon_fuego_59
+  - first:
+      213: -308878162774587157
+    second: dragon_fuego_60
+  - first:
+      213: -5737834981294110695
+    second: dragon_fuego_61
+  - first:
+      213: 3749350469507453087
+    second: dragon_fuego_62
+  - first:
+      213: -841131396460206928
+    second: dragon_fuego_63
+  - first:
+      213: -7881437291901838143
+    second: dragon_fuego_64
+  - first:
+      213: 8610970954968085940
+    second: dragon_fuego_65
+  - first:
+      213: 8272503273057175986
+    second: dragon_fuego_66
+  - first:
+      213: -8948521222358009835
+    second: dragon_fuego_67
+  - first:
+      213: -6088685787045074426
+    second: dragon_fuego_68
+  - first:
+      213: 2808655188154645402
+    second: dragon_fuego_69
+  - first:
+      213: 8248124563017090500
+    second: dragon_fuego_70
+  - first:
+      213: -3127561558462579917
+    second: dragon_fuego_71
+  - first:
+      213: -513478300923615289
+    second: dragon_fuego_72
+  - first:
+      213: -2525797455357367432
+    second: dragon_fuego_73
+  - first:
+      213: 3688641112258023734
+    second: dragon_fuego_74
+  - first:
+      213: -3648007462628089129
+    second: dragon_fuego_75
+  - first:
+      213: 753180728147355505
+    second: dragon_fuego_76
+  - first:
+      213: 4646932757285749327
+    second: dragon_fuego_77
+  - first:
+      213: 6568225145034101262
+    second: dragon_fuego_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragon_fuego_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f1e8fb155c918a4b9f56d6e06bea87
+      internalID: 6954874612058924491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2048
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba86717b5500241d099eaa39d6329be9
+      internalID: 9096262013391957746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_2
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12257e29088a663559f26479b94d3b0c
+      internalID: -6239171201645221129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_3
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2048
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0ed6863d7692e048dd3b8a543daf6f
+      internalID: -1012855871192960244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_4
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37f791f22105c4b387bea2886c3ee2a
+      internalID: -6817373390166865432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e111e8cecb1ded07b826b37887305e45
+      internalID: -5875555637966895257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eef78c9959aae4db989d21d16bb5e6
+      internalID: -1436889524760128942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf283695312df7340ad273d950b8f6e2
+      internalID: 434778131519855057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_8
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1536
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960ae5b6b580c06d7976072ffbde510a
+      internalID: 7867786687088459356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_9
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c46de3d65de2880a15519f8632266f
+      internalID: 3120284516105260525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436295a7fa112248a9acbe7dc6ac5703
+      internalID: 1296924217233738731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d22ea38364f597119353ae930ccb100
+      internalID: 3466279726723013350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276d152f7b21fda46abf06ecd3d45c01
+      internalID: -1809105372941248097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_13
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1024
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11beb5c678603aedebf63d71cd4654d2
+      internalID: 6408940359049979201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60105fe916bb4a854918684dc9c73e2d
+      internalID: -5297420692401104665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faa824e0aa7a2990b4c64978d05880b
+      internalID: 520144670850634338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b26511cdca36bd4829d4495ce11b66
+      internalID: -2683818143682601078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_17
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4765e16c7270dd00a8868f8f66601561
+      internalID: 4620612287597299270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 512
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f58c22f6084cac58d1341fdf75fbf6
+      internalID: 4828546647443538367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_19
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b044eef016a77c1e9acf1880bb2441d9
+      internalID: 2144779560881262112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0387a0e909f96a399c280d3990b6320
+      internalID: -5324733541037733754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cf55ed057f18bad9e6597deceb0906
+      internalID: -5255179655713346116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_22
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ae5511f14aac5bdb7d559c7d666dc2
+      internalID: 177966432623777085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_23
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c1d629b28b76275a36ae5111f559a8
+      internalID: 6744930709031391168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_fuego_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.48242188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256f3e0758eba0f3a850bb97b70b6f95
+      internalID: 5403365053347855892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9187abdedd16ef5a083f6053ec77b6d8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dragon_fuego_0: 6954874612058924491
+      dragon_fuego_1: 9096262013391957746
+      dragon_fuego_10: 1296924217233738731
+      dragon_fuego_11: 3466279726723013350
+      dragon_fuego_12: -1809105372941248097
+      dragon_fuego_13: 6408940359049979201
+      dragon_fuego_14: -5297420692401104665
+      dragon_fuego_15: 520144670850634338
+      dragon_fuego_16: -2683818143682601078
+      dragon_fuego_17: 4620612287597299270
+      dragon_fuego_18: 4828546647443538367
+      dragon_fuego_19: 2144779560881262112
+      dragon_fuego_2: -6239171201645221129
+      dragon_fuego_20: -5324733541037733754
+      dragon_fuego_21: -5255179655713346116
+      dragon_fuego_22: 177966432623777085
+      dragon_fuego_23: 6744930709031391168
+      dragon_fuego_24: 5403365053347855892
+      dragon_fuego_3: -1012855871192960244
+      dragon_fuego_4: -6817373390166865432
+      dragon_fuego_5: -5875555637966895257
+      dragon_fuego_6: -1436889524760128942
+      dragon_fuego_7: 434778131519855057
+      dragon_fuego_8: 7867786687088459356
+      dragon_fuego_9: 3120284516105260525
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

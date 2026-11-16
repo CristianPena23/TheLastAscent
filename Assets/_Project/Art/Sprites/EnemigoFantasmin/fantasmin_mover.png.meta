@@ -1,0 +1,878 @@
+fileFormatVersion: 2
+guid: ebffea7ac91c5adc897979c9951ddac9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5110061533962778843
+    second: fantasmin_mover_0
+  - first:
+      213: -6821547131641724284
+    second: fantasmin_mover_1
+  - first:
+      213: 563967487913141485
+    second: fantasmin_mover_2
+  - first:
+      213: -248259386040156539
+    second: fantasmin_mover_3
+  - first:
+      213: 8549939903458167334
+    second: fantasmin_mover_4
+  - first:
+      213: -3921745537372953716
+    second: fantasmin_mover_5
+  - first:
+      213: 732690104319964845
+    second: fantasmin_mover_6
+  - first:
+      213: 7887690558827103375
+    second: fantasmin_mover_7
+  - first:
+      213: -5634064139778531932
+    second: fantasmin_mover_8
+  - first:
+      213: 5575516533111252236
+    second: fantasmin_mover_9
+  - first:
+      213: 5823998642048349390
+    second: fantasmin_mover_10
+  - first:
+      213: 1806451329499826037
+    second: fantasmin_mover_11
+  - first:
+      213: -628398441881675295
+    second: fantasmin_mover_12
+  - first:
+      213: -3547780204600827444
+    second: fantasmin_mover_13
+  - first:
+      213: -5132139389382964911
+    second: fantasmin_mover_14
+  - first:
+      213: 7338005816370088743
+    second: fantasmin_mover_15
+  - first:
+      213: -8744293574911109269
+    second: fantasmin_mover_16
+  - first:
+      213: 3083423986033460658
+    second: fantasmin_mover_17
+  - first:
+      213: -1892871071506873335
+    second: fantasmin_mover_18
+  - first:
+      213: -3974304973878270092
+    second: fantasmin_mover_19
+  - first:
+      213: 8797964530701675011
+    second: fantasmin_mover_20
+  - first:
+      213: -3167647678025202798
+    second: fantasmin_mover_21
+  - first:
+      213: -924788774716783104
+    second: fantasmin_mover_22
+  - first:
+      213: 5268703035571577557
+    second: fantasmin_mover_23
+  - first:
+      213: -6250474853156347282
+    second: fantasmin_mover_24
+  - first:
+      213: -785645804807633550
+    second: fantasmin_mover_25
+  - first:
+      213: -7964442015751656632
+    second: fantasmin_mover_26
+  - first:
+      213: -7164032261156962776
+    second: fantasmin_mover_27
+  - first:
+      213: -4130820862950262001
+    second: fantasmin_mover_28
+  - first:
+      213: -8367226560127447643
+    second: fantasmin_mover_29
+  - first:
+      213: 6032709369649957929
+    second: fantasmin_mover_30
+  - first:
+      213: -6466633876740722203
+    second: fantasmin_mover_31
+  - first:
+      213: -7240676472906146127
+    second: fantasmin_mover_32
+  - first:
+      213: 6358008132484601663
+    second: fantasmin_mover_33
+  - first:
+      213: -8903508739535554849
+    second: fantasmin_mover_34
+  - first:
+      213: 1785608821925450827
+    second: fantasmin_mover_35
+  - first:
+      213: -8720629656835891551
+    second: fantasmin_mover_36
+  - first:
+      213: -2396509419334688291
+    second: fantasmin_mover_37
+  - first:
+      213: -4580056157875325988
+    second: fantasmin_mover_38
+  - first:
+      213: -1920594244971877199
+    second: fantasmin_mover_39
+  - first:
+      213: -3770323114172954038
+    second: fantasmin_mover_40
+  - first:
+      213: 3253346742902325296
+    second: fantasmin_mover_41
+  - first:
+      213: 7037565540113158298
+    second: fantasmin_mover_42
+  - first:
+      213: -3715853700491834867
+    second: fantasmin_mover_43
+  - first:
+      213: -7048569175397235730
+    second: fantasmin_mover_44
+  - first:
+      213: -8710534236813496034
+    second: fantasmin_mover_45
+  - first:
+      213: -9056006999984607306
+    second: fantasmin_mover_46
+  - first:
+      213: 6728914742139268417
+    second: fantasmin_mover_47
+  - first:
+      213: 2997676840964487026
+    second: fantasmin_mover_48
+  - first:
+      213: 77668484122957373
+    second: fantasmin_mover_49
+  - first:
+      213: 3385446274239627206
+    second: fantasmin_mover_50
+  - first:
+      213: 6566958344407736513
+    second: fantasmin_mover_51
+  - first:
+      213: 6067069762129241152
+    second: fantasmin_mover_52
+  - first:
+      213: 1801153801942301699
+    second: fantasmin_mover_53
+  - first:
+      213: 5763354405075241105
+    second: fantasmin_mover_54
+  - first:
+      213: 3479730046745714080
+    second: fantasmin_mover_55
+  - first:
+      213: -8428331663888724344
+    second: fantasmin_mover_56
+  - first:
+      213: 6765147029478703692
+    second: fantasmin_mover_57
+  - first:
+      213: -8272287156711060856
+    second: fantasmin_mover_58
+  - first:
+      213: -8724725989557608444
+    second: fantasmin_mover_59
+  - first:
+      213: 1359137772720296350
+    second: fantasmin_mover_60
+  - first:
+      213: 4030306097755104045
+    second: fantasmin_mover_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 134
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fantasmin_mover_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63e99b6b6a5469abac2f90174ba41ce
+      internalID: -5110061533962778843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fa2384e531e03c0a58d1a277d5a136
+      internalID: -6821547131641724284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d3c8ebe6d5bad0ebbef5bc746ef1a7
+      internalID: 563967487913141485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20a4a5acd9d3b2ffaed586c6653d234
+      internalID: -248259386040156539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d06803c45c391faebbf5874da0792d6
+      internalID: 8549939903458167334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83397ade449ea3b869fae03e2c70485c
+      internalID: -3921745537372953716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9127b641919c7484899a7aed91f18fb3
+      internalID: 732690104319964845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c95c447459553203afd931ea8412ca1
+      internalID: 7887690558827103375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664e65c0143e104a5a2fceb86d1c0818
+      internalID: -5634064139778531932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4507e4a37b78ef197b03d6d7d30c46af
+      internalID: 5575516533111252236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3c1e3b1092746d6b75fb2c432060e1
+      internalID: 5823998642048349390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a649543a22ea5ac47a44994722ff0aa5
+      internalID: 1806451329499826037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6d9c5ddf6ac74b9a47a7a0ba3ce775
+      internalID: -628398441881675295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80aa9ccaacb08d9f8842844fa8b045e
+      internalID: -3547780204600827444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ac7ccf3ac5a346b92aea23121ebc2d
+      internalID: -5132139389382964911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d4d9013d4d4f6aca40d01e583324c6
+      internalID: 7338005816370088743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fbc469903be16928be9bf1bad2a126
+      internalID: -8744293574911109269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0df51992fbab2f78dbd8228cbb9419
+      internalID: 3083423986033460658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1412efef04a8a99d1b372b6945d09fa4
+      internalID: -1892871071506873335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369d205490397c84b9e4ded4f197cffc
+      internalID: -3974304973878270092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248666c9c1ffd48e89be5ffc8b74de3e
+      internalID: 8797964530701675011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7066c4074a45bc9ad3f9ba5af76c22
+      internalID: -3167647678025202798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdd3ee55758af036b688d26f56e2f37
+      internalID: -924788774716783104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1deb336cb2b87d7b8e2c17e8836e59
+      internalID: 5268703035571577557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_mover_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4609375, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24282105d96494ed3b88aa8b025fc2c1
+      internalID: -6250474853156347282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d9664a555796344b3a5ec86cbcd38e06
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fantasmin_mover_0: -5110061533962778843
+      fantasmin_mover_1: -6821547131641724284
+      fantasmin_mover_10: 5823998642048349390
+      fantasmin_mover_11: 1806451329499826037
+      fantasmin_mover_12: -628398441881675295
+      fantasmin_mover_13: -3547780204600827444
+      fantasmin_mover_14: -5132139389382964911
+      fantasmin_mover_15: 7338005816370088743
+      fantasmin_mover_16: -8744293574911109269
+      fantasmin_mover_17: 3083423986033460658
+      fantasmin_mover_18: -1892871071506873335
+      fantasmin_mover_19: -3974304973878270092
+      fantasmin_mover_2: 563967487913141485
+      fantasmin_mover_20: 8797964530701675011
+      fantasmin_mover_21: -3167647678025202798
+      fantasmin_mover_22: -924788774716783104
+      fantasmin_mover_23: 5268703035571577557
+      fantasmin_mover_24: -6250474853156347282
+      fantasmin_mover_3: -248259386040156539
+      fantasmin_mover_4: 8549939903458167334
+      fantasmin_mover_5: -3921745537372953716
+      fantasmin_mover_6: 732690104319964845
+      fantasmin_mover_7: 7887690558827103375
+      fantasmin_mover_8: -5634064139778531932
+      fantasmin_mover_9: 5575516533111252236
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

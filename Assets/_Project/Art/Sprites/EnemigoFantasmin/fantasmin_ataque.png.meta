@@ -1,0 +1,1169 @@
+fileFormatVersion: 2
+guid: f2d5fb14c9bad378c9cc70f6c3f834c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7474635567304167793
+    second: fantasmin_ataque_0
+  - first:
+      213: 6158517843888826858
+    second: fantasmin_ataque_1
+  - first:
+      213: -4748058077381159445
+    second: fantasmin_ataque_2
+  - first:
+      213: -8252473949634085074
+    second: fantasmin_ataque_3
+  - first:
+      213: 4998989661625867499
+    second: fantasmin_ataque_4
+  - first:
+      213: -301631142450753774
+    second: fantasmin_ataque_5
+  - first:
+      213: 7606364567122013568
+    second: fantasmin_ataque_6
+  - first:
+      213: 8213013006528703807
+    second: fantasmin_ataque_7
+  - first:
+      213: 5548772458471330405
+    second: fantasmin_ataque_8
+  - first:
+      213: -2918725264284715359
+    second: fantasmin_ataque_9
+  - first:
+      213: 2670060653934678745
+    second: fantasmin_ataque_10
+  - first:
+      213: 4983336712105715326
+    second: fantasmin_ataque_11
+  - first:
+      213: 9040838324880916130
+    second: fantasmin_ataque_12
+  - first:
+      213: 3879980314677459351
+    second: fantasmin_ataque_13
+  - first:
+      213: -8763050651537766191
+    second: fantasmin_ataque_14
+  - first:
+      213: -4649542967900130660
+    second: fantasmin_ataque_15
+  - first:
+      213: -8822190534980141767
+    second: fantasmin_ataque_16
+  - first:
+      213: 2556457030630320787
+    second: fantasmin_ataque_17
+  - first:
+      213: -5114734068413059276
+    second: fantasmin_ataque_18
+  - first:
+      213: -8603904978529717681
+    second: fantasmin_ataque_19
+  - first:
+      213: 5875440157317034729
+    second: fantasmin_ataque_20
+  - first:
+      213: -9126679689558964395
+    second: fantasmin_ataque_21
+  - first:
+      213: 9179501138216127652
+    second: fantasmin_ataque_22
+  - first:
+      213: 5223303006089927574
+    second: fantasmin_ataque_23
+  - first:
+      213: 4603902831945091910
+    second: fantasmin_ataque_24
+  - first:
+      213: -5462412763689321076
+    second: fantasmin_ataque_25
+  - first:
+      213: -134113389582498951
+    second: fantasmin_ataque_26
+  - first:
+      213: 1627175460822978486
+    second: fantasmin_ataque_27
+  - first:
+      213: -8689303938314030041
+    second: fantasmin_ataque_28
+  - first:
+      213: 8274910403808175836
+    second: fantasmin_ataque_29
+  - first:
+      213: 7630877735537395768
+    second: fantasmin_ataque_30
+  - first:
+      213: -1185039224472369618
+    second: fantasmin_ataque_31
+  - first:
+      213: 1446762304473748607
+    second: fantasmin_ataque_32
+  - first:
+      213: -7731844551499327989
+    second: fantasmin_ataque_33
+  - first:
+      213: 1651947492642925768
+    second: fantasmin_ataque_34
+  - first:
+      213: 60487605160564243
+    second: fantasmin_ataque_35
+  - first:
+      213: 847062635914731770
+    second: fantasmin_ataque_36
+  - first:
+      213: 8895423359003523729
+    second: fantasmin_ataque_37
+  - first:
+      213: -3527354394528304096
+    second: fantasmin_ataque_38
+  - first:
+      213: 811448508126598124
+    second: fantasmin_ataque_39
+  - first:
+      213: 1579379027483633108
+    second: fantasmin_ataque_40
+  - first:
+      213: -8550235227965934538
+    second: fantasmin_ataque_41
+  - first:
+      213: -6766851537508523216
+    second: fantasmin_ataque_42
+  - first:
+      213: -1643759024322994167
+    second: fantasmin_ataque_43
+  - first:
+      213: 1171640072429844745
+    second: fantasmin_ataque_44
+  - first:
+      213: 2346032579353142803
+    second: fantasmin_ataque_45
+  - first:
+      213: 2263585056641260596
+    second: fantasmin_ataque_46
+  - first:
+      213: 2740594203956811336
+    second: fantasmin_ataque_47
+  - first:
+      213: 1210672751868289040
+    second: fantasmin_ataque_48
+  - first:
+      213: 4952110580527032038
+    second: fantasmin_ataque_49
+  - first:
+      213: 4743174770735144594
+    second: fantasmin_ataque_50
+  - first:
+      213: -8558844922589741212
+    second: fantasmin_ataque_51
+  - first:
+      213: -4506069467332128596
+    second: fantasmin_ataque_52
+  - first:
+      213: -2968535549396803011
+    second: fantasmin_ataque_53
+  - first:
+      213: 1590098481163821896
+    second: fantasmin_ataque_54
+  - first:
+      213: -8073392951703036522
+    second: fantasmin_ataque_55
+  - first:
+      213: 1020513512064007696
+    second: fantasmin_ataque_56
+  - first:
+      213: 613717420791031047
+    second: fantasmin_ataque_57
+  - first:
+      213: 5949617657437831957
+    second: fantasmin_ataque_58
+  - first:
+      213: 1322846031132928760
+    second: fantasmin_ataque_59
+  - first:
+      213: -3150588794074657711
+    second: fantasmin_ataque_60
+  - first:
+      213: 3278969992184883695
+    second: fantasmin_ataque_61
+  - first:
+      213: -4641192467428913690
+    second: fantasmin_ataque_62
+  - first:
+      213: 3774088555473241332
+    second: fantasmin_ataque_63
+  - first:
+      213: -6043134970900184263
+    second: fantasmin_ataque_64
+  - first:
+      213: 2277922051115697563
+    second: fantasmin_ataque_65
+  - first:
+      213: -719568173384625795
+    second: fantasmin_ataque_66
+  - first:
+      213: -2819073540693027421
+    second: fantasmin_ataque_67
+  - first:
+      213: -6261024241519364763
+    second: fantasmin_ataque_68
+  - first:
+      213: 9174477204160590316
+    second: fantasmin_ataque_69
+  - first:
+      213: 4836346195870585863
+    second: fantasmin_ataque_70
+  - first:
+      213: 4108434876870518971
+    second: fantasmin_ataque_71
+  - first:
+      213: -1540253425164930512
+    second: fantasmin_ataque_72
+  - first:
+      213: -2235942729897631318
+    second: fantasmin_ataque_73
+  - first:
+      213: 1383327964326798681
+    second: fantasmin_ataque_74
+  - first:
+      213: 5018514302030557869
+    second: fantasmin_ataque_75
+  - first:
+      213: 6268665762199607664
+    second: fantasmin_ataque_76
+  - first:
+      213: -2895094694679136878
+    second: fantasmin_ataque_77
+  - first:
+      213: 3206005210242424916
+    second: fantasmin_ataque_78
+  - first:
+      213: 7051153367482609859
+    second: fantasmin_ataque_79
+  - first:
+      213: 6139343462148948918
+    second: fantasmin_ataque_80
+  - first:
+      213: 5550425789165871870
+    second: fantasmin_ataque_81
+  - first:
+      213: 2965552127757083696
+    second: fantasmin_ataque_82
+  - first:
+      213: -2787742358978894459
+    second: fantasmin_ataque_83
+  - first:
+      213: 8026005366465659039
+    second: fantasmin_ataque_84
+  - first:
+      213: 2008630039676193817
+    second: fantasmin_ataque_85
+  - first:
+      213: 940562490306343105
+    second: fantasmin_ataque_86
+  - first:
+      213: 3178211264758651600
+    second: fantasmin_ataque_87
+  - first:
+      213: -6445528995690560993
+    second: fantasmin_ataque_88
+  - first:
+      213: -3050799048657997984
+    second: fantasmin_ataque_89
+  - first:
+      213: 134726314951230068
+    second: fantasmin_ataque_90
+  - first:
+      213: -9182922723954992498
+    second: fantasmin_ataque_91
+  - first:
+      213: 6387287307341722408
+    second: fantasmin_ataque_92
+  - first:
+      213: -8627960514365661694
+    second: fantasmin_ataque_93
+  - first:
+      213: 8903863328786823488
+    second: fantasmin_ataque_94
+  - first:
+      213: 822163882399230931
+    second: fantasmin_ataque_95
+  - first:
+      213: 4693823536072557410
+    second: fantasmin_ataque_96
+  - first:
+      213: 6647952240830281484
+    second: fantasmin_ataque_97
+  - first:
+      213: 6993689735419664343
+    second: fantasmin_ataque_98
+  - first:
+      213: 3705950933940525450
+    second: fantasmin_ataque_99
+  - first:
+      213: -2647104117739160282
+    second: fantasmin_ataque_100
+  - first:
+      213: 2563828282856315482
+    second: fantasmin_ataque_101
+  - first:
+      213: -8547860699257043217
+    second: fantasmin_ataque_102
+  - first:
+      213: 7577255417549631843
+    second: fantasmin_ataque_103
+  - first:
+      213: -6820061704107448288
+    second: fantasmin_ataque_104
+  - first:
+      213: 9176165233599392233
+    second: fantasmin_ataque_105
+  - first:
+      213: -426111116134858617
+    second: fantasmin_ataque_106
+  - first:
+      213: 1819379284509964792
+    second: fantasmin_ataque_107
+  - first:
+      213: 3550973049985439044
+    second: fantasmin_ataque_108
+  - first:
+      213: -4024947614111766471
+    second: fantasmin_ataque_109
+  - first:
+      213: 1692381914239258898
+    second: fantasmin_ataque_110
+  - first:
+      213: 2405492048010848979
+    second: fantasmin_ataque_111
+  - first:
+      213: 8703838572334182363
+    second: fantasmin_ataque_112
+  - first:
+      213: -7966128785828645489
+    second: fantasmin_ataque_113
+  - first:
+      213: -8306682679736887976
+    second: fantasmin_ataque_114
+  - first:
+      213: -3831873959780334193
+    second: fantasmin_ataque_115
+  - first:
+      213: -2178521208741507406
+    second: fantasmin_ataque_116
+  - first:
+      213: -7021881443880692200
+    second: fantasmin_ataque_117
+  - first:
+      213: -6305164718133790065
+    second: fantasmin_ataque_118
+  - first:
+      213: 792405520795122187
+    second: fantasmin_ataque_119
+  - first:
+      213: -3325133249114084529
+    second: fantasmin_ataque_120
+  - first:
+      213: 2143582822537239192
+    second: fantasmin_ataque_121
+  - first:
+      213: -1312640190231696743
+    second: fantasmin_ataque_122
+  - first:
+      213: -457963723983850441
+    second: fantasmin_ataque_123
+  - first:
+      213: -8931580970811649572
+    second: fantasmin_ataque_124
+  - first:
+      213: -6186339989285973301
+    second: fantasmin_ataque_125
+  - first:
+      213: 4006322974324310594
+    second: fantasmin_ataque_126
+  - first:
+      213: 481169701589479091
+    second: fantasmin_ataque_127
+  - first:
+      213: 1478724781875648584
+    second: fantasmin_ataque_128
+  - first:
+      213: -8000023440881158755
+    second: fantasmin_ataque_129
+  - first:
+      213: -2702668008638144369
+    second: fantasmin_ataque_130
+  - first:
+      213: 7842535916184143356
+    second: fantasmin_ataque_131
+  - first:
+      213: -6955756852592348728
+    second: fantasmin_ataque_132
+  - first:
+      213: -3847516609086747409
+    second: fantasmin_ataque_133
+  - first:
+      213: -8175928658993858223
+    second: fantasmin_ataque_134
+  - first:
+      213: 2586205872763356287
+    second: fantasmin_ataque_135
+  - first:
+      213: -7243618356249864703
+    second: fantasmin_ataque_136
+  - first:
+      213: 2553371061334623053
+    second: fantasmin_ataque_137
+  - first:
+      213: 5560298112545862637
+    second: fantasmin_ataque_138
+  - first:
+      213: -82048002336345300
+    second: fantasmin_ataque_139
+  - first:
+      213: 8820340758141419658
+    second: fantasmin_ataque_140
+  - first:
+      213: 2603489301969940562
+    second: fantasmin_ataque_141
+  - first:
+      213: 6480586197875842468
+    second: fantasmin_ataque_142
+  - first:
+      213: -2992736562724367774
+    second: fantasmin_ataque_143
+  - first:
+      213: -6973946885037694956
+    second: fantasmin_ataque_144
+  - first:
+      213: 2883465589600415564
+    second: fantasmin_ataque_145
+  - first:
+      213: 5064848019773787063
+    second: fantasmin_ataque_146
+  - first:
+      213: -2368500676660338492
+    second: fantasmin_ataque_147
+  - first:
+      213: 2295394227396441111
+    second: fantasmin_ataque_148
+  - first:
+      213: 7593289250316083298
+    second: fantasmin_ataque_149
+  - first:
+      213: -7091186074163438642
+    second: fantasmin_ataque_150
+  - first:
+      213: 5081341358798143884
+    second: fantasmin_ataque_151
+  - first:
+      213: 1461230920522549603
+    second: fantasmin_ataque_152
+  - first:
+      213: -967028389709086203
+    second: fantasmin_ataque_153
+  - first:
+      213: -2875329659542672691
+    second: fantasmin_ataque_154
+  - first:
+      213: -8699020426205717551
+    second: fantasmin_ataque_155
+  - first:
+      213: 9066822336491195149
+    second: fantasmin_ataque_156
+  - first:
+      213: 3871510335656330862
+    second: fantasmin_ataque_157
+  - first:
+      213: -4892824942307790189
+    second: fantasmin_ataque_158
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fantasmin_ataque_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2c3869a27f4c563a1b313393dddb84
+      internalID: 7474635567304167793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2176
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bc0a0c4f90f928daa2bac249e695a8
+      internalID: 6158517843888826858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_2
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2176
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117246c40c75ec636b9e14344420d220
+      internalID: -4748058077381159445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_3
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2176
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1fc1f6bcbd82b218d8e676a0c9b3d0
+      internalID: -8252473949634085074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_4
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2176
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15022587f069b8e4aaf8abf752f2aa2
+      internalID: 4998989661625867499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c02d3fbd0150ac97a7e36026b99e6d1
+      internalID: -301631142450753774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1632
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9a30b4281b5b5dc8a24dae98dbe138
+      internalID: 7606364567122013568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1632
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529f505d6ab744da882a986e5a9bd009
+      internalID: 8213013006528703807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_8
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1632
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056bb3a6af96c24e59e0e1f42465322b
+      internalID: 5548772458471330405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_9
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1632
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ffd15008529f28ca9fc2d3d4925159
+      internalID: -2918725264284715359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072291f763dd7843391ae3e6812bd525
+      internalID: 2670060653934678745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1088
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18011e4e64f058eecbb1e2573baac5ac
+      internalID: 4983336712105715326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1088
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ec5d622ca0ce0e8981c15ea7f3a3ac
+      internalID: 9040838324880916130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_13
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1088
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a964412400eee22c580f5f7cea6cf2cd
+      internalID: 3879980314677459351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1088
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b6fec345cd40989a66f11e256d7a34
+      internalID: -8763050651537766191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b365400f1af1ba496b921b5e3f14cc
+      internalID: -4649542967900130660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 544
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dc8797a63fe3f2f8f7d53da1060401
+      internalID: -8822190534980141767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_17
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 544
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb1befafd8069775a6a90f4e2f5a5c5
+      internalID: 2556457030630320787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 544
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03299ba1561e8c6bafa6be6cfe2b90e
+      internalID: -5114734068413059276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_19
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 544
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8f872892a485e9eb16c4545ab499c7
+      internalID: -8603904978529717681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2941693825443561ad97534d823525f
+      internalID: 5875440157317034729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7353e36cdd534e1059e15aef65ae8c22
+      internalID: -9126679689558964395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_22
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4f865181162053b968383e72a5c768
+      internalID: 9179501138216127652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_23
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bd3e4d42a6fc2f8bb918d0d8558496
+      internalID: 5223303006089927574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasmin_ataque_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 768
+        height: 544
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.2977941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670b9b3af607eaa299475fb27d8aa300
+      internalID: 4603902831945091910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a2335da3ec4a01b359d03185a4291011
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fantasmin_ataque_0: 7474635567304167793
+      fantasmin_ataque_1: 6158517843888826858
+      fantasmin_ataque_10: 2670060653934678745
+      fantasmin_ataque_11: 4983336712105715326
+      fantasmin_ataque_12: 9040838324880916130
+      fantasmin_ataque_13: 3879980314677459351
+      fantasmin_ataque_14: -8763050651537766191
+      fantasmin_ataque_15: -4649542967900130660
+      fantasmin_ataque_16: -8822190534980141767
+      fantasmin_ataque_17: 2556457030630320787
+      fantasmin_ataque_18: -5114734068413059276
+      fantasmin_ataque_19: -8603904978529717681
+      fantasmin_ataque_2: -4748058077381159445
+      fantasmin_ataque_20: 5875440157317034729
+      fantasmin_ataque_21: -9126679689558964395
+      fantasmin_ataque_22: 9179501138216127652
+      fantasmin_ataque_23: 5223303006089927574
+      fantasmin_ataque_24: 4603902831945091910
+      fantasmin_ataque_3: -8252473949634085074
+      fantasmin_ataque_4: 4998989661625867499
+      fantasmin_ataque_5: -301631142450753774
+      fantasmin_ataque_6: 7606364567122013568
+      fantasmin_ataque_7: 8213013006528703807
+      fantasmin_ataque_8: 5548772458471330405
+      fantasmin_ataque_9: -2918725264284715359
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

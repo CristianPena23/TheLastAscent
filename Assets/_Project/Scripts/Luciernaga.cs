@@ -29,6 +29,10 @@ public class Luciernaga : MonoBehaviour
     [SerializeField] Vector2 offsetIluminar = new Vector2(2.8f, 1.2f);
     [SerializeField] float tiempoIluminar = 1.6f;
 
+    [Header("Sonido")]
+    [Tooltip("Aleteo en loop mientras se ve (sigue la transparencia: invisible = callada)")]
+    [Range(0f, 1f)] [SerializeField] float volumenAleteo = 0.25f;
+
     enum Estado { Seguir, Merodear }
     Estado estado = Estado.Seguir;
 
@@ -43,6 +47,7 @@ public class Luciernaga : MonoBehaviour
     Vector3 escalaBase;
     float tiempoGuia;
     float direccionGuia = 1f;
+    AudioSource aleteo;
 
     SpriteRenderer Sr => sr != null ? sr : (sr = GetComponent<SpriteRenderer>());
 
@@ -51,6 +56,14 @@ public class Luciernaga : MonoBehaviour
         escalaBase = transform.localScale;
         luz = GetComponentInChildren<Light2D>();
         if (luz != null) intensidadLuz = luz.intensity;
+
+        aleteo = gameObject.AddComponent<AudioSource>();
+        aleteo.clip = SonidosMundo.Cargar("firefly_flutter_loop");
+        aleteo.loop = true;
+        aleteo.playOnAwake = false;
+        aleteo.spatialBlend = 0f;
+        aleteo.volume = 0f;
+        if (aleteo.clip != null) aleteo.Play();
     }
 
     void OnEnable()
@@ -89,6 +102,8 @@ public class Luciernaga : MonoBehaviour
 
         transform.position = Vector3.SmoothDamp(
             transform.position, objetivo, ref velocidadActual, suavizado);
+
+        if (aleteo != null && Sr != null) aleteo.volume = volumenAleteo * Sr.color.a;
     }
 
     void ObservarJugador()
@@ -172,12 +187,16 @@ public class Luciernaga : MonoBehaviour
     {
         switch (accion)
         {
-            case AccionDialogo.LuciernagaAparece: StartCoroutine(Aparecer()); break;
+            case AccionDialogo.LuciernagaAparece:
+                SonidosMundo.LuciernagaBrillo();
+                StartCoroutine(Aparecer());
+                break;
             case AccionDialogo.LuciernagaPulso: StartCoroutine(Pulso()); break;
             case AccionDialogo.LuciernagaIlumina:
                 var pc = jugador != null ? jugador.GetComponent<PlayerController>() : null;
                 direccionGuia = pc != null ? pc.FacingDirection : lado;
                 tiempoGuia = tiempoIluminar;
+                SonidosMundo.LuciernagaBrillo();
                 StartCoroutine(Pulso());
                 break;
         }

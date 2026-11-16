@@ -37,6 +37,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     private PlayerController player;
     private PlayerDash dash;
     private Vector3 spawnPosition;
+    private PoderInmunidad inmunidad;
 
     private void Awake()
     {
@@ -75,6 +76,8 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     public void TakeDamage(int amount, Vector2 hitDirection)
     {
         if (IsDead || IsInvulnerable) return;
+        if (inmunidad == null) inmunidad = GetComponent<PoderInmunidad>();
+        if (inmunidad != null && inmunidad.Activa) return; // poder especial (C): inmune a los ataques
         if (dash != null && dash.IsDashing) return; // el dash esquiva el daño
 
         CurrentHealth = Mathf.Max(CurrentHealth - amount, 0);

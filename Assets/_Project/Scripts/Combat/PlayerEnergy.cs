@@ -12,10 +12,19 @@ public class PlayerEnergy : MonoBehaviour
     public int Current { get; private set; }
     public int Max => maxEnergy;
 
+    // Lo baja PoderInmunidad mientras el jugador es inmune (0.5 = la mitad de energia por golpe/parry)
+    public float MultiplicadorGanancia { get; set; } = 1f;
+
+    // El poder de inmunidad (C) usa esta energia: si el prefab no lo trae, se agrega solo
+    private void Awake()
+    {
+        if (GetComponent<PoderInmunidad>() == null) gameObject.AddComponent<PoderInmunidad>();
+    }
+
     private void Start() => OnEnergyChanged?.Invoke(Current, maxEnergy);
 
-    public void GainFromAttack() => Gain(gainPerHit);
-    public void GainFromParry() => Gain(gainPerParry);
+    public void GainFromAttack() => Gain(Mathf.RoundToInt(gainPerHit * MultiplicadorGanancia));
+    public void GainFromParry() => Gain(Mathf.RoundToInt(gainPerParry * MultiplicadorGanancia));
 
     public void Gain(int amount)
     {
