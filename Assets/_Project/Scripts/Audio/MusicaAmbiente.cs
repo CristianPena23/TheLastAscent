@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 // cambios de escena, así el loop no se corta ni vuelve a empezar al pasar de una a otra.
 // - Respeta el slider de volumen de Opciones (usa AudioListener.volume como todo el juego).
 // - En pausa sigue sonando, pero más bajo (el menú de pausa también es interfaz). En diálogos también baja.
+// - Algunas escenas tienen su propio ambiente (AmbientePorEscena: Círculo 8 y Boss 2 con la lava).
 // - Las escenas de la lista "escenasEnSilencio" lo apagan con un fade (p. ej. una pelea con música propia).
 // - También lleva la música de pelea: MusicaAmbiente.Cambiar(clipPelea, vol) y MusicaAmbiente.VolverAlAmbiente().
 //   Al cargar otra escena se vuelve solo al ambiente.
@@ -14,6 +15,13 @@ using UnityEngine.SceneManagement;
 public class MusicaAmbiente : MonoBehaviour
 {
     const string RutaClip = "Audio/menu_ambient_loop"; // Assets/_Project/Resources/Audio/
+
+    // Ambiente propio de algunas escenas (el resto usa RutaClip). Al pasar de una a otra se cruzan con un fade.
+    static readonly (string escena, string clip)[] AmbientePorEscena =
+    {
+        ("SC_Circulo8", "Audio/circle8_lava_light_ambient_loop"),
+        ("SC_Boss2",    "Audio/circle8_lava_light_ambient_loop"),
+    };
 
     public static MusicaAmbiente Instancia { get; private set; }
 
@@ -36,7 +44,8 @@ public class MusicaAmbiente : MonoBehaviour
     float factorFade = 0f;    // fades de entrada / salida
     Coroutine rutinaFade;
     float factorEvento = 1f, objetivoEvento = 1f, finEvento; // Atenuar(): momentos especiales
-    AudioClip clipAmbiente;
+    AudioClip clipAmbiente;   // el que toca en la escena actual
+    AudioClip clipGeneral;    // el de RutaClip
     float volumenClip;        // volumen base del clip que suena ahora (ambiente o pelea)
     Coroutine rutinaCambio;
 
@@ -55,7 +64,8 @@ public class MusicaAmbiente : MonoBehaviour
         Instancia = this;
 
         fuente = gameObject.AddComponent<AudioSource>();
-        clipAmbiente = Resources.Load<AudioClip>(RutaClip);
+        clipGeneral = Resources.Load<AudioClip>(RutaClip);
+        clipAmbiente = clipGeneral;
         fuente.clip = clipAmbiente;
         volumenClip = volumen;
         fuente.loop = true;
@@ -111,6 +121,7 @@ public class MusicaAmbiente : MonoBehaviour
         if (modo != LoadSceneMode.Single) return;
         AsegurarListener();
         bool silencio = DebeSilenciar(escena.name);
+        clipAmbiente = AmbienteDe(escena.name);
         // Quedó sonando una música de pelea (p. ej. se salió al menú desde el jefe): vuelve el ambiente
         if (!silencio && fuente.clip != clipAmbiente) { VolverAlAmbiente(); return; }
         if (silencio) FadeA(0f, fadeCambio, true);
@@ -125,6 +136,18 @@ public class MusicaAmbiente : MonoBehaviour
         Camera camara = Camera.main != null ? Camera.main : FindAnyObjectByType<Camera>();
         GameObject destino = camara != null ? camara.gameObject : new GameObject("AudioListener");
         destino.AddComponent<AudioListener>();
+    }
+
+    AudioClip AmbienteDe(string escena)
+    {
+        foreach (var (e, ruta) in AmbientePorEscena)
+        {
+            if (e != escena) continue;
+            var clip = Resources.Load<AudioClip>(ruta);
+            if (clip != null) return clip;
+            Debug.LogWarning($"MusicaAmbiente: no se encontró Resources/{ruta}");
+        }
+        return clipGeneral;
     }
 
     bool DebeSilenciar(string escena)

@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 3801434450578da79e29a318f88711f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -191351487565919542
+    second: gargola_ataque_0
+  - first:
+      213: 7073509459440546165
+    second: gargola_ataque_1
+  - first:
+      213: -7630023276160255226
+    second: gargola_ataque_2
+  - first:
+      213: 4341686674409146231
+    second: gargola_ataque_3
+  - first:
+      213: 1824469289820460476
+    second: gargola_ataque_4
+  - first:
+      213: -8151629821256556690
+    second: gargola_ataque_5
+  - first:
+      213: -8560102837894706889
+    second: gargola_ataque_6
+  - first:
+      213: 4142738935268452823
+    second: gargola_ataque_7
+  - first:
+      213: -3720260691161679779
+    second: gargola_ataque_8
+  - first:
+      213: 5646739129147542488
+    second: gargola_ataque_9
+  - first:
+      213: -1030362841199452704
+    second: gargola_ataque_10
+  - first:
+      213: 8940705899624942842
+    second: gargola_ataque_11
+  - first:
+      213: 5935713200985338813
+    second: gargola_ataque_12
+  - first:
+      213: 2035369596806375861
+    second: gargola_ataque_13
+  - first:
+      213: -2783190430792371292
+    second: gargola_ataque_14
+  - first:
+      213: 2797405193376614589
+    second: gargola_ataque_15
+  - first:
+      213: -1729839716798879244
+    second: gargola_ataque_16
+  - first:
+      213: -8013445007838056005
+    second: gargola_ataque_17
+  - first:
+      213: 5143468372701181385
+    second: gargola_ataque_18
+  - first:
+      213: 6393601372062198847
+    second: gargola_ataque_19
+  - first:
+      213: -1462717606508896435
+    second: gargola_ataque_20
+  - first:
+      213: -4167803905628909428
+    second: gargola_ataque_21
+  - first:
+      213: 7278263755150628177
+    second: gargola_ataque_22
+  - first:
+      213: -3614560147012461541
+    second: gargola_ataque_23
+  - first:
+      213: -8465142057168300398
+    second: gargola_ataque_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.38690478, y: 0.3875}
+  spritePixelsToUnits: 81
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gargola_ataque_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c6a2406f38b3f8f81b2ead37e20ec5
+      internalID: -191351487565919542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 960
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d1b90c1f4b04345dd23c8920005ef1
+      internalID: 7073509459440546165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 960
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20ece9d3d551b2734fee429ba75b9b7
+      internalID: -7630023276160255226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_3
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 960
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef85c8fc3ba7d9a4a92a78986ed6d608
+      internalID: 4341686674409146231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_4
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 960
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450dac1b660a16c94b26ba6ba4f28076
+      internalID: 1824469289820460476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0a6ec3a945b6bcd630a80322dee47b
+      internalID: -8151629821256556690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 720
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865a9057ec6d00928aed2516d3fe9dba
+      internalID: -8560102837894706889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 720
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12faa61b7e51a53666ff441a1165360
+      internalID: 4142738935268452823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_8
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 720
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b9f9acc82125d7885afba15c0f13a3
+      internalID: -3720260691161679779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_9
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 720
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eecd369c8247534e219a0fb2668dea1
+      internalID: 5646739129147542488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd546b2dde4a6c22666270dc9bf1a30c
+      internalID: -1030362841199452704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b5aee9736b75d93d4168429f0c9eff
+      internalID: 8940705899624942842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00270d6642af50c68727fd9ecc5eb65d
+      internalID: 5935713200985338813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_13
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 480
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0695071801bcee3e380853941c7b67
+      internalID: 2035369596806375861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 480
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cb28a26856c44779e49d0a8b634a84
+      internalID: -2783190430792371292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8978b8821faff997ba4db194fced379
+      internalID: 2797405193376614589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d817e18ff3b3ad1f41674bab0d29bdf2
+      internalID: -1729839716798879244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 240
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b161206b682f7277bc10ed5a77a8a94
+      internalID: -8013445007838056005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_18
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 240
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afc94a9f5a958876d4412781942250e
+      internalID: 5143468372701181385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_19
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 240
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcd824595d597f6293eab2523806816
+      internalID: 6393601372062198847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0b7c2939809d1f58c15ed7ae66a3a6
+      internalID: -1462717606508896435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af57ffa6fd69e1966123fdd10bb99c9
+      internalID: -4167803905628909428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_22
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1950067b6018e59f4b165c3cabcf635
+      internalID: 7278263755150628177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_23
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e06a6e65bd6067521d6a40739a6dd2
+      internalID: -3614560147012461541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_ataque_24
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 336
+        height: 240
+      alignment: 9
+      pivot: {x: 0.38690478, y: 0.3875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604b690c824e6f0d4cd28067ce3e309c
+      internalID: -8465142057168300398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+     outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gargola_ataque_0: -191351487565919542
+      gargola_ataque_1: 7073509459440546165
+      gargola_ataque_10: -1030362841199452704
+      gargola_ataque_11: 8940705899624942842
+      gargola_ataque_12: 5935713200985338813
+      gargola_ataque_13: 2035369596806375861
+      gargola_ataque_14: -2783190430792371292
+      gargola_ataque_15: 2797405193376614589
+      gargola_ataque_16: -1729839716798879244
+      gargola_ataque_17: -8013445007838056005
+      gargola_ataque_18: 5143468372701181385
+      gargola_ataque_19: 6393601372062198847
+      gargola_ataque_2: -7630023276160255226
+      gargola_ataque_20: -1462717606508896435
+      gargola_ataque_21: -4167803905628909428
+      gargola_ataque_22: 7278263755150628177
+      gargola_ataque_23: -3614560147012461541
+      gargola_ataque_24: -8465142057168300398
+      gargola_ataque_3: 4341686674409146231
+      gargola_ataque_4: 1824469289820460476
+      gargola_ataque_5: -8151629821256556690
+      gargola_ataque_6: -8560102837894706889
+      gargola_ataque_7: 4142738935268452823
+      gargola_ataque_8: -3720260691161679779
+      gargola_ataque_9: 5646739129147542488
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

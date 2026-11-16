@@ -183,6 +183,7 @@ public class MenuPausa : MonoBehaviour
         if (jugador != null && jugador.IsDead) return false;
         if (dialogos != null && dialogos.EnDialogo) return false;
         if (PantallaRecuerdo.Abierta) return false;
+        if (CinematicaInicio.Reproduciendo) return false;
         return true;
     }
 

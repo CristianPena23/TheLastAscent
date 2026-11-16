@@ -8,15 +8,25 @@ using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-// Cinemática de inicio: sale al pulsar "Nueva partida", antes de entrar al Círculo 9.
-// El video va en Assets/_Project/Resources/Cinematicas/ (.mp4, .webm o .mov). Si se llama
-// "CinematicaInicio" se usa ese; si no, el primero de la carpeta. Sin video, la partida empieza directo. Se puede saltar pulsando dos veces
+// Cinemáticas a pantalla completa. Los videos van en Assets/_Project/Resources/Cinematicas/ (.webm VP8):
+//  - CinematicaInicio: al pulsar "Nueva partida", antes de entrar al Círculo 9 (MenuPrincipal)
+//  - CinematicaFinal: con el jefe 2 a media vida; al terminar se acaba el juego (Boss2AttackController)
+// Si falta el video se llama alTerminar enseguida. Se puede saltar pulsando dos veces
 // (Esc, Enter, Espacio, clic, A/Start del mando): la primera muestra el aviso.
+// Mientras suena se apagan la música y los sonidos de la escena, y no se puede pausar.
 // Uso: CinematicaInicio.Reproducir(clip, () => SceneTransition.Go("SC_Circulo9", ""));
+//      CinematicaInicio.Reproducir("Cinematicas/CinematicaFinal", AlTerminar);
 public class CinematicaInicio : MonoBehaviour
 {
     public const string CarpetaResources = "Cinematicas";
     public const string RutaResources = CarpetaResources + "/CinematicaInicio";
+    public const string RutaFinal = CarpetaResources + "/CinematicaFinal";
+
+    // true mientras hay una cinemática en pantalla (el menú de pausa no se abre)
+    public static bool Reproduciendo { get; private set; }
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void LimpiarEstaticos() => Reproduciendo = false;
 
     private const float FundidoEntrada = 0.8f;  // menú -> negro
     private const float FundidoVideo = 0.6f;    // negro -> video
@@ -38,22 +48,29 @@ public class CinematicaInicio : MonoBehaviour
     private float avisoHasta = -1f;
     private bool terminado;
 
-    // null = el de Resources; si tampoco hay, llama alTerminar enseguida
+    // Video de Resources por ruta ("Cinematicas/CinematicaFinal")
+    public static void Reproducir(string rutaResources, Action alTerminar)
+    {
+        var clip = Resources.Load<VideoClip>(rutaResources);
+        if (clip == null) Debug.LogWarning($"Cinematica: falta Resources/{rutaResources}");
+        Iniciar(clip, alTerminar);
+    }
+
+    // null = la de inicio (Resources/Cinematicas/CinematicaInicio)
     public static void Reproducir(VideoClip clip, Action alTerminar)
     {
         if (clip == null) clip = Resources.Load<VideoClip>(RutaResources);
-        if (clip == null)
-        {
-            // Cualquier video de la carpeta (el primero por nombre)
-            var todos = Resources.LoadAll<VideoClip>(CarpetaResources);
-            Array.Sort(todos, (a, b) => string.CompareOrdinal(a.name, b.name));
-            if (todos.Length > 0) clip = todos[0];
-        }
+        Iniciar(clip, alTerminar);
+    }
+
+    private static void Iniciar(VideoClip clip, Action alTerminar)
+    {
         if (clip == null)
         {
             alTerminar?.Invoke();
             return;
         }
+        Reproduciendo = true;
 
         var go = new GameObject("CinematicaInicio");
         var c = go.AddComponent<CinematicaInicio>();
@@ -69,6 +86,7 @@ public class CinematicaInicio : MonoBehaviour
 
     private void OnDestroy()
     {
+        Reproduciendo = false;
         if (textura != null)
         {
             textura.Release();
@@ -91,6 +109,7 @@ public class CinematicaInicio : MonoBehaviour
         foreach (var a in FindObjectsByType<AudioSource>(FindObjectsSortMode.None))
             if (a.gameObject.scene == gameObject.scene && a.isPlaying) fuentes.Add((a, a.volume));
 
+        MusicaAmbiente.Detener(); // vuelve sola al cargar la escena siguiente
         reproductor.Prepare();
         float t = 0f;
         while (t < FundidoEntrada)
@@ -142,6 +161,7 @@ public class CinematicaInicio : MonoBehaviour
         }
 
         // La pantalla queda negra: el fade de SceneTransition sale de negro a la escena nueva
+        Reproduciendo = false;
         alTerminar?.Invoke();
         if (eventos != null) eventos.sendNavigationEvents = true;
     }
