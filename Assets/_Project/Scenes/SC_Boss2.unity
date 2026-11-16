@@ -593,6 +593,10 @@ MonoBehaviour:
   walkIn: 1
   walkInTime: 0.7
   endScale: 0.85
+  sonidoAbierta: Jefe/portal_idle_loop
+  sonidoEntrar: Jefe/portal_enter
+  volumenAbierta: 0.6
+  volumenEntrar: 0.9
 --- !u!61 &336683688
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -855,6 +859,10 @@ MonoBehaviour:
   walkIn: 1
   walkInTime: 0.7
   endScale: 0.85
+  sonidoAbierta: Jefe/portal_idle_loop
+  sonidoEntrar: Jefe/portal_enter
+  volumenAbierta: 0.6
+  volumenEntrar: 0.9
 --- !u!61 &498040441
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1201,6 +1209,9 @@ MonoBehaviour:
   fireFps: 12
   phase2HealthPercent: 0.5
   phase2Speed: 1.35
+  vidaCinematicaFinal: 0.5
+  cinematicaFinal: Cinematicas/CinematicaFinal
+  escenaAlTerminar: SC_MenuPrincipal
 --- !u!1 &618947208
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,6 +1566,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 901486683077053549, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -273.4895
+      objectReference: {fileID: 0}
     - target: {fileID: 3142131630811316749, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1635,6 +1650,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4941117496299389629, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -247
+      objectReference: {fileID: 0}
     - target: {fileID: 5591431561077645046, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
       propertyPath: m_Name
       value: HUD
@@ -1650,6 +1669,14 @@ PrefabInstance:
     - target: {fileID: 6140275759732011192, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424554270908337048, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -396.48572
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278595248037822522, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -213.55444
       objectReference: {fileID: 0}
     - target: {fileID: 8292938715603875219, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
       propertyPath: m_AnchorMax.x

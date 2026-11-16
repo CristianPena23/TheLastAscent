@@ -3118,6 +3118,14 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 901486683077053549, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 362.489
+      objectReference: {fileID: 0}
+    - target: {fileID: 901486683077053549, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -263.48947
+      objectReference: {fileID: 0}
     - target: {fileID: 1079502764591777580, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
@@ -3214,6 +3222,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4941117496299389629, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 146
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941117496299389629, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -237
+      objectReference: {fileID: 0}
     - target: {fileID: 5532916162148326972, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
@@ -3233,6 +3249,22 @@ PrefabInstance:
     - target: {fileID: 6140275759732011192, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424554270908337048, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 214.57141
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424554270908337048, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -386.4857
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278595248037822522, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 254.34283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278595248037822522, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -203.55441
       objectReference: {fileID: 0}
     - target: {fileID: 8292938715603875219, guid: 99d389a0c8935c64ab1fc58d0a978731, type: 3}
       propertyPath: m_AnchorMax.x
