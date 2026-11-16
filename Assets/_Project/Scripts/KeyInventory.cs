@@ -9,6 +9,9 @@ public static class KeyInventory
 
     public static event Action OnChanged;
 
+    // Para el guardado
+    public static IReadOnlyCollection<string> Todas => keys;
+
     public static bool Has(string id) => string.IsNullOrEmpty(id) || keys.Contains(id);
 
     public static void Add(string id)

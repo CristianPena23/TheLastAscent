@@ -30,6 +30,7 @@ MonoBehaviour:
   materialTexto: {fileID: 2100000, guid: 1a98cafe29384b184989f398b9c7293d, type: 2}
   marcador: {fileID: 21300000, guid: 26af1ca747cdc4f82a305f03f875cf83, type: 3}
   separador: {fileID: 21300000, guid: 90ddabb4e0c151237b64f15d9638be25, type: 3}
+  marcoPanel: {fileID: 21300000, guid: 3b77ca93c9791efa3a34439ec041ead2, type: 3}
   marcoBarraJefe: {fileID: 21300000, guid: 818ab9d43a27dd4a98f9fac3cf7f536e, type: 3}
   placaJefe: {fileID: 21300000, guid: c7992388c19dc2c25a5780666c517eac, type: 3}
   sonidoNavegar: {fileID: 0}

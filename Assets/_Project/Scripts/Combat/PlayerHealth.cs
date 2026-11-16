@@ -52,6 +52,15 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
     // Checkpoints: donde reaparece el jugador al morir
     public void SetRespawnPoint(Vector3 position) => spawnPosition = position;
+    public Vector3 PuntoReaparicion => spawnPosition;
+
+    // Cargar partida: deja la vida guardada (sin animaciones ni invulnerabilidad)
+    public void EstablecerVida(int vida)
+    {
+        if (IsDead) return;
+        CurrentHealth = Mathf.Clamp(vida, 1, maxHealth);
+        OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
+    }
 
     // Caida al vacio: muere sin importar invulnerabilidad ni dash y reaparece en el ultimo checkpoint
     public void KillFromVoid()

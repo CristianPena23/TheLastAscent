@@ -34,6 +34,13 @@ public class PoderInmunidad : MonoBehaviour
     // Partida nueva: el aviso vuelve a salir
     public static void OlvidarAviso() => avisoMostrado = false;
 
+    // Guardado: si el aviso ya salió en esta partida
+    public static bool AvisoMostrado
+    {
+        get => avisoMostrado;
+        set => avisoMostrado = value;
+    }
+
     public bool Activa { get; private set; }
     public float Duracion => duracion;
 

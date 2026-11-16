@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 // Feedback de opción de menú: al seleccionarse (teclado, gamepad o mouse) el texto se aclara
 // y aparece la llama a su izquierda. El hover del mouse también selecciona, así nunca hay dos resaltados.
-// Si el Selectable no es interactuable (p. ej. "Mapa" aún sin implementar) se ve apagado y se salta.
+// Si el Selectable no es interactuable (p. ej. una opción aún sin implementar) se ve apagado y se salta.
 [RequireComponent(typeof(Selectable))]
 public class EfectoBotonUI : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerEnterHandler, ISubmitHandler, IPointerClickHandler
 {

@@ -574,7 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e6c8c331687e1e4d90da3952858dfad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossHealth
-  bossName: JEFE
+  bossName: Gaki
   maxHealth: 30
   restaurarAlMorirJugador: 1
   bossSprite: {fileID: 0}

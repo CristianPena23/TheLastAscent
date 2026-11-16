@@ -55,6 +55,8 @@ public class TemaUI : ScriptableObject
     [Tooltip("Llama que marca la opción seleccionada")]
     public Sprite marcador;
     public Sprite separador;
+    [Tooltip("Marco de hueso con la máscara (pausa y ranuras de guardado)")]
+    public Sprite marcoPanel;
     public Sprite marcoBarraJefe;
     public Sprite placaJefe;
 
